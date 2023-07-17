@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SineWave" ID="{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}">
+					<ChildrenList>
+						<Action Name="" ID="{CAEB431C-120D-42DC-913B-09D5C1172458}" ShortID="542500077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SineWave" ID="{A31388FB-519D-49EA-B150-EDDB0E8B1050}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
