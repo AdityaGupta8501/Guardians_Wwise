@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" PersistMode="Standalone">
 			<ChildrenList>
 				<Event Name="Play_SineWave" ID="{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{CAEB431C-120D-42DC-913B-09D5C1172458}" ShortID="542500077">
 							<ReferenceList>
@@ -15,6 +19,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_MagicWand" ID="{15C35C91-9E5F-45DE-8567-EDE6E23DF1AF}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{4A2C3D7B-30B5-4DA5-96A7-53402B7664B2}" ShortID="176641237">
 							<ReferenceList>

@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8BE29DCD-DE2F-49C4-81A3-34827F14D760}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{8BE29DCD-DE2F-49C4-81A3-34827F14D760}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8BE29DCD-DE2F-49C4-81A3-34827F14D760}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="TestSFX_Soundcaster" ID="{419E3B4C-A252-44CB-A204-4A96485C071C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MagicWand" ID="{15C35C91-9E5F-45DE-8567-EDE6E23DF1AF}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SineWave" ID="{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
