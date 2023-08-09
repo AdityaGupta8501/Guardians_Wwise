@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	837424197	Play_MagicWand			\Default Work Unit\Play_MagicWand	
 	1324413170	TestMusic			\Default Work Unit\TestMusic	
+	2387432645	Play_GlassShatter			\Default Work Unit\Play_GlassShatter	
 	3268561495	Play_SineWave_220			\Default Work Unit\Play_SineWave_220	
 	3566010966	Play_SineWave			\Default Work Unit\Play_SineWave	
 
@@ -9,6 +10,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	575086624	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Test_WorkUnit\SineWave440Hz\Sine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	408390169	TestMusic	C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\.cache\Android\SFX\RKU_LS_160_songstarter_loop_waves_Dmin_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\TestMusic		4233696
-	974874163	MagicWand	C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\.cache\Android\SFX\Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\MagicWand		364204
+	408390169	TestMusic	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\RKU_LS_160_songstarter_loop_waves_Dmin_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\TestMusic		4233696
+	499641122	GlassShatter	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\GlassShatter		33689696
+	974874163	MagicWand	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\MagicWand		364204
 

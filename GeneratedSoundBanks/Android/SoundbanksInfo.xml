@@ -30,13 +30,17 @@
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{E3D139B6-C1AA-07DB-438E-8564CE1C5EC2}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{F0147BEC-42F3-DB2E-349D-BF97447C683B}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
 				<File Id="408390169" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RKU_LS_160_songstarter_loop_waves_Dmin.wav</ShortName>
 					<CachePath>SFX/RKU_LS_160_songstarter_loop_waves_Dmin_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="499641122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8.wav</ShortName>
+					<CachePath>SFX/CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="974874163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454.wav</ShortName>
@@ -50,6 +54,11 @@
 				</Custom>
 			</Plugins>
 			<Events>
+				<Event Id="2387432645" Name="Play_GlassShatter" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="499641122"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="837424197" Name="Play_MagicWand" DurationType="OneShot" DurationMin="1.8964063" DurationMax="1.8964063">
 					<MediaRefs>
 						<MediaRef Id="974874163"/>
@@ -77,5 +86,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E3F2EB11-A4A0-4629-E29C-25416A6F7AB8}</FileHash>
+	<FileHash>{BDDAE5DA-DED2-326A-552B-31E3BAC4509B}</FileHash>
 </SoundBanksInfo>

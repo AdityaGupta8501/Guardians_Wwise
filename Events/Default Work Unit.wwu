@@ -59,6 +59,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GlassShatter" ID="{AB7D07EA-B932-4E3D-871F-78F74AA0D308}">
+					<ChildrenList>
+						<Action Name="" ID="{B8234C6B-5B63-4D4C-81E0-EA4703460CBB}" ShortID="866907864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GlassShatter" ID="{08CBF317-45D3-4237-B4F6-073E08DC41C4}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
