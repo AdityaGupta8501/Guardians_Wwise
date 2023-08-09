@@ -26,11 +26,11 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{B9FF1A27-10B4-CBD3-8AF9-AF484EE8A4DF}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{078AC07A-EE3F-6CA9-3496-BBACFCDF07D0}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -41,7 +41,7 @@
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="983598540" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
+					<Plugin Id="252962272" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -50,15 +50,16 @@
 						<MediaRef Id="974874163"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3566010966" Name="Play_SineWave" DurationType="Infinite">
+				<Event Id="3566010966" Name="Play_SineWave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3268561495" Name="Play_SineWave_220" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="983598540"/>
+							<PluginRef Id="252962272"/>
 						</Custom>
 					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2DA3CE81-26F9-9C7E-8007-02279FE29582}</FileHash>
+	<FileHash>{0E6E9EA3-CD7D-0776-C8F4-F71A8CE46666}</FileHash>
 </SoundBanksInfo>

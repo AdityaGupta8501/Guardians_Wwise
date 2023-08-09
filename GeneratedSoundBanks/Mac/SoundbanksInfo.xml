@@ -30,24 +30,36 @@
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{80B6C3D2-B3F4-B984-BB71-1D9E22D116CA}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{078AC07A-EE3F-6CA9-3496-BBACFCDF07D0}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
+			<Media>
+				<File Id="974874163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454.wav</ShortName>
+					<CachePath>SFX/Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem</CachePath>
+				</File>
+			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="983598540" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
+					<Plugin Id="252962272" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="3566010966" Name="Play_SineWave" DurationType="Infinite">
+				<Event Id="837424197" Name="Play_MagicWand" DurationType="OneShot" DurationMin="1.8964063" DurationMax="1.8964063">
+					<MediaRefs>
+						<MediaRef Id="974874163"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3566010966" Name="Play_SineWave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3268561495" Name="Play_SineWave_220" DurationType="OneShot" DurationMin="1" DurationMax="1">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="983598540"/>
+							<PluginRef Id="252962272"/>
 						</Custom>
 					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CFB22E5C-E965-939C-D266-338FD3F803EF}</FileHash>
+	<FileHash>{D14185F1-D1CF-2FA0-F977-7749142EA7CF}</FileHash>
 </SoundBanksInfo>

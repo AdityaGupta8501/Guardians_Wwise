@@ -33,6 +33,21 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SineWave_220" ID="{C2F0971D-64CA-4D24-8898-C6CFD09934DD}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{C975C8F1-A045-4574-AF64-24144B798FFD}" ShortID="165259459">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SineWave220Hz" ID="{9CA84255-397E-40A7-A7A0-B837D9B71336}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
