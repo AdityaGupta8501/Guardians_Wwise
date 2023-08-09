@@ -30,10 +30,14 @@
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{078AC07A-EE3F-6CA9-3496-BBACFCDF07D0}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{E3D139B6-C1AA-07DB-438E-8564CE1C5EC2}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
+				<File Id="408390169" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RKU_LS_160_songstarter_loop_waves_Dmin.wav</ShortName>
+					<CachePath>SFX/RKU_LS_160_songstarter_loop_waves_Dmin_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="974874163" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454.wav</ShortName>
 					<CachePath>SFX/Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem</CachePath>
@@ -42,6 +46,7 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="252962272" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
+					<Plugin Id="575086624" Name="Sine" LibName="Wwise Sine" LibId="6553602"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -50,16 +55,27 @@
 						<MediaRef Id="974874163"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3566010966" Name="Play_SineWave" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="3268561495" Name="Play_SineWave_220" DurationType="OneShot" DurationMin="1" DurationMax="1">
+				<Event Id="3566010966" Name="Play_SineWave" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="575086624"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3268561495" Name="Play_SineWave_220" DurationType="Infinite">
 					<PluginRefs>
 						<Custom>
 							<PluginRef Id="252962272"/>
 						</Custom>
 					</PluginRefs>
 				</Event>
+				<Event Id="1324413170" Name="TestMusic" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="408390169"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0E6E9EA3-CD7D-0776-C8F4-F71A8CE46666}</FileHash>
+	<FileHash>{E3F2EB11-A4A0-4629-E29C-25416A6F7AB8}</FileHash>
 </SoundBanksInfo>

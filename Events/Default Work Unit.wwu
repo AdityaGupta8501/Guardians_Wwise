@@ -12,7 +12,7 @@
 						<Action Name="" ID="{CAEB431C-120D-42DC-913B-09D5C1172458}" ShortID="542500077">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SineWave" ID="{A31388FB-519D-49EA-B150-EDDB0E8B1050}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
+									<ObjectRef Name="SineWave440Hz" ID="{016A7014-139C-4564-9EAB-C6E0AD834EC2}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -43,6 +43,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SineWave220Hz" ID="{9CA84255-397E-40A7-A7A0-B837D9B71336}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TestMusic" ID="{8FC34E09-D7BE-4360-94C4-1F7246B887AB}">
+					<ChildrenList>
+						<Action Name="" ID="{74967D55-2D69-4D83-A66E-391A96554626}" ShortID="368330526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestMusic" ID="{152DFCE2-D07A-458B-B6EA-640797C6F218}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
