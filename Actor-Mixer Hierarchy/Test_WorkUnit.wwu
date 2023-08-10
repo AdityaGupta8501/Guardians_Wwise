@@ -127,6 +127,38 @@
 						<ActiveSource Name="CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8" ID="{B0FAE2AA-1E0A-416E-B34E-F79231FB98FA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Gunshot" ID="{E55D5F52-2B26-42AE-BC21-EC4F53C778CD}" ShortID="255337168">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8" ID="{264E6363-7963-4EAA-BCE7-733EAC093C7F}">
+							<Language>SFX</Language>
+							<AudioFile>CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="499641122"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="GunshotShotgun_BW_57969" ID="{D7F0D64E-BFB4-4971-BDEC-D499A5FB0517}">
+							<Language>SFX</Language>
+							<AudioFile>GunshotShotgun_BW.57969.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1072810293"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GunshotShotgun_BW_57969" ID="{D7F0D64E-BFB4-4971-BDEC-D499A5FB0517}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
