@@ -30,7 +30,7 @@
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{F0147BEC-42F3-DB2E-349D-BF97447C683B}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{68CA6731-D65B-C496-5E50-796D5B638669}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -46,6 +46,10 @@
 					<ShortName>Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454.wav</ShortName>
 					<CachePath>SFX/Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1072810293" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunshotShotgun_BW.57969.wav</ShortName>
+					<CachePath>SFX/GunshotShotgun_BW.57969_D79FB2B7.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<Custom>
@@ -57,6 +61,11 @@
 				<Event Id="2387432645" Name="Play_GlassShatter" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="499641122"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3955959628" Name="Play_Gunshot" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1072810293"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="837424197" Name="Play_MagicWand" DurationType="OneShot" DurationMin="1.8964063" DurationMax="1.8964063">
@@ -86,5 +95,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F12D00B9-DB36-1B77-933B-F49AD7AF156F}</FileHash>
+	<FileHash>{44463279-CBA7-588C-7CA0-9C35B22A4501}</FileHash>
 </SoundBanksInfo>
