@@ -4,7 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{154E81BA-1A10-45B1-B8F7-061C5CF199D8}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBank" ID="{50F2FB20-800E-4D51-B1CE-51FFD37AB280}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_BG_Emitters_FreezeTower" ID="{F1A20D92-0F36-45FE-93D2-9C0982DE2CD4}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BG_Bed_FreezeTower" ID="{D7D71B98-7EF9-488E-A859-8FE8B47F235E}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -26,9 +26,101 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{3C7436B2-E33A-75EA-226F-044ECCB80ABF}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
+			<Media>
+				<File Id="37885765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_10.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="43726054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_01.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="230944078" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_13.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_13_10C4C929.wem</CachePath>
+				</File>
+				<File Id="295230145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_14.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="488678152" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_06.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="534238515" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_03.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="566579785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_02.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="597778814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_04.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="695930686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_12.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="728624745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_07.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="847957236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_09.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="852006449" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_05.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="943519233" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_15.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_15_10C4C929.wem</CachePath>
+				</File>
+				<File Id="966664214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_FreezeTower_Bed_St_Lp.wav</ShortName>
+					<CachePath>SFX/BG_FreezeTower_Bed_St_Lp_81238AE1.wem</CachePath>
+				</File>
+				<File Id="1044032444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_08.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1050473814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BG_Emitters_MetalClanks_m_11.wav</ShortName>
+					<CachePath>SFX/BG_Emitters_MetalClanks_m_11_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="815800906" Name="Play_BG_Bed_FreezeTower" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="966664214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3633114514" Name="Play_BG_Emitters_FreezeTower" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="37885765"/>
+						<MediaRef Id="43726054"/>
+						<MediaRef Id="230944078"/>
+						<MediaRef Id="295230145"/>
+						<MediaRef Id="488678152"/>
+						<MediaRef Id="534238515"/>
+						<MediaRef Id="566579785"/>
+						<MediaRef Id="597778814"/>
+						<MediaRef Id="695930686"/>
+						<MediaRef Id="728624745"/>
+						<MediaRef Id="847957236"/>
+						<MediaRef Id="852006449"/>
+						<MediaRef Id="943519233"/>
+						<MediaRef Id="1044032444"/>
+						<MediaRef Id="1050473814"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{68CA6731-D65B-C496-5E50-796D5B638669}">
 			<ShortName>Test_SoundBank</ShortName>
@@ -95,5 +187,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B53F8DA7-FC8D-A38D-D1AC-17C2682256F4}</FileHash>
+	<FileHash>{4B74E310-7518-83FF-B83E-B08B7F6095AD}</FileHash>
 </SoundBanksInfo>

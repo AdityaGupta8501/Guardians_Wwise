@@ -1,6 +1,479 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ambiances" ID="{6703F4AE-CC97-4CF1-8CD7-7DA50DAD279C}" ShortID="35435094">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="FreezeTower" ID="{E0327FD9-F361-470C-A679-F069A850DC15}" ShortID="319930173">
+							<ChildrenList>
+								<Sound Name="BG_Bed_FreezeTower" ID="{9D94BC9D-3F5B-4798-83E9-4C49CBB5B356}" ShortID="507468319">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_FreezeTower_Bed_St_Lp" ID="{55D18F17-D95E-4BBC-8EC6-AF4E65CB06CE}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>BG_FreezeTower_Bed_St_Lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="966664214"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_FreezeTower_Bed_St_Lp" ID="{55D18F17-D95E-4BBC-8EC6-AF4E65CB06CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="BG_Emitters_FreezeTower" ID="{E9F66367-5487-454E-BCBD-A7122162E33D}" ShortID="568623328">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BG_Emitters_MetalClanks_m_01" ID="{C1FEF261-695E-46C8-AB69-3BFEF842C64F}" ShortID="416862767">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_01" ID="{EAEE2AF3-495B-4482-9D8A-8164EB1C9053}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="43726054"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_01" ID="{EAEE2AF3-495B-4482-9D8A-8164EB1C9053}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_02" ID="{A077B6F2-6209-4AD1-B279-0D1F56F24C91}" ShortID="188882030">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_02" ID="{6F189450-E786-45D9-A15B-FA69D9F44F9C}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="566579785"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_02" ID="{6F189450-E786-45D9-A15B-FA69D9F44F9C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_03" ID="{2DC03712-F453-422C-B61C-AA5C15EF5813}" ShortID="792115479">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_03" ID="{9CDB2D99-6359-4085-81DD-02A5D8F0B238}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="534238515"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_03" ID="{9CDB2D99-6359-4085-81DD-02A5D8F0B238}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_04" ID="{155BCD54-26A9-437F-8E55-1B213A54F9CA}" ShortID="1073132479">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_04" ID="{A2161C66-19F8-497D-A294-4C124C95B25B}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="597778814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_04" ID="{A2161C66-19F8-497D-A294-4C124C95B25B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_05" ID="{FAFE694C-1F26-41E0-BF22-812490E48B3A}" ShortID="855925402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_05" ID="{9A4786E8-3A05-4984-A520-911875F6D153}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="852006449"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_05" ID="{9A4786E8-3A05-4984-A520-911875F6D153}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_06" ID="{FB4F0DFC-0350-43D8-AB0C-DEB5734BC46A}" ShortID="488933637">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_06" ID="{ACD5C03F-EE79-406B-B933-920B3B10D522}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="488678152"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_06" ID="{ACD5C03F-EE79-406B-B933-920B3B10D522}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_07" ID="{71EFEA3E-09B8-4EF1-B521-D5CA4E305B73}" ShortID="605832454">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_07" ID="{5D18716C-5F10-41DC-AF37-0D735F01D064}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="728624745"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_07" ID="{5D18716C-5F10-41DC-AF37-0D735F01D064}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_08" ID="{4A7EA7A0-453F-487D-8902-F386C1D7C379}" ShortID="935669460">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_08" ID="{056603A1-6D69-4D64-9A57-D3A52ED04787}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1044032444"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_08" ID="{056603A1-6D69-4D64-9A57-D3A52ED04787}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_09" ID="{82536426-A0CA-43C3-9AF8-2E4A9796989E}" ShortID="860020380">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_09" ID="{AD732C13-0182-4E1C-B2C9-C645BA815899}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="847957236"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_09" ID="{AD732C13-0182-4E1C-B2C9-C645BA815899}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_10" ID="{5852F779-B39A-4A85-999E-ED9A8D3BDB48}" ShortID="600660169">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_10" ID="{AC1F3464-A96D-4117-9281-E157DB4BDDFC}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="37885765"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_10" ID="{AC1F3464-A96D-4117-9281-E157DB4BDDFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_11" ID="{9537235E-8791-4FCD-8F7C-6F086860F59A}" ShortID="267592126">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_11" ID="{A3BD5A24-9CB2-4B08-A8F5-FAAF6471BF11}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1050473814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_11" ID="{A3BD5A24-9CB2-4B08-A8F5-FAAF6471BF11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_12" ID="{C9CCF0B4-7737-4FB2-B63B-79B0E0788167}" ShortID="935209998">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_12" ID="{60A47AF0-D3C7-4DD6-A306-177B1F1FCDB4}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="695930686"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_12" ID="{60A47AF0-D3C7-4DD6-A306-177B1F1FCDB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_13" ID="{0798D74E-2A3F-420E-A9AF-0F330D569A86}" ShortID="96541577">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_13" ID="{F206B881-025B-4311-94A8-CA5D5C5196AE}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="230944078"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_13" ID="{F206B881-025B-4311-94A8-CA5D5C5196AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_14" ID="{AA333D0C-8353-4B9E-AB68-7B3DAD94096E}" ShortID="570056534">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_14" ID="{5C9A40D1-C63D-4E43-B1D0-BB300CCC2F9E}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="295230145"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_14" ID="{5C9A40D1-C63D-4E43-B1D0-BB300CCC2F9E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Emitters_MetalClanks_m_15" ID="{13520F9B-E03A-486B-9F5D-A5E3C7AAFEE8}" ShortID="667647625">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Emitters_MetalClanks_m_15" ID="{764B00C0-2325-4D18-8C91-794BE1A7B308}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Emitters_MetalClanks_m_15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="943519233"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Emitters_MetalClanks_m_15" ID="{764B00C0-2325-4D18-8C91-794BE1A7B308}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SolarTower" ID="{2E880D6F-7FBA-43FF-A8AE-49BE58FC036E}" ShortID="215711350">
+							<ChildrenList>
+								<Sound Name="BG_Bed_SolarTower" ID="{A2A25523-B8EA-4042-AECF-3B8AB0EA0D64}" ShortID="1001116750">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_SolorTower_Bed_St_Lp_01" ID="{A1783A53-1741-48DB-827C-609078D47417}">
+											<Language>SFX</Language>
+											<AudioFile>BG_SolorTower_Bed_St_Lp_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="453590168"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_SolorTower_Bed_St_Lp_01" ID="{A1783A53-1741-48DB-827C-609078D47417}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="MGTower" ID="{2B83A409-B5F9-4F30-93A8-BDBF9A18E8A2}" ShortID="93645350">
+							<ChildrenList>
+								<Sound Name="BG_Bed_MGTower" ID="{53F69F5F-E8EB-4FAA-8C8F-31E946F19AC1}" ShortID="185949604">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_MachineGunTower_Bed_St_Lp_02" ID="{2AB7414E-B0AE-4CF1-8C42-96C1FFAA007B}">
+											<Language>SFX</Language>
+											<AudioFile>BG_MachineGunTower_Bed_St_Lp_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="815904066"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_MachineGunTower_Bed_St_Lp_02" ID="{2AB7414E-B0AE-4CF1-8C42-96C1FFAA007B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="AllTowers" ID="{90285AAB-3FB8-47AD-A758-4959E7B809FB}" ShortID="304589875">
+							<ChildrenList>
+								<Sound Name="BG_Bed_AllTowers" ID="{6A477632-0A64-4F46-A3B7-FA6778A8C2F6}" ShortID="507363887">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BG_All_Towers_Bed_St_Lp" ID="{6730CEDE-46FD-4565-A5D5-051121B4FC94}">
+											<Language>SFX</Language>
+											<AudioFile>BG_All_Towers_Bed_St_Lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="853206220"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BG_All_Towers_Bed_St_Lp" ID="{6730CEDE-46FD-4565-A5D5-051121B4FC94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

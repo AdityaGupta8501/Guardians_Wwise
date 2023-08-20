@@ -81,6 +81,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BG_Emitters_FreezeTower" ID="{F1A20D92-0F36-45FE-93D2-9C0982DE2CD4}">
+					<ChildrenList>
+						<Action Name="" ID="{49C3A382-DBFB-45E9-8D00-921B599B6DE6}" ShortID="814584859">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BG_Emitters_FreezeTower" ID="{E9F66367-5487-454E-BCBD-A7122162E33D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BG_Bed_FreezeTower" ID="{D7D71B98-7EF9-488E-A859-8FE8B47F235E}">
+					<ChildrenList>
+						<Action Name="" ID="{FED874B9-718F-4315-9818-B60538598448}" ShortID="1016954498">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BG_Bed_FreezeTower" ID="{9D94BC9D-3F5B-4798-83E9-4C49CBB5B356}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

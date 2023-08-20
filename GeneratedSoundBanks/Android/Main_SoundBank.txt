@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	815800906	Play_BG_Bed_FreezeTower			\Default Work Unit\Play_BG_Bed_FreezeTower	
+	3633114514	Play_BG_Emitters_FreezeTower			\Default Work Unit\Play_BG_Emitters_FreezeTower	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	37885765	BG_Emitters_MetalClanks_m_10	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_10		628572
+	43726054	BG_Emitters_MetalClanks_m_01	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_01		465644
+	230944078	BG_Emitters_MetalClanks_m_13	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_13		672096
+	295230145	BG_Emitters_MetalClanks_m_14	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_14		899480
+	488678152	BG_Emitters_MetalClanks_m_06	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_06		400340
+	534238515	BG_Emitters_MetalClanks_m_03	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_03		326198
+	566579785	BG_Emitters_MetalClanks_m_02	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_02		864096
+	597778814	BG_Emitters_MetalClanks_m_04	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_04		438140
+	695930686	BG_Emitters_MetalClanks_m_12	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_12		726296
+	728624745	BG_Emitters_MetalClanks_m_07	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_07		571080
+	847957236	BG_Emitters_MetalClanks_m_09	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_09		731920
+	852006449	BG_Emitters_MetalClanks_m_05	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_05		294512
+	943519233	BG_Emitters_MetalClanks_m_15	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_15		542164
+	966664214	BG_Bed_FreezeTower	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_FreezeTower_Bed_St_Lp_81238AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Bed_FreezeTower		11239520
+	1044032444	BG_Emitters_MetalClanks_m_08	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_08		582622
+	1050473814	BG_Emitters_MetalClanks_m_11	F:\GitHub\Guardians_Wwise\.cache\Android\SFX\BG_Emitters_MetalClanks_m_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\FreezeTower\BG_Emitters_FreezeTower\BG_Emitters_MetalClanks_m_11		659320
+
