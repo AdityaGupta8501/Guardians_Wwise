@@ -20,8 +20,14 @@
 				</SoundcasterSession>
 				<SoundcasterSession Name="BG_Test_Soundcaster" ID="{4133FDB9-71E2-4FCA-B4A9-88F0FDB91E8E}">
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Gameplay" ID="{A0F80BFA-F3C4-413B-B202-3FBF92DFBCDB}"/>
+						<CurrentStateRef Name="Alive" ID="{A1F65237-7244-4461-BC7F-BE823C0B2C7F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LowIntensity" ID="{833647AF-C247-435A-8FA9-8CFDE58366EB}"/>
+						<CurrentSwitchRef Name="Combat" ID="{303335F5-B0B2-426C-8ACF-25CB28B7B4E7}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0D480842-26C7-4E18-9525-47408014A295}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{0D480842-26C7-4E18-9525-47408014A295}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0D480842-26C7-4E18-9525-47408014A295}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GameplaySwitch" ID="{E5A67AC8-8239-4FCC-A036-1E638772396F}">
+					<ChildrenList>
+						<Switch Name="Combat" ID="{303335F5-B0B2-426C-8ACF-25CB28B7B4E7}"/>
+						<Switch Name="Explore" ID="{6D51941B-E7EE-489C-BFAB-B57CBC664009}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="IntensityLevel" ID="{3B5A3BD4-C5E7-4CF2-9AD9-680300BF0464}">
+					<ChildrenList>
+						<Switch Name="LowIntensity" ID="{833647AF-C247-435A-8FA9-8CFDE58366EB}"/>
+						<Switch Name="MediumIntensity" ID="{F221869E-258B-43E4-B656-48CE4A7D4088}"/>
+						<Switch Name="HighIntensity" ID="{1C3F6F24-99F4-4597-B97A-97800F978C85}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
