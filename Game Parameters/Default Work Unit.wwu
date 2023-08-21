@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="WheelSpinSpeed" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>
