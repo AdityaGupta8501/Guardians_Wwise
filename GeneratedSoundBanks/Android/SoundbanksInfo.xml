@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3B4F4E8B-AE73-23F5-4778-5C327656E30F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6EF526E-AD53-7B7B-33CA-038C788D58FB}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -25,8 +25,41 @@
 				<Bus Id="3538689948" Name="PlayerMaster"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="1882376083" Name="WheelSpinSpeed"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1021618141" Name="MusicState">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="330795510" Name="IntensityLevel">
+					<Switches>
+						<Switch Id="1672832395" Name="MediumIntensity"/>
+						<Switch Id="3521294064" Name="HighIntensity"/>
+						<Switch Id="4231975828" Name="LowIntensity"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1516247569" Name="GameplaySwitch">
+					<Switches>
+						<Switch Id="579523862" Name="Explore"/>
+						<Switch Id="2764240573" Name="Combat"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{3C7436B2-E33A-75EA-226F-044ECCB80ABF}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{23BCE52A-CFBC-3F4A-A8C9-1FAFAD055788}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
@@ -38,6 +71,18 @@
 					<ShortName>BG_Emitters_MetalClanks_m_01.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="113534043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Detach\Hose_Detach_Action_st_05.wav</ShortName>
+					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="163031530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Detach\Hose_Detach_Action_st_02.wav</ShortName>
+					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="224133299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Attach\Hose_Attach_Action_st_02.wav</ShortName>
+					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="230944078" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_13.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_13_10C4C929.wem</CachePath>
@@ -45,6 +90,18 @@
 				<File Id="295230145" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_14.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_14_10C4C929.wem</CachePath>
+				</File>
+				<File Id="341994421" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Attach\Hose_Attach_Action_st_01.wav</ShortName>
+					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="378356372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Attach\Hose_Attach_Action_st_04.wav</ShortName>
+					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="460075356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Detach\Hose_Detach_Action_st_04.wav</ShortName>
+					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="488678152" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_06.wav</ShortName>
@@ -62,6 +119,10 @@
 					<ShortName>BG_Emitters_MetalClanks_m_04.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="685689262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Detach\Hose_Detach_Action_st_03.wav</ShortName>
+					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="695930686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_12.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_12_10C4C929.wem</CachePath>
@@ -69,6 +130,10 @@
 				<File Id="728624745" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_07.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="822983265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Attach\Hose_Attach_Action_st_03.wav</ShortName>
+					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="847957236" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_09.wav</ShortName>
@@ -86,6 +151,10 @@
 					<ShortName>BG_FreezeTower_Bed_St_Lp.wav</ShortName>
 					<CachePath>SFX/BG_FreezeTower_Bed_St_Lp_81238AE1.wem</CachePath>
 				</File>
+				<File Id="969619404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Hose Attach\Hose_Attach_Action_st_05.wav</ShortName>
+					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1044032444" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BG_Emitters_MetalClanks_m_08.wav</ShortName>
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_08_10C4C929.wem</CachePath>
@@ -95,6 +164,11 @@
 					<CachePath>SFX/BG_Emitters_MetalClanks_m_11_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3043085106" Name="High_Impact" LibName="Wwise Compressor" LibId="7077891"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="815800906" Name="Play_BG_Bed_FreezeTower" DurationType="Infinite">
 					<MediaRefs>
@@ -118,6 +192,28 @@
 						<MediaRef Id="943519233"/>
 						<MediaRef Id="1044032444"/>
 						<MediaRef Id="1050473814"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1123099683" Name="Play_Hose_Attach" DurationType="OneShot" DurationMin="0.77796215" DurationMax="1.2883884">
+					<MediaRefs>
+						<MediaRef Id="224133299"/>
+						<MediaRef Id="341994421"/>
+						<MediaRef Id="378356372"/>
+						<MediaRef Id="822983265"/>
+						<MediaRef Id="969619404"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3043085106"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="979387025" Name="Play_Hose_Detach" DurationType="OneShot" DurationMin="0.8430567" DurationMax="1.5028706">
+					<MediaRefs>
+						<MediaRef Id="113534043"/>
+						<MediaRef Id="163031530"/>
+						<MediaRef Id="460075356"/>
+						<MediaRef Id="685689262"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -187,5 +283,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{98BC4491-C3E7-DCFB-E3F3-32934DCD8064}</FileHash>
+	<FileHash>{E8CA2046-2569-85CA-2D96-ED0E7B5F8A4A}</FileHash>
 </SoundBanksInfo>

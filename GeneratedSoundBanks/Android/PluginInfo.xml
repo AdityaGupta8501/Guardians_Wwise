@@ -2,8 +2,9 @@
 <PluginInfo Platform="Android" BasePlatform="Android">
 	<PluginLibs>
 		<PluginLib LibName="Wwise Sine" LibId="6553602" Type="Source" DLL="AkSineTone" StaticLib="AkSineSource"/>
+		<PluginLib LibName="Wwise Compressor" LibId="7077891" Type="Effect" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{6927DA8B-8DE2-8C89-5ECB-6FD55AD19228}</FileHash>
+	<FileHash>{22E7EB29-C3AD-2F11-1D9C-34284E5CB72F}</FileHash>
 </PluginInfo>

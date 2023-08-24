@@ -1,3 +1,14 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	1021618141	MusicState			\Default Work Unit\MusicState	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	89505537	Gameplay	MusicState			
+	748895195	None	MusicState			
+	2716678721	Victory	MusicState			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	264242718	2D_AMB			\Default Work Unit\Master Audio Bus\AmbientMaster\2D_AMB	
 	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	

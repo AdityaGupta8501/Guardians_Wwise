@@ -159,6 +159,24 @@
 						<ActiveSource Name="GunshotShotgun_BW_57969" ID="{D7F0D64E-BFB4-4971-BDEC-D499A5FB0517}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Test_sfx_reintegration" ID="{A4F4A2D5-6FC0-4736-A242-907290922D1D}" ShortID="241883595">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Silence" ID="{353E9804-FFE3-433A-BC87-1E5372156F57}" ShortID="775677664" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Silence" ID="{353E9804-FFE3-433A-BC87-1E5372156F57}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

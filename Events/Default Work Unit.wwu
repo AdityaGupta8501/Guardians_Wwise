@@ -103,6 +103,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Hose_Attach" ID="{5BD7D748-B00D-4C8B-8A45-00C12031D164}">
+					<ChildrenList>
+						<Action Name="" ID="{74095416-9935-43E1-ADC0-2BAB65D9FB94}" ShortID="411252961">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hose Attach" ID="{0E15740E-247E-4292-8ECC-CF7E7B753A85}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hose_Detach" ID="{A31FC156-8815-4409-9061-91819D1A8291}">
+					<ChildrenList>
+						<Action Name="" ID="{D23A302F-845E-438E-AF04-6132A92BF78D}" ShortID="824210231">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hose Detach" ID="{6F2E6499-1E7F-4A55-BCA7-DF0ABEE4786E}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
