@@ -13,11 +13,19 @@
 							<ObjectRef Name="Play_SineWave" ID="{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}"/>
 							<Position X="0" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Spin_Wheel" ID="{B916B4D6-1B24-426F-9084-9BC684E95360}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Spin_Wheel" ID="{E2BFAF12-2426-4194-B55A-E2146046AA7D}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="WheelSpinSpeed" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
-							<Value>0</Value>
+							<GameParameterRef Name="RTPC_WheelSpinSpeed" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

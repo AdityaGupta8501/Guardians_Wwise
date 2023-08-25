@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6EF526E-AD53-7B7B-33CA-038C788D58FB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{DA9183D4-369F-ACC6-89B4-D54DBC24EBD6}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -26,7 +26,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
-				<GameParameter Id="1882376083" Name="WheelSpinSpeed"/>
+				<GameParameter Id="3094061773" Name="RTPC_WheelSpinSpeed"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="444815956" Name="PlayerLife">
@@ -283,5 +283,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E8CA2046-2569-85CA-2D96-ED0E7B5F8A4A}</FileHash>
+	<FileHash>{6996D88D-BF01-0BFC-0304-01279D5316E7}</FileHash>
 </SoundBanksInfo>

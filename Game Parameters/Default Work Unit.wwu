@@ -3,7 +3,12 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="WheelSpinSpeed" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
+				<GameParameter Name="RTPC_WheelSpinSpeed" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

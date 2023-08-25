@@ -125,6 +125,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Spin_Wheel" ID="{B916B4D6-1B24-426F-9084-9BC684E95360}">
+					<ChildrenList>
+						<Action Name="" ID="{2843B30D-AF23-48AF-B943-5E9C29CBB466}" ShortID="84173653">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spin_Wheel" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Spin_Wheel" ID="{E2BFAF12-2426-4194-B55A-E2146046AA7D}">
+					<ChildrenList>
+						<Action Name="" ID="{136FADC4-5FEF-41C5-8D6E-6D0193002959}" ShortID="165016409">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spin_Wheel" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
