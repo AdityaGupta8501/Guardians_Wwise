@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	444815956	PlayerLife			\Default Work Unit\PlayerLife	
 	1021618141	MusicState			\Default Work Unit\MusicState	
+	3910697476	TowerLocationState			\Default Work Unit\TowerLocationState	
 
 State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
@@ -8,6 +9,11 @@ State	ID	Name	State Group			Notes
 	89505537	Gameplay	MusicState			
 	748895195	None	MusicState			
 	2716678721	Victory	MusicState			
+	438105790	Outside	TowerLocationState			
+	610398656	Solar	TowerLocationState			
+	748895195	None	TowerLocationState			
+	3285814624	Freeze	TowerLocationState			
+	3678545986	MachineGun	TowerLocationState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	264242718	2D_AMB			\Default Work Unit\Master Audio Bus\AmbientMaster\2D_AMB	

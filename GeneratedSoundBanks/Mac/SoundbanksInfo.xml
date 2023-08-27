@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CFFCEFA2-1529-0050-C469-23935AF5B417}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A44C0548-6909-2FF7-48B4-C811BFAFC8D3}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -40,6 +40,15 @@
 						<State Id="89505537" Name="Gameplay"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3910697476" Name="TowerLocationState">
+					<States>
+						<State Id="438105790" Name="Outside"/>
+						<State Id="610398656" Name="Solar"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="3285814624" Name="Freeze"/>
+						<State Id="3678545986" Name="MachineGun"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -283,5 +292,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{55992AF7-0BCD-AAFE-C8F0-5D584BCA41E0}</FileHash>
+	<FileHash>{09A31FFD-A200-40F7-2199-35A55CA0EA15}</FileHash>
 </SoundBanksInfo>

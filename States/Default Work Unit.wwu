@@ -27,10 +27,15 @@
 				<StateGroup Name="TowerLocationState" ID="{D751B0EA-FA3A-4FF5-BB6A-6A74123FD466}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{BB2DD051-2D6C-4491-90A8-73ED74114CBA}"/>
+						<State Name="MachineGun" ID="{90096DF0-18E9-4A7B-8E4C-195D3FE713D1}"/>
+						<State Name="Freeze" ID="{E61C13A3-C83A-486D-9135-31C041F9C500}"/>
+						<State Name="Solar" ID="{F117E17E-99CE-4645-B855-A7CC5967FF9C}"/>
+						<State Name="Outside" ID="{C6041485-596E-4800-8CD7-783E3B7AE7DD}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

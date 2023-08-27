@@ -177,6 +177,166 @@
 						<ActiveSource Name="Silence" ID="{353E9804-FFE3-433A-BC87-1E5372156F57}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<BlendContainer Name="WheelTurning" ID="{31E246D9-41D1-41A2-8364-291426C4B2E4}" ShortID="164249563">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WheelTurn_loopSpeed_st_High" ID="{49E03586-5E80-4670-84F0-F42C1E8EFA79}" ShortID="950679034">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WheelTurn_loopSpeed_st_High" ID="{F7A17B75-D139-4280-8AE9-F93522746979}">
+									<Language>SFX</Language>
+									<AudioFile>WheelTurn_loopSpeed_st_High.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1022919500"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WheelTurn_loopSpeed_st_High" ID="{F7A17B75-D139-4280-8AE9-F93522746979}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WheelTurn_loopSpeed_st_Low" ID="{1EB6EF0C-AF54-4CAE-84F0-49C80D9E2CD2}" ShortID="500979914">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WheelTurn_loopSpeed_st_Low" ID="{5306F3F5-6AA3-4332-8013-064F94C58F73}">
+									<Language>SFX</Language>
+									<AudioFile>WheelTurn_loopSpeed_st_Low.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="161281821"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WheelTurn_loopSpeed_st_Low" ID="{5306F3F5-6AA3-4332-8013-064F94C58F73}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WheelTurn_loopSpeed_st_Med-High" ID="{8C44894E-3403-4612-86C5-6ED4BB0C2AE0}" ShortID="361548739">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WheelTurn_loopSpeed_st_Med-High" ID="{61570FF4-CDA4-478F-AE6A-457E2AAC90E5}">
+									<Language>SFX</Language>
+									<AudioFile>WheelTurn_loopSpeed_st_Med-High.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="624490268"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WheelTurn_loopSpeed_st_Med-High" ID="{61570FF4-CDA4-478F-AE6A-457E2AAC90E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WheelTurn_loopSpeed_st_Medium" ID="{5B5ABD82-EC66-4687-B883-8054913373E0}" ShortID="220286063">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WheelTurn_loopSpeed_st_Medium" ID="{703116EE-FA55-4C3C-B9BD-51D6F7EF51FC}">
+									<Language>SFX</Language>
+									<AudioFile>WheelTurn_loopSpeed_st_Medium.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067580100"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WheelTurn_loopSpeed_st_Medium" ID="{703116EE-FA55-4C3C-B9BD-51D6F7EF51FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="WheelTurningSpeed" ID="{A44FD4FF-9218-4F4B-BA38-9A09AFD42DE7}" ShortID="467807762">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RTPC_WheelTurnSpeed_Solar" ID="{3915D2F0-D669-4B12-9425-3426F09A275E}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="WheelTurn_loopSpeed_st_Medium" ID="{5B5ABD82-EC66-4687-B883-8054913373E0}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>5.03990683161005</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="WheelTurn_loopSpeed_st_Med-High" ID="{8C44894E-3403-4612-86C5-6ED4BB0C2AE0}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>4.0480434084195</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>8.01370697008863</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+								<BlendTrackAssoc>
+									<ItemRef Name="WheelTurn_loopSpeed_st_High" ID="{49E03586-5E80-4670-84F0-F42C1E8EFA79}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>7.02056045513294</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>10</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

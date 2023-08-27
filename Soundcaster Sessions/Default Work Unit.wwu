@@ -24,7 +24,7 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="RTPC_WheelSpinSpeed" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
+							<GameParameterRef Name="RTPC_WheelSpinSpeed_Freeze" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
 							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
@@ -32,7 +32,20 @@
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 				<SoundcasterSession Name="BG_Test_Soundcaster" ID="{4133FDB9-71E2-4FCA-B4A9-88F0FDB91E8E}">
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_WheelSpinSpeed_Freeze" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_WheelTurnSpeed_Solar" ID="{3915D2F0-D669-4B12-9425-3426F09A275E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_SolarCellCharging_PitchChange" ID="{845AB91A-21F3-4BD4-9E67-95397EAEB045}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Gameplay" ID="{A0F80BFA-F3C4-413B-B202-3FBF92DFBCDB}"/>
 						<CurrentStateRef Name="Alive" ID="{A1F65237-7244-4461-BC7F-BE823C0B2C7F}"/>

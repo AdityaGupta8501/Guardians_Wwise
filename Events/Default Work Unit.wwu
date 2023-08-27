@@ -150,6 +150,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_BatteryToy_HittingFunnel" ID="{76D6021B-8968-4B1C-BC02-874D8E8D1B6B}">
+					<ChildrenList>
+						<Action Name="" ID="{B4C13434-61A4-4909-B689-90C410406134}" ShortID="474195779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatteryToy_HittingFunnel" ID="{AA0968E2-FFFE-4F3C-BC0E-3989B6C2E70F}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EnergyTransfer_Success" ID="{62661D7C-3B7A-400D-9BA3-97A0A05EAFF5}">
+					<ChildrenList>
+						<Action Name="" ID="{5DCAC6E0-AC32-48D5-9F42-E66E406FA4CF}" ShortID="774763099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyTransfer_Success" ID="{18E570A3-EE28-4173-A868-B0CF0C28BA03}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TowerWheel_Turn_Ready" ID="{01740752-36EE-4F33-98AB-365DBD445E52}">
+					<ChildrenList>
+						<Action Name="" ID="{844DE0E0-F17B-450E-BEC0-7AD1297AB9CB}" ShortID="262443112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TowerWheel_Turn_Ready" ID="{D469B534-01B9-4AA4-99D9-3874947CC243}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WheelTurn_loopSpeed" ID="{AFFE40A7-8D25-4E1F-B35C-09160174B3CD}">
+					<ChildrenList>
+						<Action Name="" ID="{904F78C3-0424-495B-BDCB-C6C0D8FFC182}" ShortID="982396755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WheelTurn_loopSpeed" ID="{27A3C923-0D11-43E3-8959-394256AA826D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SolarCell_Charging_Loop" ID="{1B98DB2D-9FA2-48F8-8213-714B39EB68AE}">
+					<ChildrenList>
+						<Action Name="" ID="{EDDBAA95-F147-4361-AF1B-7C8EBE7C9A44}" ShortID="491628022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SolarCell_Charging_Loop" ID="{1F7D4D12-3438-46CC-97DD-0934F0B742E6}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
