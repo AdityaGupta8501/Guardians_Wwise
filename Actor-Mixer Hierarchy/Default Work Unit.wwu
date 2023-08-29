@@ -1350,6 +1350,658 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="GunShots_MG" ID="{B0E33DF5-DDA4-4445-B274-AF1C16FDDCFB}" ShortID="179436975">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="GunShots_MG_st_01" ID="{2C9FB2E5-A459-4F2B-898D-61465EC3AB7F}" ShortID="856999340">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_01" ID="{22CC64C5-CF52-437A-A14A-7C165967F72A}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="476880696"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_01" ID="{22CC64C5-CF52-437A-A14A-7C165967F72A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_02" ID="{AC2655C8-15D3-4392-91AE-7E9D0ABB1BD2}" ShortID="29149762">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_02" ID="{ACE16488-A5B4-4E14-B8A1-E20056F8413F}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1070785610"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_02" ID="{ACE16488-A5B4-4E14-B8A1-E20056F8413F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_03" ID="{D29B0D8F-A3B7-40D7-9F95-F8D1E543ECB3}" ShortID="201828240">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_03" ID="{A14CEC51-7B1F-464C-92F1-2B77DBE6C64A}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="429575234"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_03" ID="{A14CEC51-7B1F-464C-92F1-2B77DBE6C64A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_04" ID="{013BB262-5927-4134-96E9-2FAE923690CC}" ShortID="401247876">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_04" ID="{2B83F1F7-263F-4297-8A09-16EDC0C1E9C0}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="129178595"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_04" ID="{2B83F1F7-263F-4297-8A09-16EDC0C1E9C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_05" ID="{896BE4CD-964A-425D-B61A-2E9DBEF5534D}" ShortID="544090516">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_05" ID="{47EDEF1E-3E8B-4BBB-A42F-0CB63F92F45F}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986900328"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_05" ID="{47EDEF1E-3E8B-4BBB-A42F-0CB63F92F45F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_06" ID="{3FB3659A-E3A9-4502-9C11-25D0719625F8}" ShortID="555947488">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_06" ID="{2FCC3BFE-3EB8-4C90-AB9F-7A2D66331D20}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="607581665"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_06" ID="{2FCC3BFE-3EB8-4C90-AB9F-7A2D66331D20}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_07" ID="{54CBFFA4-A703-43F5-86F3-91D2F3C118F3}" ShortID="766962738">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_07" ID="{A755CD89-71A9-48FC-8AF3-DC1FED007427}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="615867996"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_07" ID="{A755CD89-71A9-48FC-8AF3-DC1FED007427}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_08" ID="{A8C09806-9035-40FE-876D-96CFC7E5B37F}" ShortID="373154392">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_08" ID="{58C167C3-6481-419A-A6B0-D6C01D7D7DFD}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="942481345"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_08" ID="{58C167C3-6481-419A-A6B0-D6C01D7D7DFD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_09" ID="{262E3031-59D7-405E-8E57-3F207F54F466}" ShortID="771923740">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_09" ID="{C1397117-A42F-4599-8F8D-38765E96927F}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="587177144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_09" ID="{C1397117-A42F-4599-8F8D-38765E96927F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_10" ID="{77FE87D6-1763-476F-AE8F-2E690F171F17}" ShortID="359812076">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_10" ID="{32AD6614-1E92-4A7D-919E-133360158D7F}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="729581609"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_10" ID="{32AD6614-1E92-4A7D-919E-133360158D7F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_11" ID="{FAD94F65-4B40-4715-B186-AFFC8A628B90}" ShortID="126619904">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_11" ID="{72950FD0-8F50-49D2-A1D8-3E69B5EC6891}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="67447690"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_11" ID="{72950FD0-8F50-49D2-A1D8-3E69B5EC6891}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunShots_MG_st_12-01" ID="{3A67E2EA-C7DB-4BA7-A8E4-5163136576BF}" ShortID="804524475">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunShots_MG_st_12-01" ID="{B2A7AC26-EDCF-4E96-B115-8E2FAC859726}">
+													<Language>SFX</Language>
+													<AudioFile>GunShots_MG_st_12-01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1001316500"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunShots_MG_st_12-01" ID="{B2A7AC26-EDCF-4E96-B115-8E2FAC859726}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Guantlets_Removed" ID="{101DC8B0-04D0-44AB-991C-436713522B92}" ShortID="464396244">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gauntlets_removed_st_03" ID="{8757FDF5-A87B-4EA8-86B9-8D2782383F66}" ShortID="1050448283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlets_removed_st_03" ID="{AA218F51-AC48-4397-98D9-309CA4B98F8A}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlets_removed_st_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="354801752"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlets_removed_st_03" ID="{AA218F51-AC48-4397-98D9-309CA4B98F8A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gauntlets_removed_st_04" ID="{748768C3-0033-4C15-A6E3-3FB459145BDB}" ShortID="915440289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlets_removed_st_04" ID="{50A7B332-5DED-4B7E-9B3D-49AB8E7C2DBB}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlets_removed_st_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="867281220"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlets_removed_st_04" ID="{50A7B332-5DED-4B7E-9B3D-49AB8E7C2DBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gauntlets_removed_st_01" ID="{CFC7B701-1F9C-4A01-809A-0AB32594FB5B}" ShortID="274742009">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlets_removed_st_01" ID="{17697ED5-B717-422C-B175-466AB14F733A}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlets_removed_st_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="326576073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlets_removed_st_01" ID="{17697ED5-B717-422C-B175-466AB14F733A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gauntlets_removed_st_02" ID="{CEA925D1-8EFA-4DF1-932A-8716161583F7}" ShortID="388473257">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlets_removed_st_02" ID="{2C8FCB09-4B84-43D1-A871-7C644F910128}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlets_removed_st_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="43573776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlets_removed_st_02" ID="{2C8FCB09-4B84-43D1-A871-7C644F910128}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="GunReload_MG" ID="{6456E0E1-6DA0-4688-8977-DE368C05F092}" ShortID="594602136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="GunReload_MG_st_05" ID="{78103E9B-8F6C-4417-B39D-DC817EC106DC}" ShortID="792921233">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_05" ID="{A0BAE777-653E-4A2D-89BB-C9B05BD4A089}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="659922904"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_05" ID="{A0BAE777-653E-4A2D-89BB-C9B05BD4A089}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_06" ID="{2F71F2CA-EE89-4F51-8FFE-7F07E7CDC621}" ShortID="475365090">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_06" ID="{6BEA086B-F8FE-4F48-970E-BB8BDF3150E9}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="774625947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_06" ID="{6BEA086B-F8FE-4F48-970E-BB8BDF3150E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_07" ID="{23723F17-6FE3-4558-8E9B-64B85948D218}" ShortID="580598320">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_07" ID="{A9505FE3-4862-4700-B548-BB8CD4884B90}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="124079548"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_07" ID="{A9505FE3-4862-4700-B548-BB8CD4884B90}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_08" ID="{F5DCFA02-97ED-43CD-A7A5-113BA0E5D1A9}" ShortID="127997609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_08" ID="{79C167FD-EEBF-4F6C-A998-FFB0BEE16A34}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="287443011"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_08" ID="{79C167FD-EEBF-4F6C-A998-FFB0BEE16A34}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_09" ID="{10D3F716-91B9-453F-BF1A-7BE07BA58483}" ShortID="645851772">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_09" ID="{B5A264DE-EB4F-41DD-95F0-4C1103236320}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="430147072"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_09" ID="{B5A264DE-EB4F-41DD-95F0-4C1103236320}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_10" ID="{4218AA8F-429D-4A59-963D-E4D2FED615F7}" ShortID="479816677">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_10" ID="{F9E2B74C-6A6E-4C93-9A37-8C54D9BBB6FA}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="703703744"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_10" ID="{F9E2B74C-6A6E-4C93-9A37-8C54D9BBB6FA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_11" ID="{276837E6-754B-4A3C-AE05-B33F88EF775B}" ShortID="130114296">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_11" ID="{F9C89E6E-4B87-4D1B-ABF0-F6C9767A40E2}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="415870232"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_11" ID="{F9C89E6E-4B87-4D1B-ABF0-F6C9767A40E2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_12" ID="{A03BBF68-86A9-4905-AC6D-E1ADE62ECE23}" ShortID="1073006812">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_12" ID="{34546CA7-8785-4BB5-9297-9E783A5B3A7A}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="432970922"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_12" ID="{34546CA7-8785-4BB5-9297-9E783A5B3A7A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_01" ID="{6E60657E-F634-4D28-806A-D6A72C6EE1EC}" ShortID="606602964">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_01" ID="{853C2DDF-F9ED-417D-B688-76B3DCF982B4}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="824803110"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_01" ID="{853C2DDF-F9ED-417D-B688-76B3DCF982B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_02" ID="{D73367A0-400C-411A-9BFF-42E4FD7FAC6E}" ShortID="1042939276">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_02" ID="{21036C2E-FD5C-4263-812B-C86E4F0686C7}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="131746596"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_02" ID="{21036C2E-FD5C-4263-812B-C86E4F0686C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_03" ID="{AE04CB55-7803-43C9-ACE1-66E00120A830}" ShortID="892826090">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_03" ID="{1045879F-E96A-4C3C-A4CD-8A817ACF1834}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1030676139"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_03" ID="{1045879F-E96A-4C3C-A4CD-8A817ACF1834}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GunReload_MG_st_04" ID="{5EB40997-86C1-4F8C-82A9-BC612BA434F9}" ShortID="595478909">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GunReload_MG_st_04" ID="{C6E450DF-6D4D-4717-ACE9-8246BB65A852}">
+													<Language>SFX</Language>
+													<AudioFile>GunReload_MG_st_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="373966381"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GunReload_MG_st_04" ID="{C6E450DF-6D4D-4717-ACE9-8246BB65A852}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

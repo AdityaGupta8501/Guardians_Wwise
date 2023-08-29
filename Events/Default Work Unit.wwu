@@ -70,17 +70,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Gunshot" ID="{1BA2EE45-0C6A-48F0-B941-5239C54E51DA}">
-					<ChildrenList>
-						<Action Name="" ID="{75FA8CF0-DFC7-4EF8-BA32-EAD2F9C76EE1}" ShortID="1066998486">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Gunshot" ID="{E55D5F52-2B26-42AE-BC21-EC4F53C778CD}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_BG_Emitters_FreezeTower" ID="{F1A20D92-0F36-45FE-93D2-9C0982DE2CD4}">
 					<ChildrenList>
 						<Action Name="" ID="{49C3A382-DBFB-45E9-8D00-921B599B6DE6}" ShortID="814584859">
@@ -200,6 +189,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SolarCell_Charging_Loop" ID="{1F7D4D12-3438-46CC-97DD-0934F0B742E6}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GunShots_MG" ID="{DB553BC4-56D6-4490-8470-305CD30FA086}">
+					<ChildrenList>
+						<Action Name="" ID="{D6B4E344-1B1D-44EA-8DB1-B882A84E597D}" ShortID="174985246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GunShots_MG" ID="{B0E33DF5-DDA4-4445-B274-AF1C16FDDCFB}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Guantlets_Removed" ID="{A6411B16-AEA1-4A9F-B01C-8830E19E8A40}">
+					<ChildrenList>
+						<Action Name="" ID="{2A18331E-3616-4760-B891-881EF82B9F45}" ShortID="760164900">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Guantlets_Removed" ID="{101DC8B0-04D0-44AB-991C-436713522B92}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

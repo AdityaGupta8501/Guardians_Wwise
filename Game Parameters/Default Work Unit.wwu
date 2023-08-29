@@ -13,6 +13,8 @@
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="10"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="3"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="6"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_SolarCellCharging_PitchChange" ID="{845AB91A-21F3-4BD4-9E67-95397EAEB045}">

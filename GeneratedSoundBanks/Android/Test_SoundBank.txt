@@ -4,15 +4,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	2387432645	Play_GlassShatter			\Default Work Unit\Play_GlassShatter	
 	3268561495	Play_SineWave_220			\Default Work Unit\Play_SineWave_220	
 	3566010966	Play_SineWave			\Default Work Unit\Play_SineWave	
-	3955959628	Play_Gunshot			\Default Work Unit\Play_Gunshot	
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	252962272	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Test_WorkUnit\SineWave220Hz\Sine	
 	575086624	Sine	Wwise Sine		\Actor-Mixer Hierarchy\Test_WorkUnit\SineWave440Hz\Sine	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	408390169	TestMusic	C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\.cache\Android\SFX\RKU_LS_160_songstarter_loop_waves_Dmin_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\TestMusic		4233696
-	499641122	GlassShatter	C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\.cache\Android\SFX\CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\GlassShatter		33689696
-	974874163	MagicWand	C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\.cache\Android\SFX\Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\MagicWand		364204
-	1072810293	Gunshot	C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\.cache\Android\SFX\GunshotShotgun_BW.57969_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\Gunshot		324704
+	408390169	TestMusic	E:\GitHub\Guardians_Wwise\.cache\Android\SFX\RKU_LS_160_songstarter_loop_waves_Dmin_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\TestMusic		4233696
+	499641122	GlassShatter	E:\GitHub\Guardians_Wwise\.cache\Android\SFX\CRWDWalla_Bar Ambience Dive Active Mixed Crowd Busy Walla_PSE_OA_WEOj8_D79FB2B7.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\GlassShatter		33689696
+	974874163	MagicWand	E:\GitHub\Guardians_Wwise\.cache\Android\SFX\Magic, Spell, Whoosh, Short Burst, Harsh 04 SND30454_10C4C929.wem		\Actor-Mixer Hierarchy\Test_WorkUnit\MagicWand		364204
 
