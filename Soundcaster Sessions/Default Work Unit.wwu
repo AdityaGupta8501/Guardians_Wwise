@@ -53,6 +53,21 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
+				<SoundcasterSession Name="BG_FreezeTower_Soundcaster" ID="{55171F82-5B46-4F12-85DB-1EC5C8BB9DA1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Emitter_MetalClanks_Sequence" ID="{2C6087F3-CDDE-432D-8E50-14D1EF1E09F9}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="BG_Bed_FreezeTower" ID="{9D94BC9D-3F5B-4798-83E9-4C49CBB5B356}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

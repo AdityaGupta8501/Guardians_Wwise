@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8AE5011A-FCDA-4A73-9ACD-6C4420233B01}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{8AE5011A-FCDA-4A73-9ACD-6C4420233B01}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8AE5011A-FCDA-4A73-9ACD-6C4420233B01}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="FreezeTower_ConvolutionVerb" ID="{044078AC-D65D-4E50-A68A-464097EF2C39}" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">					<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

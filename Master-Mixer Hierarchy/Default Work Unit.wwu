@@ -16,8 +16,13 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Bus Name="3D_AMB" ID="{05540E4C-105F-4819-93FE-78DF21EC84E3}"/>
-								<Bus Name="2D_AMB" ID="{613AEB5B-6143-4C31-8116-04F14061E4D5}"/>
+								<AuxBus Name="FreezeTower_Verb" ID="{20C1B762-2DE2-4037-9B3F-B0AF3CF63C9E}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="PlayerMaster" ID="{568FA1B5-75F6-409D-A7F6-5819538A5742}">
