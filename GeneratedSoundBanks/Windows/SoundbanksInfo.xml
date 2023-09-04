@@ -9,22 +9,34 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FBB210F2-B638-D049-8B41-CB4D9D028964}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A25CAE4E-133D-A32E-CEE2-EA5CCE20DA89}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="1706684651" Name="Plate_Medium" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="264242718" Name="2D_AMB"/>
+				<Bus Id="688538249" Name="MiscalleniuosMaster"/>
 				<Bus Id="1459460693" Name="AmbientMaster"/>
-				<Bus Id="1934441993" Name="3D_AMB"/>
+				<Bus Id="1681633080" Name="SFXMaster"/>
 				<Bus Id="3538689948" Name="PlayerMaster"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1795671573" Name="FreezeTower_Verb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1706684651"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="274339921" Name="RTPC_WheelSpinSpeed_Freeze"/>
 				<GameParameter Id="1064101656" Name="RTPC_SolarCellCharging_PitchChange"/>
@@ -70,97 +82,73 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{08C7901C-AA37-140E-D281-BFBC3B7C7872}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{2067CA5E-B73B-41E3-6A1D-0527ACE7C84F}">
 			<ShortName>Main_SoundBank</ShortName>
 			<Path>Main_SoundBank.bnk</Path>
 			<Media>
-				<File Id="37885765" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_10.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_10_10C4C929.wem</CachePath>
-				</File>
 				<File Id="43573776" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gauntlets_removed_st_02.wav</ShortName>
 					<CachePath>SFX/Gauntlets_removed_st_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="43726054" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_01.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="67447690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_11.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_11_10C4C929.wem</CachePath>
 				</File>
-				<File Id="113534043" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Detach\Hose_Detach_Action_st_05.wav</ShortName>
-					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_05_10C4C929.wem</CachePath>
+				<File Id="124079548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_07.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_07_10C4C929.wem</CachePath>
 				</File>
 				<File Id="129178595" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_04.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_04_10C4C929.wem</CachePath>
 				</File>
-				<File Id="163031530" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Detach\Hose_Detach_Action_st_02.wav</ShortName>
-					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_02_10C4C929.wem</CachePath>
+				<File Id="131746596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_02.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_02_10C4C929.wem</CachePath>
 				</File>
-				<File Id="224133299" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Attach\Hose_Attach_Action_st_02.wav</ShortName>
-					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="230944078" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_13.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_13_10C4C929.wem</CachePath>
-				</File>
-				<File Id="295230145" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_14.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_14_10C4C929.wem</CachePath>
+				<File Id="287443011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_08.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="326576073" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gauntlets_removed_st_01.wav</ShortName>
 					<CachePath>SFX/Gauntlets_removed_st_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="341994421" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Attach\Hose_Attach_Action_st_01.wav</ShortName>
-					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_01_10C4C929.wem</CachePath>
-				</File>
 				<File Id="354801752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gauntlets_removed_st_03.wav</ShortName>
 					<CachePath>SFX/Gauntlets_removed_st_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="378356372" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Attach\Hose_Attach_Action_st_04.wav</ShortName>
-					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_04_10C4C929.wem</CachePath>
+				<File Id="373966381" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_04.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="415870232" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_11.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_11_10C4C929.wem</CachePath>
 				</File>
 				<File Id="429575234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_03.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="460075356" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Detach\Hose_Detach_Action_st_04.wav</ShortName>
-					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_04_10C4C929.wem</CachePath>
+				<File Id="430147072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_09.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432970922" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_12.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="444761480" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TowerTeleport_st_02.wav</ShortName>
+					<CachePath>SFX/TowerTeleport_st_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="476880696" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_01.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="488678152" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_06.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="534238515" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_03.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="566579785" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_02.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_02_10C4C929.wem</CachePath>
-				</File>
 				<File Id="587177144" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_09.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_09_10C4C929.wem</CachePath>
-				</File>
-				<File Id="597778814" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_04.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="607581665" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_06.wav</ShortName>
@@ -170,33 +158,25 @@
 					<ShortName>GunShots_MG_st_07.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_07_10C4C929.wem</CachePath>
 				</File>
-				<File Id="685689262" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Detach\Hose_Detach_Action_st_03.wav</ShortName>
-					<CachePath>SFX/Hose Detach/Hose_Detach_Action_st_03_10C4C929.wem</CachePath>
+				<File Id="659922904" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_05.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_05_10C4C929.wem</CachePath>
 				</File>
-				<File Id="695930686" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_12.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_12_10C4C929.wem</CachePath>
-				</File>
-				<File Id="728624745" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_07.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_07_10C4C929.wem</CachePath>
+				<File Id="703703744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_10.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="729581609" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_10.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_10_10C4C929.wem</CachePath>
 				</File>
-				<File Id="822983265" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Attach\Hose_Attach_Action_st_03.wav</ShortName>
-					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_03_10C4C929.wem</CachePath>
+				<File Id="774625947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_06.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_06_10C4C929.wem</CachePath>
 				</File>
-				<File Id="847957236" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_09.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_09_10C4C929.wem</CachePath>
-				</File>
-				<File Id="852006449" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_05.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_05_10C4C929.wem</CachePath>
+				<File Id="824803110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_01.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="867281220" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gauntlets_removed_st_04.wav</ShortName>
@@ -206,33 +186,33 @@
 					<ShortName>GunShots_MG_st_08.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_08_10C4C929.wem</CachePath>
 				</File>
-				<File Id="943519233" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_15.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_15_10C4C929.wem</CachePath>
+				<File Id="970726339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MGTeleportInside_st_01.wav</ShortName>
+					<CachePath>SFX/MGTeleportInside_st_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="966664214" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_FreezeTower_Bed_St_Lp.wav</ShortName>
-					<CachePath>SFX/BG_FreezeTower_Bed_St_Lp_81238AE1.wem</CachePath>
-				</File>
-				<File Id="969619404" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Hose Attach\Hose_Attach_Action_st_05.wav</ShortName>
-					<CachePath>SFX/Hose Attach/Hose_Attach_Action_st_05_10C4C929.wem</CachePath>
+				<File Id="976681347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SoundSpawn_st_01.wav</ShortName>
+					<CachePath>SFX/SoundSpawn_st_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="986900328" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_05.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="991945362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MGTeleportOutside_st_01.wav</ShortName>
+					<CachePath>SFX/MGTeleportOutside_st_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1001316500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_12-01.wav</ShortName>
 					<CachePath>SFX/GunShots_MG_st_12-01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1044032444" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_08.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_08_10C4C929.wem</CachePath>
+				<File Id="1030676139" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GunReload_MG_st_03.wav</ShortName>
+					<CachePath>SFX/GunReload_MG_st_03_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1050473814" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BG_Emitters_MetalClanks_m_11.wav</ShortName>
-					<CachePath>SFX/BG_Emitters_MetalClanks_m_11_10C4C929.wem</CachePath>
+				<File Id="1069480296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TowerTeleport_st_01.wav</ShortName>
+					<CachePath>SFX/TowerTeleport_st_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1070785610" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>GunShots_MG_st_02.wav</ShortName>
@@ -241,40 +221,32 @@
 			</Media>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="3043085106" Name="High_Impact" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="1459522457" Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" LibName="Wwise Peak Limiter" LibId="7208963"/>
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="815800906" Name="Play_BG_Bed_FreezeTower" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="966664214"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="3633114514" Name="Play_BG_Emitters_FreezeTower" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="37885765"/>
-						<MediaRef Id="43726054"/>
-						<MediaRef Id="230944078"/>
-						<MediaRef Id="295230145"/>
-						<MediaRef Id="488678152"/>
-						<MediaRef Id="534238515"/>
-						<MediaRef Id="566579785"/>
-						<MediaRef Id="597778814"/>
-						<MediaRef Id="695930686"/>
-						<MediaRef Id="728624745"/>
-						<MediaRef Id="847957236"/>
-						<MediaRef Id="852006449"/>
-						<MediaRef Id="943519233"/>
-						<MediaRef Id="1044032444"/>
-						<MediaRef Id="1050473814"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="88190814" Name="Play_Guantlets_Removed" DurationType="OneShot" DurationMin="0.61672914" DurationMax="0.877625">
 					<MediaRefs>
 						<MediaRef Id="43573776"/>
 						<MediaRef Id="326576073"/>
 						<MediaRef Id="354801752"/>
 						<MediaRef Id="867281220"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2433647738" Name="Play_GunReload_MG" DurationType="OneShot" DurationMin="2.472" DurationMax="3">
+					<MediaRefs>
+						<MediaRef Id="124079548"/>
+						<MediaRef Id="131746596"/>
+						<MediaRef Id="287443011"/>
+						<MediaRef Id="373966381"/>
+						<MediaRef Id="415870232"/>
+						<MediaRef Id="430147072"/>
+						<MediaRef Id="432970922"/>
+						<MediaRef Id="659922904"/>
+						<MediaRef Id="703703744"/>
+						<MediaRef Id="774625947"/>
+						<MediaRef Id="824803110"/>
+						<MediaRef Id="1030676139"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3799363950" Name="Play_GunShots_MG" DurationType="OneShot" DurationMin="3.7836876" DurationMax="4.7556458">
@@ -292,32 +264,37 @@
 						<MediaRef Id="1001316500"/>
 						<MediaRef Id="1070785610"/>
 					</MediaRefs>
-				</Event>
-				<Event Id="1123099683" Name="Play_Hose_Attach" DurationType="OneShot" DurationMin="0.77796215" DurationMax="1.2883884">
-					<MediaRefs>
-						<MediaRef Id="224133299"/>
-						<MediaRef Id="341994421"/>
-						<MediaRef Id="378356372"/>
-						<MediaRef Id="822983265"/>
-						<MediaRef Id="969619404"/>
-					</MediaRefs>
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="3043085106"/>
+							<PluginRef Id="1459522457"/>
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="979387025" Name="Play_Hose_Detach" DurationType="OneShot" DurationMin="0.8430567" DurationMax="1.5028706">
+				<Event Id="3458602636" Name="Play_MGTowerTeleportInside" DurationType="OneShot" DurationMin="1.87875" DurationMax="1.87875">
 					<MediaRefs>
-						<MediaRef Id="113534043"/>
-						<MediaRef Id="163031530"/>
-						<MediaRef Id="460075356"/>
-						<MediaRef Id="685689262"/>
+						<MediaRef Id="970726339"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3940456661" Name="Play_MGTowerTeleportOutside" DurationType="OneShot" DurationMin="1.4773333" DurationMax="1.4773333">
+					<MediaRefs>
+						<MediaRef Id="991945362"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2860685928" Name="Play_SoundSpawn" DurationType="OneShot" DurationMin="1.7355833" DurationMax="1.7355833">
+					<MediaRefs>
+						<MediaRef Id="976681347"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4023936788" Name="Play_TowerTeleport" DurationType="OneShot" DurationMin="3.6555417" DurationMax="3.9833333">
+					<MediaRefs>
+						<MediaRef Id="444761480"/>
+						<MediaRef Id="1069480296"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3912010892" Name="Stop_Spin_Wheel" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{F0147BEC-42F3-DB2E-349D-BF97447C683B}">
+		<SoundBank Id="4154996803" Type="User" Language="SFX" Hash="{6D90F741-8D27-3757-388C-39D095D9E183}">
 			<ShortName>Test_SoundBank</ShortName>
 			<Path>Test_SoundBank.bnk</Path>
 			<Media>
@@ -373,5 +350,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3AF0E9FE-BBAD-897E-0A4A-B95D9BF9B693}</FileHash>
+	<FileHash>{0702796C-A114-530F-A7F7-C0487F557B8D}</FileHash>
 </SoundBanksInfo>

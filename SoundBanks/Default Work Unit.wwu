@@ -5,12 +5,15 @@
 			<ChildrenList>
 				<SoundBank Name="Main_SoundBank" ID="{50F2FB20-800E-4D51-B1CE-51FFD37AB280}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Hose_Detach" ID="{A31FC156-8815-4409-9061-91819D1A8291}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TowerTeleport" ID="{7987BAC5-826F-401A-8C89-12503AC4E19C}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Spin_Wheel" ID="{E2BFAF12-2426-4194-B55A-E2146046AA7D}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GunReload_MG" ID="{B61959AF-4115-439B-8D00-CAB0E2E5F602}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GunShots_MG" ID="{DB553BC4-56D6-4490-8470-305CD30FA086}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_BG_Emitters_FreezeTower" ID="{F1A20D92-0F36-45FE-93D2-9C0982DE2CD4}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_BG_Bed_FreezeTower" ID="{D7D71B98-7EF9-488E-A859-8FE8B47F235E}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MGTowerTeleportOutside" ID="{48062350-B90A-48CB-9059-51B76E130891}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Break_WWISECHECK" ID="{AF75493A-581C-48E1-8D38-1F3361E0FC4A}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Guantlets_Removed" ID="{A6411B16-AEA1-4A9F-B01C-8830E19E8A40}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Hose_Attach" ID="{5BD7D748-B00D-4C8B-8A45-00C12031D164}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SoundSpawn" ID="{E4983D49-6B05-4B2E-B3D0-BA17A4528D7A}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MGTowerTeleportInside" ID="{0B63CBC7-84AE-4C8D-B08B-8B8073BEBA67}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

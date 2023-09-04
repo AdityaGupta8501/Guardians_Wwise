@@ -337,6 +337,28 @@
 						</BlendTrack>
 					</BlendTrackList>
 				</BlendContainer>
+				<Sound Name="New Sound SFX" ID="{D14EC7B8-70D3-4923-A235-D17E7B8F67B4}" ShortID="758064669">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DRUMS_NightShade_BPM126" ID="{1125B736-B741-43C6-8CB1-A8D97F2688FB}">
+							<Language>SFX</Language>
+							<AudioFile>DRUMS_NightShade_BPM126.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="957009378"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DRUMS_NightShade_BPM126" ID="{1125B736-B741-43C6-8CB1-A8D97F2688FB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

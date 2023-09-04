@@ -216,6 +216,89 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GunReload_MG" ID="{B61959AF-4115-439B-8D00-CAB0E2E5F602}">
+					<ChildrenList>
+						<Action Name="" ID="{8537FBEC-4A6B-494E-A05A-DA84A46AD9DF}" ShortID="178240367">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GunReload_MG" ID="{6456E0E1-6DA0-4688-8977-DE368C05F092}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TowerTeleport" ID="{7987BAC5-826F-401A-8C89-12503AC4E19C}">
+					<ChildrenList>
+						<Action Name="" ID="{86A6311E-3E54-4B36-BE8D-B13F6A449DA9}" ShortID="85316161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TowerTeleport" ID="{01F9230A-FADF-457D-AD8D-EF5F0929AB4D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MGTowerTeleportInside" ID="{0B63CBC7-84AE-4C8D-B08B-8B8073BEBA67}">
+					<ChildrenList>
+						<Action Name="" ID="{8A3EE5C6-380F-4139-A339-C47DECD87B6C}" ShortID="590196815">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MGTowerTeleportInside" ID="{376E0EFE-8666-4A32-912A-03A16CEEF70E}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MGTowerTeleportOutside" ID="{48062350-B90A-48CB-9059-51B76E130891}">
+					<ChildrenList>
+						<Action Name="" ID="{8DED5DF2-5496-4591-B953-AD0397067C19}" ShortID="119203857">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MGTowerTeleportOutside" ID="{3EB3C65F-A5E4-4E10-B28D-2DE8BB2EE8ED}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SoundSpawn" ID="{E4983D49-6B05-4B2E-B3D0-BA17A4528D7A}">
+					<ChildrenList>
+						<Action Name="" ID="{D7983E49-05A3-4000-865A-7345638C129C}" ShortID="342058373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoundSpawn" ID="{075AB5EA-4629-4995-9AF8-0931B8B32519}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Break_New_Sound_SFX" ID="{D3A3B212-F54A-4D2E-ACCF-B475EC2BF3B3}">
+					<ChildrenList>
+						<Action Name="" ID="{FF7BA5AA-AED8-4424-BD57-AA8B6DD7EE73}" ShortID="767474473">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="New Sound SFX" ID="{D14EC7B8-70D3-4923-A235-D17E7B8F67B4}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Break_WWISECHECK" ID="{AF75493A-581C-48E1-8D38-1F3361E0FC4A}">
+					<ChildrenList>
+						<Action Name="" ID="{FA841AB7-D260-44BA-BDD8-CBF15308C68C}" ShortID="452198237">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="34"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WWISECHECK" ID="{7A15514A-C7FB-4904-BB4D-D6FF29A80E06}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

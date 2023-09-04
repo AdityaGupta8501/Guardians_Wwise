@@ -2,9 +2,10 @@
 <PluginInfo Platform="Android" BasePlatform="Android">
 	<PluginLibs>
 		<PluginLib LibName="Wwise Sine" LibId="6553602" Type="Source" DLL="AkSineTone" StaticLib="AkSineSource"/>
-		<PluginLib LibName="Wwise Compressor" LibId="7077891" Type="Effect" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
+		<PluginLib LibName="Wwise Peak Limiter" LibId="7208963" Type="Effect" DLL="AkPeakLimiter" StaticLib="AkPeakLimiterFX"/>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{22E7EB29-C3AD-2F11-1D9C-34284E5CB72F}</FileHash>
+	<FileHash>{E939C77D-51CC-A0AC-5DD5-11B3257F1B82}</FileHash>
 </PluginInfo>

@@ -16,11 +16,17 @@ State	ID	Name	State Group			Notes
 	3678545986	MachineGun	TowerLocationState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	264242718	2D_AMB			\Default Work Unit\Master Audio Bus\AmbientMaster\2D_AMB	
+	688538249	MiscalleniuosMaster			\Default Work Unit\Master Audio Bus\MiscalleniuosMaster	
 	1459460693	AmbientMaster			\Default Work Unit\Master Audio Bus\AmbientMaster	
-	1934441993	3D_AMB			\Default Work Unit\Master Audio Bus\AmbientMaster\3D_AMB	
+	1681633080	SFXMaster			\Default Work Unit\Master Audio Bus\SFXMaster	
 	3538689948	PlayerMaster			\Default Work Unit\Master Audio Bus\PlayerMaster	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1795671573	FreezeTower_Verb			\Default Work Unit\Master Audio Bus\AmbientMaster\FreezeTower_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1706684651	Plate_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -2,9 +2,10 @@
 <PluginInfo Platform="Mac" BasePlatform="Mac">
 	<PluginLibs>
 		<PluginLib LibName="Wwise Sine" LibId="6553602" Type="Source" DLL="AkSineTone" StaticLib="AkSineSource"/>
-		<PluginLib LibName="Wwise Compressor" LibId="7077891" Type="Effect" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
+		<PluginLib LibName="Wwise Peak Limiter" LibId="7208963" Type="Effect" DLL="AkPeakLimiter" StaticLib="AkPeakLimiterFX"/>
+		<PluginLib LibName="Wwise RoomVerb" LibId="7733251" Type="Effect" DLL="AkRoomVerb" StaticLib="AkRoomVerbFX"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{ADA5FBEE-C9C5-FBA6-8D00-7B5204B5CAE3}</FileHash>
+	<FileHash>{BF612220-7434-8D78-64D4-128D5F42A3A5}</FileHash>
 </PluginInfo>

@@ -837,6 +837,11 @@
 								<Sound Name="BG_Bed_MGTower" ID="{53F69F5F-E8EB-4FAA-8C8F-31E946F19AC1}" ShortID="185949604">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2256,6 +2261,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="GunReload_MG" ID="{6456E0E1-6DA0-4688-8977-DE368C05F092}" ShortID="594602136">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -4082,6 +4094,186 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="WWISECHECK" ID="{7A15514A-C7FB-4904-BB4D-D6FF29A80E06}" ShortID="470777050">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Miscallenious" ID="{EFCC2AA0-67DD-4131-B822-7B37BBF8F60B}" ShortID="13646016">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<ActorMixer Name="Miscallenious_ActorMixer" ID="{E2061A8D-59DA-4061-877F-E8230B08F1C8}" ShortID="1032035547">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="MiscalleniuosMaster" ID="{12E007BE-3C6D-4301-B97B-8A5D40117EA4}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="TowerTeleport" ID="{01F9230A-FADF-457D-AD8D-EF5F0929AB4D}" ShortID="328816141">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TowerTeleport_st_02" ID="{89459043-7F4C-4AF6-9EDA-C9E25753AA04}" ShortID="251793856">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TowerTeleport_st_02" ID="{D5AD2EE7-06FA-4EA2-846A-E9B3E50AEF11}">
+													<Language>SFX</Language>
+													<AudioFile>TowerTeleport_st_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="444761480"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TowerTeleport_st_02" ID="{D5AD2EE7-06FA-4EA2-846A-E9B3E50AEF11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TowerTeleport_st_01" ID="{CC0796C3-953B-4FDB-BE1A-66DA01FB34F6}" ShortID="810530538">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TowerTeleport_st_01" ID="{DC49837C-08A8-4E7A-AB84-D892EF37D792}">
+													<Language>SFX</Language>
+													<AudioFile>TowerTeleport_st_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1069480296"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TowerTeleport_st_01" ID="{DC49837C-08A8-4E7A-AB84-D892EF37D792}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="SoundSpawn" ID="{075AB5EA-4629-4995-9AF8-0931B8B32519}" ShortID="128837971">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SoundSpawn_st_01" ID="{7E4B201C-1C21-450C-9B2F-5E379CEDC7FF}">
+											<Language>SFX</Language>
+											<AudioFile>SoundSpawn_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="976681347"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SoundSpawn_st_01" ID="{7E4B201C-1C21-450C-9B2F-5E379CEDC7FF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MGTowerTeleportOutside" ID="{3EB3C65F-A5E4-4E10-B28D-2DE8BB2EE8ED}" ShortID="964315943">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MGTeleportOutside_st_01" ID="{E7DA7C45-D156-4D35-8DFF-2F70E0B2C606}">
+											<Language>SFX</Language>
+											<AudioFile>MGTeleportOutside_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="991945362"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MGTeleportOutside_st_01" ID="{E7DA7C45-D156-4D35-8DFF-2F70E0B2C606}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MGTowerTeleportInside" ID="{376E0EFE-8666-4A32-912A-03A16CEEF70E}" ShortID="443182475">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MGTeleportInside_st_01" ID="{0520861F-D4BC-48FE-9068-74771493973F}">
+											<Language>SFX</Language>
+											<AudioFile>MGTeleportInside_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="970726339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MGTeleportInside_st_01" ID="{0520861F-D4BC-48FE-9068-74771493973F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

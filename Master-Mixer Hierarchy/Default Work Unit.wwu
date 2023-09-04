@@ -37,6 +37,12 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Bus>
+						<Bus Name="MiscalleniuosMaster" ID="{12E007BE-3C6D-4301-B97B-8A5D40117EA4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
