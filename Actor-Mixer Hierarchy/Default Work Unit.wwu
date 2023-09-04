@@ -2677,6 +2677,106 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Gauntlet_Equipable" ID="{9FA63BB2-3B91-4645-A83C-910F1A3C5BB8}" ShortID="726892716">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gauntlet_Equipable_m_01" ID="{93406769-0087-4D37-99EF-CB6EA948F9A7}" ShortID="732847137">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlet_Equipable_m_01" ID="{CEED1848-D10D-4FBE-B105-BB31DBCCCD13}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlet_Equipable_m_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="427365901"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlet_Equipable_m_01" ID="{CEED1848-D10D-4FBE-B105-BB31DBCCCD13}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gauntlet_Equipable_m_02" ID="{6E7EC447-7E3E-49B2-BB42-2EA4C8C36398}" ShortID="905504593">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlet_Equipable_m_02" ID="{77863A7E-50F9-4B76-8FFA-0F01C0267A35}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlet_Equipable_m_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="726407491"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlet_Equipable_m_02" ID="{77863A7E-50F9-4B76-8FFA-0F01C0267A35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gauntlet_Equipable_m_03" ID="{FD016BCB-2CC5-43F0-B21E-6A0621FFD133}" ShortID="724677283">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlet_Equipable_m_03" ID="{A3BA4EF8-B18D-4EAD-89F1-376335435AD5}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlet_Equipable_m_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120749713"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlet_Equipable_m_03" ID="{A3BA4EF8-B18D-4EAD-89F1-376335435AD5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gauntlet_Equipable_m_04" ID="{F1B40F05-C163-4281-AE60-D10840E9B858}" ShortID="183079819">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gauntlet_Equipable_m_04" ID="{E60AE4FB-5012-4B5C-8D4E-8364943DF0E8}">
+													<Language>SFX</Language>
+													<AudioFile>Gauntlet_Equipable_m_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="267284312"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gauntlet_Equipable_m_04" ID="{E60AE4FB-5012-4B5C-8D4E-8364943DF0E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
@@ -2693,649 +2793,17 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="BatteryToy_HittingFunnel" ID="{AA0968E2-FFFE-4F3C-BC0E-3989B6C2E70F}" ShortID="564239110">
+								<ActorMixer Name="SolarTower_SFX" ID="{264F8D5A-0959-4B80-B83B-C6F0C1C3FEE1}" ShortID="457472023">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="BatteryToy_Hitting_Funnel_m_01" ID="{6027C575-EFE2-499E-98EC-1A210325506B}" ShortID="458813077">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BatteryToy_Hitting_Funnel_m_01" ID="{0F4AEDEE-BD31-440D-8128-7BBA38E1B754}">
-													<Language>SFX</Language>
-													<AudioFile>BatteryToy_Hitting_Funnel_m_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1067363892"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BatteryToy_Hitting_Funnel_m_01" ID="{0F4AEDEE-BD31-440D-8128-7BBA38E1B754}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BatteryToy_Hitting_Funnel_m_02" ID="{7C98DEE7-13D1-4CC1-BD56-A1560A799879}" ShortID="300327636">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BatteryToy_Hitting_Funnel_m_02" ID="{11D3E42E-2425-4CAB-B06A-0A4D12C929AE}">
-													<Language>SFX</Language>
-													<AudioFile>BatteryToy_Hitting_Funnel_m_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="870831512"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BatteryToy_Hitting_Funnel_m_02" ID="{11D3E42E-2425-4CAB-B06A-0A4D12C929AE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="BatteryToy_Hitting_Funnel_m_03" ID="{493A3FCF-0D59-4B24-A7BA-7530DC764889}" ShortID="151677032">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="BatteryToy_Hitting_Funnel_m_03" ID="{147B0AB9-F614-44DE-934A-395AE5B3C6DF}">
-													<Language>SFX</Language>
-													<AudioFile>BatteryToy_Hitting_Funnel_m_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="64768221"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="BatteryToy_Hitting_Funnel_m_03" ID="{147B0AB9-F614-44DE-934A-395AE5B3C6DF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="EnergyTransfer_Success" ID="{18E570A3-EE28-4173-A868-B0CF0C28BA03}" ShortID="970541547">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="EnergyTransfer_Success_st_07" ID="{4317D507-C242-44BB-B787-5FC674EBCC13}" ShortID="650490790">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_07" ID="{5F27D09D-70D0-4EE4-B511-CAB38D953587}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_07.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="218636368"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_07" ID="{5F27D09D-70D0-4EE4-B511-CAB38D953587}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_08" ID="{F997D0F1-3905-4D88-AE09-8CDAFDC4C2E4}" ShortID="876473352">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_08" ID="{FB1327F7-39DF-4C4A-BCA6-1358E2ACA6B5}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_08.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1040940967"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_08" ID="{FB1327F7-39DF-4C4A-BCA6-1358E2ACA6B5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_01" ID="{43B211D0-A8EA-4E6B-A96C-CF7B766B7FE0}" ShortID="114326070">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_01" ID="{65CEF567-B06D-4383-A990-7CE3021ABE11}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="746565886"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_01" ID="{65CEF567-B06D-4383-A990-7CE3021ABE11}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_02" ID="{35D808FD-D9B6-424A-8C8D-9E79136A7FE7}" ShortID="530924811">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_02" ID="{E3A4B00C-CF73-4FBC-9941-59462F3BC332}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="521310999"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_02" ID="{E3A4B00C-CF73-4FBC-9941-59462F3BC332}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_03" ID="{96216DD7-68F9-4204-820B-29EAC90A4D4F}" ShortID="535246749">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_03" ID="{11425763-D738-477A-B9CB-A6DF40B57D89}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="675292188"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_03" ID="{11425763-D738-477A-B9CB-A6DF40B57D89}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_04" ID="{17E5157A-3D4B-4923-8A4A-04483EC40C13}" ShortID="706635059">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_04" ID="{BBD80839-11B4-4C85-9046-ABDE6B5D21BE}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1000564484"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_04" ID="{BBD80839-11B4-4C85-9046-ABDE6B5D21BE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_05" ID="{E35662D3-7C1D-443E-94D4-BBACD09711DA}" ShortID="844161606">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_05" ID="{DE9E5318-36E5-4B32-9429-BFE53470B69F}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_05.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="90230995"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_05" ID="{DE9E5318-36E5-4B32-9429-BFE53470B69F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="EnergyTransfer_Success_st_06" ID="{BA4A98B6-8AE8-4B79-A740-C9BCB945BCA7}" ShortID="625846939">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="EnergyTransfer_Success_st_06" ID="{35D78396-C1C3-4352-8F3E-075A773396EA}">
-													<Language>SFX</Language>
-													<AudioFile>EnergyTransfer_Success_st_06.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="28533238"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="EnergyTransfer_Success_st_06" ID="{35D78396-C1C3-4352-8F3E-075A773396EA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="TowerWheel_Turn_Ready" ID="{D469B534-01B9-4AA4-99D9-3874947CC243}" ShortID="97000402">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="TowerWheel_Turn_Ready_st_01" ID="{CA8C2226-DCC4-4F23-899D-28D7F81F151A}" ShortID="490365176">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="TowerWheel_Turn_Ready_st_01" ID="{876A749C-94E7-44CD-AF43-DADFA072309F}">
-													<Language>SFX</Language>
-													<AudioFile>TowerWheel_Turn_Ready_st_01.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="80928360"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="TowerWheel_Turn_Ready_st_01" ID="{876A749C-94E7-44CD-AF43-DADFA072309F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="TowerWheel_Turn_Ready_st_02" ID="{3060391D-AD4A-4F05-B0E0-2DA41D894DB1}" ShortID="902476231">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="TowerWheel_Turn_Ready_st_02" ID="{D4AFD56D-ABC3-4B03-B1BF-917CC541CA19}">
-													<Language>SFX</Language>
-													<AudioFile>TowerWheel_Turn_Ready_st_02.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="476581739"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="TowerWheel_Turn_Ready_st_02" ID="{D4AFD56D-ABC3-4B03-B1BF-917CC541CA19}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="TowerWheel_Turn_Ready_st_03" ID="{4B4DF5FE-80F7-4D8E-BD22-424E231158F6}" ShortID="590305465">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="TowerWheel_Turn_Ready_st_03" ID="{C60944EF-3CD3-4FC1-BAA9-7FEF13FA74D5}">
-													<Language>SFX</Language>
-													<AudioFile>TowerWheel_Turn_Ready_st_03.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="166308595"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="TowerWheel_Turn_Ready_st_03" ID="{C60944EF-3CD3-4FC1-BAA9-7FEF13FA74D5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="TowerWheel_Turn_Ready_st_04" ID="{8F9EE3AA-DC87-45EA-97BB-71BB93BA64FF}" ShortID="10623686">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="TowerWheel_Turn_Ready_st_04" ID="{D0B86B3B-FCCD-47B5-BB76-D00436A171F5}">
-													<Language>SFX</Language>
-													<AudioFile>TowerWheel_Turn_Ready_st_04.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="5956511"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="TowerWheel_Turn_Ready_st_04" ID="{D0B86B3B-FCCD-47B5-BB76-D00436A171F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<Sound Name="SolarCell_Charging_Loop" ID="{1F7D4D12-3438-46CC-97DD-0934F0B742E6}" ShortID="513379691">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="SolarCell_Charging_Loop_st_01" ID="{2111DEEE-86E5-4A48-8D72-41A64A66CDAC}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.0369646115211152"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0235229346043462"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.497342045920459"/>
-												<Property Name="LoopEnd" Type="Real64" Value="1.01148618798688"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="2.50015190651907"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>SolarCell_Charging_Loop_st_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="478616108"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{358CA80F-F8C9-4967-878E-B229ED19E3E0}" ShortID="678903312">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Pitch"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="RTPC_SolarCellCharging_PitchChange" ID="{845AB91A-21F3-4BD4-9E67-95397EAEB045}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{F5CAD895-6E26-47AE-9225-8024E225C68F}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="65537"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-50</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>10</XPos>
-																				<YPos>500</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-									<ActiveSourceList>
-										<ActiveSource Name="SolarCell_Charging_Loop_st_01" ID="{2111DEEE-86E5-4A48-8D72-41A64A66CDAC}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<BlendContainer Name="Temp_WheelTurn" ID="{0E63981C-EC6C-4291-BFA0-14E7768E7BCA}" ShortID="283553376">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<BlendContainer Name="WheelTurn_loopSpeed" ID="{27A3C923-0D11-43E3-8959-394256AA826D}" ShortID="101042786">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16">
-													<ValueList>
-														<Value>38</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="WheelTurn_loopSpeed_st_High" ID="{028A5AFC-4732-458C-B74E-AE8E63EDD1F3}" ShortID="966835561">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-660</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="WheelTurn_loopSpeed_st_High" ID="{CF9F9D31-2F6F-4BE0-9CC7-57DFEC6D7D9B}">
-															<Language>SFX</Language>
-															<AudioFile>WheelTurn_loopSpeed_st_High.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1022919500"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="WheelTurn_loopSpeed_st_High" ID="{CF9F9D31-2F6F-4BE0-9CC7-57DFEC6D7D9B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="WheelTurn_loopSpeed_st_Low" ID="{09FBD0F9-7D52-4DA3-8356-C55B58FAF819}" ShortID="135155143">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-660</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="WheelTurn_loopSpeed_st_Low" ID="{717FC571-D641-4DBC-A49E-655483C5E941}">
-															<Language>SFX</Language>
-															<AudioFile>WheelTurn_loopSpeed_st_Low.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="161281821"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="WheelTurn_loopSpeed_st_Low" ID="{717FC571-D641-4DBC-A49E-655483C5E941}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="WheelTurn_loopSpeed_st_Med-High" ID="{9EF0F0CA-AC32-4FC9-BD81-57A30097DBBA}" ShortID="909009868">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-660</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="WheelTurn_loopSpeed_st_Med-High" ID="{8913CE69-8D07-48FF-909E-203324E79069}">
-															<Language>SFX</Language>
-															<AudioFile>WheelTurn_loopSpeed_st_Med-High.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="624490268"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="WheelTurn_loopSpeed_st_Med-High" ID="{8913CE69-8D07-48FF-909E-203324E79069}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="WheelTurn_loopSpeed_st_Medium" ID="{2156482E-D96B-4F93-A227-03B5AFA4BF37}" ShortID="244606315">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-660</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="WheelTurn_loopSpeed_st_Medium" ID="{8703B030-6D49-4275-9C69-F9F43A9CDE83}">
-															<Language>SFX</Language>
-															<AudioFile>WheelTurn_loopSpeed_st_Medium.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1067580100"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="WheelTurn_loopSpeed_st_Medium" ID="{8703B030-6D49-4275-9C69-F9F43A9CDE83}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<BlendTrackList>
-												<BlendTrack Name="WheelTurnSpeed_Solar" ID="{9EC84CC9-F4BE-4E59-930A-A572F9EB0D59}" ShortID="807832448">
-													<PropertyList>
-														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="LayerCrossFadeControlInput">
-															<ObjectRef Name="RTPC_WheelTurnSpeed_Solar" ID="{3915D2F0-D669-4B12-9425-3426F09A275E}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
-														</Reference>
-													</ReferenceList>
-													<BlendTrackAssocList>
-														<BlendTrackAssoc>
-															<ItemRef Name="WheelTurn_loopSpeed_st_Low" ID="{09FBD0F9-7D52-4DA3-8356-C55B58FAF819}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>0</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>2.48917171344165</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-														<BlendTrackAssoc>
-															<ItemRef Name="WheelTurn_loopSpeed_st_Medium" ID="{2156482E-D96B-4F93-A227-03B5AFA4BF37}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>1.50394276218612</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>4.96627658788774</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-														<BlendTrackAssoc>
-															<ItemRef Name="WheelTurn_loopSpeed_st_Med-High" ID="{9EF0F0CA-AC32-4FC9-BD81-57A30097DBBA}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>4.03360985967504</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>7.42325877031019</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-														<BlendTrackAssoc>
-															<ItemRef Name="WheelTurn_loopSpeed_st_High" ID="{028A5AFC-4732-458C-B74E-AE8E63EDD1F3}"/>
-															<CrossfadingInfo>
-																<LeftEdgePos>6.57801961779912</LeftEdgePos>
-																<LeftFadingMode>Automatic</LeftFadingMode>
-																<RightEdgePos>10</RightEdgePos>
-																<RightFadingMode>Automatic</RightFadingMode>
-															</CrossfadingInfo>
-														</BlendTrackAssoc>
-													</BlendTrackAssocList>
-												</BlendTrack>
-											</BlendTrackList>
-										</BlendContainer>
-										<Sound Name="Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247" ID="{DF3406A6-6F19-4990-A153-0BB7F6F1EF2A}" ShortID="1043084762">
+										<Sound Name="SolarCell_Charging_Loop" ID="{1F7D4D12-3438-46CC-97DD-0934F0B742E6}" ShortID="513379691">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
@@ -3344,68 +2812,856 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 												</Reference>
 												<Reference Name="OutputBus">
+													<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SolarCell_Charging_Loop_st_01" ID="{2111DEEE-86E5-4A48-8D72-41A64A66CDAC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0369646115211152"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0235229346043462"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.497342045920459"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.01148618798688"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.50015190651907"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>SolarCell_Charging_Loop_st_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="478616108"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{358CA80F-F8C9-4967-878E-B229ED19E3E0}" ShortID="678903312">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Pitch"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="RTPC_SolarCellCharging_PitchChange" ID="{845AB91A-21F3-4BD4-9E67-95397EAEB045}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{F5CAD895-6E26-47AE-9225-8024E225C68F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-50</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>10</XPos>
+																						<YPos>500</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="SolarCell_Charging_Loop_st_01" ID="{2111DEEE-86E5-4A48-8D72-41A64A66CDAC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="TowerWheel_Turn_Ready" ID="{D469B534-01B9-4AA4-99D9-3874947CC243}" ShortID="97000402">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="TowerWheel_Turn_Ready_st_01" ID="{CA8C2226-DCC4-4F23-899D-28D7F81F151A}" ShortID="490365176">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="TowerWheel_Turn_Ready_st_01" ID="{876A749C-94E7-44CD-AF43-DADFA072309F}">
+															<Language>SFX</Language>
+															<AudioFile>TowerWheel_Turn_Ready_st_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="80928360"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="TowerWheel_Turn_Ready_st_01" ID="{876A749C-94E7-44CD-AF43-DADFA072309F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="TowerWheel_Turn_Ready_st_02" ID="{3060391D-AD4A-4F05-B0E0-2DA41D894DB1}" ShortID="902476231">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="TowerWheel_Turn_Ready_st_02" ID="{D4AFD56D-ABC3-4B03-B1BF-917CC541CA19}">
+															<Language>SFX</Language>
+															<AudioFile>TowerWheel_Turn_Ready_st_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="476581739"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="TowerWheel_Turn_Ready_st_02" ID="{D4AFD56D-ABC3-4B03-B1BF-917CC541CA19}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="TowerWheel_Turn_Ready_st_03" ID="{4B4DF5FE-80F7-4D8E-BD22-424E231158F6}" ShortID="590305465">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="TowerWheel_Turn_Ready_st_03" ID="{C60944EF-3CD3-4FC1-BAA9-7FEF13FA74D5}">
+															<Language>SFX</Language>
+															<AudioFile>TowerWheel_Turn_Ready_st_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="166308595"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="TowerWheel_Turn_Ready_st_03" ID="{C60944EF-3CD3-4FC1-BAA9-7FEF13FA74D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="TowerWheel_Turn_Ready_st_04" ID="{8F9EE3AA-DC87-45EA-97BB-71BB93BA64FF}" ShortID="10623686">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="TowerWheel_Turn_Ready_st_04" ID="{D0B86B3B-FCCD-47B5-BB76-D00436A171F5}">
+															<Language>SFX</Language>
+															<AudioFile>TowerWheel_Turn_Ready_st_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="5956511"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="TowerWheel_Turn_Ready_st_04" ID="{D0B86B3B-FCCD-47B5-BB76-D00436A171F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<BlendContainer Name="Temp_WheelTurn" ID="{0E63981C-EC6C-4291-BFA0-14E7768E7BCA}" ShortID="283553376">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<BlendContainer Name="WheelTurn_loopSpeed" ID="{27A3C923-0D11-43E3-8959-394256AA826D}" ShortID="101042786">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>38</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="WheelTurn_loopSpeed_st_High" ID="{028A5AFC-4732-458C-B74E-AE8E63EDD1F3}" ShortID="966835561">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-660</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="WheelTurn_loopSpeed_st_High" ID="{CF9F9D31-2F6F-4BE0-9CC7-57DFEC6D7D9B}">
+																	<Language>SFX</Language>
+																	<AudioFile>WheelTurn_loopSpeed_st_High.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1022919500"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="WheelTurn_loopSpeed_st_High" ID="{CF9F9D31-2F6F-4BE0-9CC7-57DFEC6D7D9B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="WheelTurn_loopSpeed_st_Low" ID="{09FBD0F9-7D52-4DA3-8356-C55B58FAF819}" ShortID="135155143">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-660</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="WheelTurn_loopSpeed_st_Low" ID="{717FC571-D641-4DBC-A49E-655483C5E941}">
+																	<Language>SFX</Language>
+																	<AudioFile>WheelTurn_loopSpeed_st_Low.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="161281821"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="WheelTurn_loopSpeed_st_Low" ID="{717FC571-D641-4DBC-A49E-655483C5E941}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="WheelTurn_loopSpeed_st_Med-High" ID="{9EF0F0CA-AC32-4FC9-BD81-57A30097DBBA}" ShortID="909009868">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-660</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="WheelTurn_loopSpeed_st_Med-High" ID="{8913CE69-8D07-48FF-909E-203324E79069}">
+																	<Language>SFX</Language>
+																	<AudioFile>WheelTurn_loopSpeed_st_Med-High.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="624490268"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="WheelTurn_loopSpeed_st_Med-High" ID="{8913CE69-8D07-48FF-909E-203324E79069}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="WheelTurn_loopSpeed_st_Medium" ID="{2156482E-D96B-4F93-A227-03B5AFA4BF37}" ShortID="244606315">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-660</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="WheelTurn_loopSpeed_st_Medium" ID="{8703B030-6D49-4275-9C69-F9F43A9CDE83}">
+																	<Language>SFX</Language>
+																	<AudioFile>WheelTurn_loopSpeed_st_Medium.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1067580100"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="WheelTurn_loopSpeed_st_Medium" ID="{8703B030-6D49-4275-9C69-F9F43A9CDE83}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<BlendTrackList>
+														<BlendTrack Name="WheelTurnSpeed_Solar" ID="{9EC84CC9-F4BE-4E59-930A-A572F9EB0D59}" ShortID="807832448">
+															<PropertyList>
+																<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="LayerCrossFadeControlInput">
+																	<ObjectRef Name="RTPC_WheelTurnSpeed_Solar" ID="{3915D2F0-D669-4B12-9425-3426F09A275E}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
+																</Reference>
+															</ReferenceList>
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="WheelTurn_loopSpeed_st_Low" ID="{09FBD0F9-7D52-4DA3-8356-C55B58FAF819}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>0</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>2.48917171344165</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="WheelTurn_loopSpeed_st_Medium" ID="{2156482E-D96B-4F93-A227-03B5AFA4BF37}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>1.50394276218612</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>4.96627658788774</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="WheelTurn_loopSpeed_st_Med-High" ID="{9EF0F0CA-AC32-4FC9-BD81-57A30097DBBA}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>4.03360985967504</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>7.42325877031019</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="WheelTurn_loopSpeed_st_High" ID="{028A5AFC-4732-458C-B74E-AE8E63EDD1F3}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>6.57801961779912</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>10</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+												<Sound Name="Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247" ID="{DF3406A6-6F19-4990-A153-0BB7F6F1EF2A}" ShortID="1043084762">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247" ID="{CFAB0386-33E2-4A2B-9505-27DEFE3C48F0}">
+															<Language>SFX</Language>
+															<AudioFile>Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="168528729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247" ID="{CFAB0386-33E2-4A2B-9505-27DEFE3C48F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{BFDF14A8-4F1D-4F01-A0D1-C1E51C5EE8D6}" ShortID="612812441">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Pitch"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="RTPC_WheelTurnSpeed_Solar" ID="{3915D2F0-D669-4B12-9425-3426F09A275E}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{A8755143-D341-40DB-981B-D3B1FE522A9A}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-690</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>5.98244</XPos>
+																						<YPos>-260</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>10</XPos>
+																						<YPos>-240</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</BlendContainer>
+										<RandomSequenceContainer Name="BatteryToy_HittingFunnel" ID="{AA0968E2-FFFE-4F3C-BC0E-3989B6C2E70F}" ShortID="564239110">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="BatteryToy_Hitting_Funnel_m_01" ID="{6027C575-EFE2-499E-98EC-1A210325506B}" ShortID="458813077">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BatteryToy_Hitting_Funnel_m_01" ID="{0F4AEDEE-BD31-440D-8128-7BBA38E1B754}">
+															<Language>SFX</Language>
+															<AudioFile>BatteryToy_Hitting_Funnel_m_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1067363892"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BatteryToy_Hitting_Funnel_m_01" ID="{0F4AEDEE-BD31-440D-8128-7BBA38E1B754}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BatteryToy_Hitting_Funnel_m_02" ID="{7C98DEE7-13D1-4CC1-BD56-A1560A799879}" ShortID="300327636">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BatteryToy_Hitting_Funnel_m_02" ID="{11D3E42E-2425-4CAB-B06A-0A4D12C929AE}">
+															<Language>SFX</Language>
+															<AudioFile>BatteryToy_Hitting_Funnel_m_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="870831512"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BatteryToy_Hitting_Funnel_m_02" ID="{11D3E42E-2425-4CAB-B06A-0A4D12C929AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="BatteryToy_Hitting_Funnel_m_03" ID="{493A3FCF-0D59-4B24-A7BA-7530DC764889}" ShortID="151677032">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="BatteryToy_Hitting_Funnel_m_03" ID="{147B0AB9-F614-44DE-934A-395AE5B3C6DF}">
+															<Language>SFX</Language>
+															<AudioFile>BatteryToy_Hitting_Funnel_m_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="64768221"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="BatteryToy_Hitting_Funnel_m_03" ID="{147B0AB9-F614-44DE-934A-395AE5B3C6DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="EnergyTransfer_Success" ID="{18E570A3-EE28-4173-A868-B0CF0C28BA03}" ShortID="970541547">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="EnergyTransfer_Success_st_07" ID="{4317D507-C242-44BB-B787-5FC674EBCC13}" ShortID="650490790">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_07" ID="{5F27D09D-70D0-4EE4-B511-CAB38D953587}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="218636368"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_07" ID="{5F27D09D-70D0-4EE4-B511-CAB38D953587}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_08" ID="{F997D0F1-3905-4D88-AE09-8CDAFDC4C2E4}" ShortID="876473352">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_08" ID="{FB1327F7-39DF-4C4A-BCA6-1358E2ACA6B5}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1040940967"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_08" ID="{FB1327F7-39DF-4C4A-BCA6-1358E2ACA6B5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_01" ID="{43B211D0-A8EA-4E6B-A96C-CF7B766B7FE0}" ShortID="114326070">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_01" ID="{65CEF567-B06D-4383-A990-7CE3021ABE11}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="746565886"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_01" ID="{65CEF567-B06D-4383-A990-7CE3021ABE11}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_02" ID="{35D808FD-D9B6-424A-8C8D-9E79136A7FE7}" ShortID="530924811">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_02" ID="{E3A4B00C-CF73-4FBC-9941-59462F3BC332}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="521310999"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_02" ID="{E3A4B00C-CF73-4FBC-9941-59462F3BC332}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_03" ID="{96216DD7-68F9-4204-820B-29EAC90A4D4F}" ShortID="535246749">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_03" ID="{11425763-D738-477A-B9CB-A6DF40B57D89}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675292188"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_03" ID="{11425763-D738-477A-B9CB-A6DF40B57D89}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_04" ID="{17E5157A-3D4B-4923-8A4A-04483EC40C13}" ShortID="706635059">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_04" ID="{BBD80839-11B4-4C85-9046-ABDE6B5D21BE}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1000564484"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_04" ID="{BBD80839-11B4-4C85-9046-ABDE6B5D21BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_05" ID="{E35662D3-7C1D-443E-94D4-BBACD09711DA}" ShortID="844161606">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_05" ID="{DE9E5318-36E5-4B32-9429-BFE53470B69F}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="90230995"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_05" ID="{DE9E5318-36E5-4B32-9429-BFE53470B69F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="EnergyTransfer_Success_st_06" ID="{BA4A98B6-8AE8-4B79-A740-C9BCB945BCA7}" ShortID="625846939">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EnergyTransfer_Success_st_06" ID="{35D78396-C1C3-4352-8F3E-075A773396EA}">
+															<Language>SFX</Language>
+															<AudioFile>EnergyTransfer_Success_st_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="28533238"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EnergyTransfer_Success_st_06" ID="{35D78396-C1C3-4352-8F3E-075A773396EA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Battery_Reloading_PokingOut" ID="{7E8D16E5-C9B1-4B67-A538-179B372DFD3D}" ShortID="247815669">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247" ID="{CFAB0386-33E2-4A2B-9505-27DEFE3C48F0}">
+												<Sound Name="Battery_Reloading_PoppingOut_m_04" ID="{4A7021B1-E3A4-447F-A9D2-0016A9083C7D}" ShortID="131632975">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Battery_Reloading_PoppingOut_m_04" ID="{39EC0278-D82E-4711-9C87-9C8AD84414BC}">
+															<Language>SFX</Language>
+															<AudioFile>Battery_Reloading_PoppingOut_m_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="386425933"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Battery_Reloading_PoppingOut_m_04" ID="{39EC0278-D82E-4711-9C87-9C8AD84414BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Battery_Reloading_PoppingOut_m_01" ID="{164A561F-A262-4972-9368-469C59BAB785}" ShortID="726323344">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Battery_Reloading_PoppingOut_m_01" ID="{C1D65158-DC59-48D3-8872-A567C9625678}">
+															<Language>SFX</Language>
+															<AudioFile>Battery_Reloading_PoppingOut_m_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="14868152"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Battery_Reloading_PoppingOut_m_01" ID="{C1D65158-DC59-48D3-8872-A567C9625678}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Battery_Reloading_PoppingOut_m_02" ID="{066688C3-4588-41E6-8EF9-0BBA472FA2B5}" ShortID="225246342">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Battery_Reloading_PoppingOut_m_02" ID="{FD985C65-4383-4D8D-846B-57B8B2441A5E}">
+															<Language>SFX</Language>
+															<AudioFile>Battery_Reloading_PoppingOut_m_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="343382133"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Battery_Reloading_PoppingOut_m_02" ID="{FD985C65-4383-4D8D-846B-57B8B2441A5E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Battery_Reloading_PoppingOut_m_03" ID="{D16EE6C8-E42F-41DE-8C5F-A8C158AD4465}" ShortID="632100223">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Battery_Reloading_PoppingOut_m_03" ID="{3DCE4C33-C5DA-45AC-AD13-F280A4542650}">
+															<Language>SFX</Language>
+															<AudioFile>Battery_Reloading_PoppingOut_m_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="755964759"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Battery_Reloading_PoppingOut_m_03" ID="{3DCE4C33-C5DA-45AC-AD13-F280A4542650}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Battery_Pop" ID="{220DD0F7-D230-4708-ADB5-AF5C23FB4304}" ShortID="839545102">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Battery_Pop_m_01" ID="{9D82BAC6-2AA4-4029-A01A-2314EAA14BA7}">
 													<Language>SFX</Language>
-													<AudioFile>Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247.wav</AudioFile>
+													<AudioFile>Battery_Pop_m_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="168528729"/>
+														<MediaID ID="156641769"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Vehicles, Mechanism, Car, Steering Wheel, Turning, Handling SND4247" ID="{CFAB0386-33E2-4A2B-9505-27DEFE3C48F0}" Platform="Linked"/>
+												<ActiveSource Name="Battery_Pop_m_01" ID="{9D82BAC6-2AA4-4029-A01A-2314EAA14BA7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Battery_Eject" ID="{C0344AC1-5478-4E7F-8D2B-00E87C7E6C96}" ShortID="1051846141">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Battery_Eject_m_01" ID="{EB2DB125-8EAE-4218-8B29-FD66F6A4675E}">
+													<Language>SFX</Language>
+													<AudioFile>Battery_Eject_m_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="319073613"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Battery_Eject_m_01" ID="{EB2DB125-8EAE-4218-8B29-FD66F6A4675E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{BFDF14A8-4F1D-4F01-A0D1-C1E51C5EE8D6}" ShortID="612812441">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Pitch"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="RTPC_WheelTurnSpeed_Solar" ID="{3915D2F0-D669-4B12-9425-3426F09A275E}" WorkUnitID="{9518042C-F934-4DEB-96BE-25EA9B875D3F}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{A8755143-D341-40DB-981B-D3B1FE522A9A}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="65537"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-690</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>5.98244</XPos>
-																				<YPos>-260</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>10</XPos>
-																				<YPos>-240</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</BlendContainer>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="FreezeTower_SFX" ID="{DD62D1EC-A9CB-4EC5-86A0-DF986898CC69}" ShortID="263240852">
@@ -4228,16 +4484,6 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
-						<Sound Name="WWISECHECK" ID="{7A15514A-C7FB-4904-BB4D-D6FF29A80E06}" ShortID="470777050">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-								</Reference>
-							</ReferenceList>
-						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Miscallenious" ID="{EFCC2AA0-67DD-4131-B822-7B37BBF8F60B}" ShortID="13646016">

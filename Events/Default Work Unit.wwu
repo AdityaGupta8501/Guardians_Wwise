@@ -271,34 +271,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Break_New_Sound_SFX" ID="{D3A3B212-F54A-4D2E-ACCF-B475EC2BF3B3}">
-					<ChildrenList>
-						<Action Name="" ID="{FF7BA5AA-AED8-4424-BD57-AA8B6DD7EE73}" ShortID="767474473">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="34"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="New Sound SFX" ID="{D14EC7B8-70D3-4923-A235-D17E7B8F67B4}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Break_WWISECHECK" ID="{AF75493A-581C-48E1-8D38-1F3361E0FC4A}">
-					<ChildrenList>
-						<Action Name="" ID="{FA841AB7-D260-44BA-BDD8-CBF15308C68C}" ShortID="452198237">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="34"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="WWISECHECK" ID="{7A15514A-C7FB-4904-BB4D-D6FF29A80E06}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Gameplay_WaveStart" ID="{5C2DED9E-2CE2-47DA-A355-ABA639621089}">
 					<ChildrenList>
 						<Action Name="" ID="{C0622017-C123-48AD-BE68-804493E2735B}" ShortID="231067359">
