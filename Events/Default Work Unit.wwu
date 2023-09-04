@@ -299,6 +299,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gameplay_WaveStart" ID="{5C2DED9E-2CE2-47DA-A355-ABA639621089}">
+					<ChildrenList>
+						<Action Name="" ID="{C0622017-C123-48AD-BE68-804493E2735B}" ShortID="231067359">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay_WaveStart" ID="{A9B2DABC-6309-4F7E-BAFD-86DC5CF6021B}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EmptyChamber_Needs_Reloads" ID="{42059659-68DD-4EF7-B50F-87F9A8D35C91}">
+					<ChildrenList>
+						<Action Name="" ID="{A164102F-96E6-4635-9353-28A438795C45}" ShortID="1046635894">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EmptyChamber_Needs_Reloads" ID="{0C0F17C1-E0A6-49B8-8902-2302C3359FA5}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MGFire_NoBullets" ID="{AF1F2A53-1F59-48E5-B09E-8673693A6D85}">
+					<ChildrenList>
+						<Action Name="" ID="{490267F9-31EE-4E08-B761-0A616BBDB536}" ShortID="26694933">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MGFire_NoBullets" ID="{D64F5D62-ADB6-494D-A4E2-081666FBA744}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
