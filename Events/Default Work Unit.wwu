@@ -119,7 +119,7 @@
 						<Action Name="" ID="{2843B30D-AF23-48AF-B943-5E9C29CBB466}" ShortID="84173653">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Spin_Wheel" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+									<ObjectRef Name="Spin_Wheel_FreezeTower" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -133,7 +133,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Spin_Wheel" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+									<ObjectRef Name="Spin_Wheel_FreezeTower" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -299,6 +299,112 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MGFire_NoBullets" ID="{D64F5D62-ADB6-494D-A4E2-081666FBA744}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmbientTowerChoice" ID="{BA792063-9D55-4CE3-A089-69D8D739EDE2}">
+					<ChildrenList>
+						<Action Name="" ID="{8CA46D84-DBDC-4647-8695-FEA296122857}" ShortID="785485964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbientTowerChoice" ID="{E25E265D-191E-4C64-8B25-3B0C24DBA08E}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MachineGunEmpty" ID="{FB2B2628-4D81-4856-89A8-D7B6B0ADD522}">
+					<ChildrenList>
+						<Action Name="" ID="{9137744A-F71B-4F35-B46F-4F291F46C3F1}" ShortID="1068638410">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MachineGunEmpty" ID="{B6CE3404-C24D-4233-887D-EF519C1472AE}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SoundDestroyed" ID="{1D400E56-40E0-4100-9872-E2174ED343E4}">
+					<ChildrenList>
+						<Action Name="" ID="{11E83740-D7A9-45FA-B045-31447315F6D8}" ShortID="784461526">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SoundDestroyed" ID="{ED615B53-7D42-4FF5-BBF2-B6201559FBAF}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EnergyAbsorbedBtTower" ID="{A23E679B-E49C-4061-A5ED-47EA3E294F81}">
+					<ChildrenList>
+						<Action Name="" ID="{A0EF2A4C-AE60-4DED-A3A9-63108F82F9A7}" ShortID="631354035">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EnergyAbsorbedBtTower" ID="{DDDFAEF0-6396-4F4E-9ECA-CA65376E3BCE}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurningWheelVertically_Freeze" ID="{FB2FB223-D4F0-4BBE-A77D-CE7A4CA0A025}">
+					<ChildrenList>
+						<Action Name="" ID="{46E11FBF-6957-4E08-B190-AA515D45185B}" ShortID="917411573">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurningWheelVertically_Freeze" ID="{085ED994-4E36-4574-B376-B3F099C4D3BD}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HitSound" ID="{E8861A6C-3B8B-4E45-8C2C-4F6496AC6F35}">
+					<ChildrenList>
+						<Action Name="" ID="{BAF02958-82B2-4E25-B83A-36293EB38D75}" ShortID="207969418">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HitSound" ID="{8CD22B40-21A6-42E3-8498-D0F7DC926BB0}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HordeOnIce" ID="{F16A6444-9044-4EB8-A066-A4F87728B640}">
+					<ChildrenList>
+						<Action Name="" ID="{4B6211FD-01E6-4137-8731-3D87E8F1791C}" ShortID="487528164">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HordeOnIce" ID="{B249BB05-D65A-400A-9A08-FE1EB2485283}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gauntlet_Equipable" ID="{2618F3F3-3BB4-41F3-9054-8F55E2480D46}">
+					<ChildrenList>
+						<Action Name="" ID="{4D5652E9-EAE9-46F4-B875-A8883C9D80B8}" ShortID="19409755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gauntlet_Equipable" ID="{9FA63BB2-3B91-4645-A83C-910F1A3C5BB8}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FreezeTower_Ambience" ID="{5CF2D890-75DA-4C83-BA3C-7AA3A5CB24BE}">
+					<ChildrenList>
+						<Action Name="" ID="{4D4F2A88-141A-4C40-8C7E-67103D7EB05B}" ShortID="793582468">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Emitter_MetalClanks_Sequence" ID="{2C6087F3-CDDE-432D-8E50-14D1EF1E09F9}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CAFE188D-569C-4F13-964A-7792A7F24C64}" ShortID="494862598">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BG_Bed_FreezeTower" ID="{9D94BC9D-3F5B-4798-83E9-4C49CBB5B356}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

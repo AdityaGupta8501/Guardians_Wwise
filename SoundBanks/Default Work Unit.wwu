@@ -6,13 +6,23 @@
 				<SoundBank Name="Main_SoundBank" ID="{50F2FB20-800E-4D51-B1CE-51FFD37AB280}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_TowerTeleport" ID="{7987BAC5-826F-401A-8C89-12503AC4E19C}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EnergyAbsorbedBtTower" ID="{A23E679B-E49C-4061-A5ED-47EA3E294F81}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SoundDestroyed" ID="{1D400E56-40E0-4100-9872-E2174ED343E4}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Spin_Wheel" ID="{E2BFAF12-2426-4194-B55A-E2146046AA7D}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Gauntlet_Equipable" ID="{2618F3F3-3BB4-41F3-9054-8F55E2480D46}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GunReload_MG" ID="{B61959AF-4115-439B-8D00-CAB0E2E5F602}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GunShots_MG" ID="{DB553BC4-56D6-4490-8470-305CD30FA086}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Gameplay_WaveStart" ID="{5C2DED9E-2CE2-47DA-A355-ABA639621089}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MachineGunEmpty" ID="{FB2B2628-4D81-4856-89A8-D7B6B0ADD522}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MGTowerTeleportOutside" ID="{48062350-B90A-48CB-9059-51B76E130891}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MGFire_NoBullets" ID="{AF1F2A53-1F59-48E5-B09E-8673693A6D85}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Guantlets_Removed" ID="{A6411B16-AEA1-4A9F-B01C-8830E19E8A40}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SoundSpawn" ID="{E4983D49-6B05-4B2E-B3D0-BA17A4528D7A}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TurningWheelVertically_Freeze" ID="{FB2FB223-D4F0-4BBE-A77D-CE7A4CA0A025}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MGTowerTeleportInside" ID="{0B63CBC7-84AE-4C8D-B08B-8B8073BEBA67}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AmbientTowerChoice" ID="{BA792063-9D55-4CE3-A089-69D8D739EDE2}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HitSound" ID="{E8861A6C-3B8B-4E45-8C2C-4F6496AC6F35}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HordeOnIce" ID="{F16A6444-9044-4EB8-A066-A4F87728B640}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
