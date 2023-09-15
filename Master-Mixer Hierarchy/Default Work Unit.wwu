@@ -23,6 +23,13 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<Bus Name="2DAmbience" ID="{59871C49-8618-41E8-970A-9118B112C1A8}"/>
+								<Bus Name="3DAmbience" ID="{A01B5BF2-93EE-4573-9434-48E508BE3920}"/>
+								<Bus Name="AmbientBeds" ID="{D564DD29-76B7-4C16-8AB1-3C238524CCC4}">
+									<ChildrenList>
+										<Bus Name="2DAmbienceBed" ID="{A543B3AD-C12A-46A7-8C04-E47F4FD4DD20}"/>
+									</ChildrenList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="PlayerMaster" ID="{568FA1B5-75F6-409D-A7F6-5819538A5742}">

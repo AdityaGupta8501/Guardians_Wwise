@@ -410,6 +410,138 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambience_Main_Switch" ID="{AD322898-767F-4AE5-B4AB-F3A49F47B9B2}">
+					<ChildrenList>
+						<Action Name="" ID="{C41A395E-3CA7-4A6E-9185-C671FF2FBE5E}" ShortID="1056245663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience_SwitchContainer" ID="{7DC647B1-25D2-441A-A910-954F09A8D856}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MinimapButtonRollover" ID="{CA92E9C1-A4A8-4DF1-B19A-E6651BF44088}">
+					<ChildrenList>
+						<Action Name="" ID="{6E37ED79-19AC-4837-9ABF-5D3CBD12F322}" ShortID="481694449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinimapButtonRollover" ID="{27381A74-1787-4CB6-8A49-4ECB47B231B6}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MinimapClose" ID="{1A223569-3E6C-46DD-BFB3-F0514DECCB8D}">
+					<ChildrenList>
+						<Action Name="" ID="{F2720E89-1401-4675-93C0-46AF373F3364}" ShortID="115564659">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinimapClose" ID="{C8E1BE2C-C2DF-4120-B85E-F62D40C85377}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MinimapOpen" ID="{1E837A7B-B5A5-46EF-B05E-E134F4987A2D}">
+					<ChildrenList>
+						<Action Name="" ID="{B51A2E5E-5E10-4058-A3B8-BE5968F98864}" ShortID="547833725">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinimapOpen" ID="{300564A6-7B50-4D35-B180-762C97FACFFA}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MinimapRangeMaterialize" ID="{A19E2350-9F33-46AD-BBEF-584CAB4512A6}">
+					<ChildrenList>
+						<Action Name="" ID="{98A454E1-167B-4579-8FFB-E8A479D11196}" ShortID="980352830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MinimapRangeMaterialize" ID="{933E992A-CE8E-4100-9C42-4523853078CC}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BatteryInterfaceButtonPress" ID="{F6260AEE-8331-4029-89ED-0C279B096CEA}">
+					<ChildrenList>
+						<Action Name="" ID="{AEAC5CFB-4BC6-4B35-8C30-8EFF1EF0A861}" ShortID="732292618">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatteryInterfaceButtonPress" ID="{87DAB2FD-8B79-4231-A32C-1E08F54C5C6D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BatteryInterfaceEnergyDownloading" ID="{D5A7A37F-2508-43E0-983C-65E370516A03}">
+					<ChildrenList>
+						<Action Name="" ID="{44205B4D-1D17-4C24-AB12-E1606DA736CF}" ShortID="145038146">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatteryInterfaceEnergyDownloading" ID="{1BF6992F-EED6-4737-A11B-9025EF174D62}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BatteryInterfaceEnergyTransferComplete" ID="{85FA0FB5-3432-4244-8C75-B34B9EC7139A}">
+					<ChildrenList>
+						<Action Name="" ID="{8228BC15-5D7D-43C0-92AA-CFAD519ACE6D}" ShortID="994842082">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatteryInterfaceEnergyTransferComplete" ID="{83C08671-4B3F-4CF1-B026-D5F21925408B}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BatteryInterfaceEnergyUploading" ID="{1DBA08B7-A28D-4921-9B41-323016967CE5}">
+					<ChildrenList>
+						<Action Name="" ID="{1EDD29B8-C418-45F0-B9D6-9A2E14C2F9D7}" ShortID="921182213">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatteryInterfaceEnergyUploading" ID="{53658FEF-D8DE-4474-9448-D35E5E6F7CB6}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CloseBatteryInterfaceShutters" ID="{C25B51C4-60F7-407C-802B-F5F3A28602B4}">
+					<ChildrenList>
+						<Action Name="" ID="{DC75182C-6B31-428B-AF23-EE7D8E341EED}" ShortID="1030918336">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CloseBatteryInterfaceShutters" ID="{3E0417DE-39BC-47AD-9F20-C378A1C3683F}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OpenBatteryInterfaceShutters" ID="{650F6278-2B4E-41AB-A031-2D66724EB1C4}">
+					<ChildrenList>
+						<Action Name="" ID="{586F2842-856F-42F6-A3FA-D075C90B091B}" ShortID="367032305">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenBatteryInterfaceShutters" ID="{E77AE5BC-59B0-49A5-9BB9-7663915B3786}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UpgradeTower" ID="{7ACB6541-9EB1-40E7-A72E-3DFC7546BDD9}">
+					<ChildrenList>
+						<Action Name="" ID="{5E483FEC-6DD1-41B9-B886-4ECC406EAA16}" ShortID="87111406">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UpgradeTower" ID="{97B9AE64-F182-49A9-91D1-2F3377D50D8D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
