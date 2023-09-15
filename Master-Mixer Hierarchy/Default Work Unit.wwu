@@ -10,50 +10,13 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="AmbientMaster" ID="{D36AB677-803C-40C9-B2A0-73CF61824503}">
+						<Bus Name="Stereo Master" ID="{0D41EAD4-B7CF-4A4F-B8A3-026D555A607A}">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="4"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<AuxBus Name="FreezeTower_Verb" ID="{20C1B762-2DE2-4037-9B3F-B0AF3CF63C9E}">
-									<ReferenceList>
-										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
-											<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-										</Reference>
-									</ReferenceList>
-								</AuxBus>
-								<Bus Name="2DAmbience" ID="{59871C49-8618-41E8-970A-9118B112C1A8}"/>
-								<Bus Name="3DAmbience" ID="{A01B5BF2-93EE-4573-9434-48E508BE3920}"/>
-								<Bus Name="AmbientBeds" ID="{D564DD29-76B7-4C16-8AB1-3C238524CCC4}">
-									<ChildrenList>
-										<Bus Name="2DAmbienceBed" ID="{A543B3AD-C12A-46A7-8C04-E47F4FD4DD20}"/>
-									</ChildrenList>
-								</Bus>
-							</ChildrenList>
-						</Bus>
-						<Bus Name="PlayerMaster" ID="{568FA1B5-75F6-409D-A7F6-5819538A5742}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="2"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="SFXMaster" ID="{2AAA1E61-63EB-432C-916E-0B1D2242EB95}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="19"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="MiscalleniuosMaster" ID="{12E007BE-3C6D-4301-B97B-8A5D40117EA4}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="16"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-						</Bus>
-						<Bus Name="GameplayMaster" ID="{EF1FE836-40CC-450B-A19B-08C415C7478F}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="8"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 						</Bus>
 					</ChildrenList>
