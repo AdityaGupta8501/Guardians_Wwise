@@ -3,73 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_SineWave" ID="{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{CAEB431C-120D-42DC-913B-09D5C1172458}" ShortID="542500077">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SineWave440Hz" ID="{016A7014-139C-4564-9EAB-C6E0AD834EC2}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_MagicWand" ID="{15C35C91-9E5F-45DE-8567-EDE6E23DF1AF}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{4A2C3D7B-30B5-4DA5-96A7-53402B7664B2}" ShortID="176641237">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MagicWand" ID="{33457306-5363-488D-8F26-05D5D2EC8193}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SineWave_220" ID="{C2F0971D-64CA-4D24-8898-C6CFD09934DD}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="25"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{C975C8F1-A045-4574-AF64-24144B798FFD}" ShortID="165259459">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SineWave220Hz" ID="{9CA84255-397E-40A7-A7A0-B837D9B71336}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="TestMusic" ID="{8FC34E09-D7BE-4360-94C4-1F7246B887AB}">
-					<ChildrenList>
-						<Action Name="" ID="{74967D55-2D69-4D83-A66E-391A96554626}" ShortID="368330526">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TestMusic" ID="{152DFCE2-D07A-458B-B6EA-640797C6F218}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_GlassShatter" ID="{AB7D07EA-B932-4E3D-871F-78F74AA0D308}">
-					<ChildrenList>
-						<Action Name="" ID="{B8234C6B-5B63-4D4C-81E0-EA4703460CBB}" ShortID="866907864">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GlassShatter" ID="{08CBF317-45D3-4237-B4F6-073E08DC41C4}" WorkUnitID="{C9994B18-9407-4617-9399-C30EC2DEB1F6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_BG_Emitters_FreezeTower" ID="{F1A20D92-0F36-45FE-93D2-9C0982DE2CD4}">
 					<ChildrenList>
 						<Action Name="" ID="{49C3A382-DBFB-45E9-8D00-921B599B6DE6}" ShortID="814584859">
@@ -175,17 +108,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Gameplay_WaveStart" ID="{A9B2DABC-6309-4F7E-BAFD-86DC5CF6021B}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_MGFire_NoBullets" ID="{AF1F2A53-1F59-48E5-B09E-8673693A6D85}">
-					<ChildrenList>
-						<Action Name="" ID="{490267F9-31EE-4E08-B761-0A616BBDB536}" ShortID="26694933">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MGFire_NoBullets" ID="{D64F5D62-ADB6-494D-A4E2-081666FBA744}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -490,17 +412,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SoundDestination" ID="{57A738C1-652A-4D1B-BFF2-A80C4EE2B867}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SoundDestroyed_01" ID="{394C98EE-D44A-48BE-8F38-9BF5A39B04A9}">
-					<ChildrenList>
-						<Action Name="" ID="{47CA89C4-3366-4D52-8873-0356EB982BA4}" ShortID="925253461">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="SoundDestroyed" ID="{ED615B53-7D42-4FF5-BBF2-B6201559FBAF}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1205,6 +1116,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="HitSound_BulletsHittingHorde" ID="{3CE5BB18-4C17-42C5-9DC5-5DEAE6623A72}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BatteryInterfaceUpgradeButtonPress" ID="{707CC274-5C31-4C2A-8A07-B20883FA65E8}">
+					<ChildrenList>
+						<Action Name="" ID="{59F37BDF-A08F-404D-AA17-16F82B0D44F2}" ShortID="73282246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BatteryInterfaceUpgradeButtonPress" ID="{A3ACD135-9771-448A-8EE0-D50B94C4EC31}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
