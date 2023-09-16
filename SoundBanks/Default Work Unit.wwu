@@ -107,17 +107,6 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Test_SoundBank" ID="{5A7CAB27-E6F5-47CC-8B61-416A014CEF04}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_SineWave" ID="{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="TestMusic" ID="{8FC34E09-D7BE-4360-94C4-1F7246B887AB}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_MagicWand" ID="{15C35C91-9E5F-45DE-8567-EDE6E23DF1AF}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SineWave_220" ID="{C2F0971D-64CA-4D24-8898-C6CFD09934DD}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GlassShatter" ID="{AB7D07EA-B932-4E3D-871F-78F74AA0D308}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
