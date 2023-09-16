@@ -25,17 +25,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Spin_Wheel" ID="{B916B4D6-1B24-426F-9084-9BC684E95360}">
-					<ChildrenList>
-						<Action Name="" ID="{2843B30D-AF23-48AF-B943-5E9C29CBB466}" ShortID="84173653">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spin_Wheel_FreezeTower" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_EnergyTransfer_Success" ID="{62661D7C-3B7A-400D-9BA3-97A0A05EAFF5}">
 					<ChildrenList>
 						<Action Name="" ID="{5DCAC6E0-AC32-48D5-9F42-E66E406FA4CF}" ShortID="774763099">
@@ -113,17 +102,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_AmbientTowerChoice" ID="{BA792063-9D55-4CE3-A089-69D8D739EDE2}">
-					<ChildrenList>
-						<Action Name="" ID="{8CA46D84-DBDC-4647-8695-FEA296122857}" ShortID="785485964">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="AmbientTowerChoice" ID="{E25E265D-191E-4C64-8B25-3B0C24DBA08E}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_SoundDestroyed" ID="{1D400E56-40E0-4100-9872-E2174ED343E4}">
 					<ChildrenList>
 						<Action Name="" ID="{11E83740-D7A9-45FA-B045-31447315F6D8}" ShortID="784461526">
@@ -192,17 +170,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BG_Bed_FreezeTower" ID="{9D94BC9D-3F5B-4798-83E9-4C49CBB5B356}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Ambience_Main_Switch" ID="{AD322898-767F-4AE5-B4AB-F3A49F47B9B2}">
-					<ChildrenList>
-						<Action Name="" ID="{C41A395E-3CA7-4A6E-9185-C671FF2FBE5E}" ShortID="1056245663">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ambience_SwitchContainer" ID="{7DC647B1-25D2-441A-A910-954F09A8D856}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -412,17 +379,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SoundDestination" ID="{57A738C1-652A-4D1B-BFF2-A80C4EE2B867}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_UnitHitDamage" ID="{765904E8-C127-4603-87D6-97D3833B6F38}">
-					<ChildrenList>
-						<Action Name="" ID="{30D7D303-DB67-412F-87AA-313033CF359F}" ShortID="530557053">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="UnitHitDamage" ID="{CF5FC58E-4932-4977-8BF1-F5A803A3DA7C}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -681,28 +637,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_TurretRotatingInside" ID="{5AC06516-7588-4D2F-B83E-1372C269559D}">
-					<ChildrenList>
-						<Action Name="" ID="{C1B7A4D7-E26C-4131-937E-5D17FD0B87B4}" ShortID="598639959">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TurretRotatingInside" ID="{61507989-CCAF-44F0-BF3B-3211546C6A7A}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TurretRotatingOutside" ID="{FC0FEC37-B39C-4C8B-9874-1E1249F88114}">
-					<ChildrenList>
-						<Action Name="" ID="{446A8DE3-4640-43A3-9367-AE0CC497F94A}" ShortID="534380233">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TurretRotatingOutside" ID="{68A9880D-ED19-4675-A358-62ACD01C93B5}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_AllSolarCellsCharged" ID="{DDF33626-4E7C-4B78-AB25-E481F5204CE8}">
 					<ChildrenList>
 						<Action Name="" ID="{6628CFBA-6B25-45E5-BD9F-F18DE26AF464}" ShortID="100211801">
@@ -874,17 +808,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FreezeChangeGears" ID="{3F52551E-F560-4F0B-BFBD-1C1FB3027977}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_TurretRotatingInside_01" ID="{CDE95B6D-D4A4-4F47-91D0-E1BE4C338CAE}">
-					<ChildrenList>
-						<Action Name="" ID="{8915700F-1DF8-4AD2-AED9-23E50C9F71CD}" ShortID="444513701">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TurretRotatingInside" ID="{7AB1AE9B-AC47-435C-94AD-69061287AD33}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -1077,39 +1000,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_RotateTurretInside" ID="{53BC8867-88CA-44CE-A7C7-DB818EE47CEC}">
-					<ChildrenList>
-						<Action Name="" ID="{995EBDE7-A793-4513-8627-CA825DD5B5B1}" ShortID="245251938">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RotateTurretInside" ID="{C05646DA-67CF-4815-933D-EE2F268AF4E8}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_RotateTurretOutside" ID="{8BE56262-92A3-4BE9-BB63-6F6CF30EFF13}">
-					<ChildrenList>
-						<Action Name="" ID="{A383BA1D-D90B-408D-AB49-24872FCFC90F}" ShortID="375105954">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RotateTurretOutside" ID="{9E8355CA-E771-4B01-ADE4-DD7B2E937E66}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_RotateTowerOutside" ID="{B5A6EDF5-850A-4633-89DB-A0C3F72D972A}">
-					<ChildrenList>
-						<Action Name="" ID="{EA344AE5-07B9-4A47-B868-57E620241E94}" ShortID="569775441">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="RotateTowerOutside" ID="{A12410E7-9284-444B-B7B6-D6E61FA9F551}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_HitSound_BulletsHittingHorde" ID="{28FF5FC5-F595-4041-8EE8-96C9A1E8BBA1}">
 					<ChildrenList>
 						<Action Name="" ID="{04FFF5FE-E3AD-4EA9-830D-071DC66EB9B6}" ShortID="73539152">
@@ -1127,6 +1017,149 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BatteryInterfaceUpgradeButtonPress" ID="{A3ACD135-9771-448A-8EE0-D50B94C4EC31}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UnitHitDamage_Phoddo" ID="{B6D4CF20-7853-4E0A-9AEB-9912D4493E68}">
+					<ChildrenList>
+						<Action Name="" ID="{EAA8703F-3E45-4089-A31B-09D8415DC205}" ShortID="1015689972">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UnitHitDamage_Phoddo" ID="{CF5FC58E-4932-4977-8BF1-F5A803A3DA7C}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HordeBattleCry_Zoomy" ID="{758DF823-2D85-4DAD-B233-CC2CB0BC7FC2}">
+					<ChildrenList>
+						<Action Name="" ID="{FDEA8442-809D-4DC9-8B59-55A5F3DD2D34}" ShortID="121731466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HordeBattleCry_Zoomy" ID="{DF694BC2-BD7C-484F-AE2C-958EA43D9FC9}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretRotatingOutside_Freeze" ID="{4D2C3497-79C2-4CEF-9084-4C7173D80D3E}">
+					<ChildrenList>
+						<Action Name="" ID="{CCDCEF70-3B07-489A-BA33-96D43A566A54}" ShortID="296956122">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurretRotatingOutside_Freeze" ID="{C47B072F-9601-46C4-AC8C-C4FC46181BF5}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretRotatingInside_Freeze" ID="{321EB805-5E78-4A93-966E-2520B2F864A0}">
+					<ChildrenList>
+						<Action Name="" ID="{0FAE9C30-7313-4EFF-B81B-A4B081058C95}" ShortID="871259962">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurretRotatingInside_Freeze" ID="{7AB1AE9B-AC47-435C-94AD-69061287AD33}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmbientTowerChoice" ID="{FA077968-3E7F-4090-BA44-F8EFD71133A4}">
+					<ChildrenList>
+						<Action Name="" ID="{6780FF4E-D83D-4287-B4A5-8B8B154E19EB}" ShortID="51880296">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbientTowerChoice" ID="{7DC647B1-25D2-441A-A910-954F09A8D856}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretRotatingOutside_MG" ID="{0B78D027-6231-4D17-BCDF-71D0685A4890}">
+					<ChildrenList>
+						<Action Name="" ID="{4467D47C-A207-47E5-9E99-30EE7C8A5F21}" ShortID="32541208">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurretRotatingOutside_MG" ID="{A12410E7-9284-444B-B7B6-D6E61FA9F551}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretRotatingInside_MG" ID="{3318C6BD-ABAC-4DC2-8F63-A9EDB7659998}">
+					<ChildrenList>
+						<Action Name="" ID="{579D777A-6450-4A50-B5F6-1322F30E58F5}" ShortID="691390831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurretRotatingInside_MG" ID="{C05646DA-67CF-4815-933D-EE2F268AF4E8}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RotateTowerOutside" ID="{F35E245A-000E-410A-A1D4-0F9FEA9C0A0E}">
+					<ChildrenList>
+						<Action Name="" ID="{50BDBD54-BC2E-4199-A23C-5A6D561ADDE7}" ShortID="134442296">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RotateTowerOutside" ID="{9E8355CA-E771-4B01-ADE4-DD7B2E937E66}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MachineGunRotate" ID="{714DD8C6-68BA-4F7E-AA5E-4FFBDCCC3403}">
+					<ChildrenList>
+						<Action Name="" ID="{41CACCBF-55AB-4C02-9768-740003721D96}" ShortID="819438045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MachineGunRotate" ID="{D29C6426-6F9B-48B4-95C6-749C6244008A}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretRotatingInside_Solar" ID="{A0E3833A-13F2-4E81-81DA-97E7C1BDACD2}">
+					<ChildrenList>
+						<Action Name="" ID="{D6AC5C6F-40CF-4F78-8A12-CB064C3574C7}" ShortID="3606067">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurretRotatingInside_Solar" ID="{61507989-CCAF-44F0-BF3B-3211546C6A7A}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretRotatingOutside_Solar" ID="{63C64401-4ADF-47FF-BA50-D097CF414F43}">
+					<ChildrenList>
+						<Action Name="" ID="{2EB7B658-ABA2-4A4C-81E7-0C0F59D692AF}" ShortID="164567209">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurretRotatingOutside_Solar" ID="{68A9880D-ED19-4675-A358-62ACD01C93B5}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurningWheel_Freeze" ID="{B04D2E64-E330-449A-B052-ACE674775E58}">
+					<ChildrenList>
+						<Action Name="" ID="{073A3277-2C0E-4AE1-A515-9128FCC638B2}" ShortID="197063913">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TurningWheel_Freeze" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MachineGunReload" ID="{CCF86DD5-3A43-422C-8FA1-D625B860BB5A}">
+					<ChildrenList>
+						<Action Name="" ID="{A7802600-D888-48B7-9318-F8916F0135D6}" ShortID="927982112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MachineGunReload" ID="{274417C0-A88A-4535-A9E8-3F5D264BBA80}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

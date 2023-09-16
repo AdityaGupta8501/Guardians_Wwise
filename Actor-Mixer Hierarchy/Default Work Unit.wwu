@@ -679,7 +679,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="UnitHitDamage" ID="{CF5FC58E-4932-4977-8BF1-F5A803A3DA7C}" ShortID="902621412">
+						<RandomSequenceContainer Name="UnitHitDamage_Phoddo" ID="{CF5FC58E-4932-4977-8BF1-F5A803A3DA7C}" ShortID="902621412">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -1000,6 +1000,36 @@
 								<ActiveSource Name="SoundSpawn_st_01" ID="{7E4B201C-1C21-450C-9B2F-5E379CEDC7FF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="HordeBattleCry_Zoomy" ID="{DF694BC2-BD7C-484F-AE2C-958EA43D9FC9}" ShortID="467938132">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="New Sound SFX" ID="{74448414-9F56-46CB-8D87-3F00321ED2A6}" ShortID="260858290">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{ABCBB732-395D-4C3D-8CE4-0340EAA4C75E}" ShortID="193417725" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{ABCBB732-395D-4C3D-8CE4-0340EAA4C75E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Gibis_SFX" ID="{9681AA23-1F6B-4A12-B9B7-128BDEC45AC7}" ShortID="659643186">
@@ -2648,7 +2678,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="TurretRotatingInside" ID="{61507989-CCAF-44F0-BF3B-3211546C6A7A}" ShortID="422559045">
+						<RandomSequenceContainer Name="TurretRotatingInside_Solar" ID="{61507989-CCAF-44F0-BF3B-3211546C6A7A}" ShortID="422559045">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="20"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -2682,7 +2712,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="TurretRotatingOutside" ID="{68A9880D-ED19-4675-A358-62ACD01C93B5}" ShortID="768090939">
+						<RandomSequenceContainer Name="TurretRotatingOutside_Solar" ID="{68A9880D-ED19-4675-A358-62ACD01C93B5}" ShortID="768090939">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="20"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -3236,7 +3266,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<BlendContainer Name="Spin_Wheel_FreezeTower" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" ShortID="67815307">
+						<BlendContainer Name="TurningWheel_Freeze" ID="{E716E5F1-59D7-4BA0-B3AB-76A2092BA55D}" ShortID="67815307">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="Highpass" Type="int16">
@@ -4858,7 +4888,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="TurretRotatingInside" ID="{7AB1AE9B-AC47-435C-94AD-69061287AD33}" ShortID="887127787">
+						<RandomSequenceContainer Name="TurretRotatingInside_Freeze" ID="{7AB1AE9B-AC47-435C-94AD-69061287AD33}" ShortID="887127787">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -4990,6 +5020,40 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Silence" ID="{C6BC5178-0F57-448D-9B50-2B4287C2A2A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="TurretRotatingOutside_Freeze" ID="{C47B072F-9601-46C4-AC8C-C4FC46181BF5}" ShortID="272429915">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="New Sound SFX" ID="{ADB2D8BE-76CF-4DE0-BC1F-73C796123AF4}" ShortID="439367854">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{8B76FF89-3FB3-459A-A03B-E9C81DC8C03F}" ShortID="626138308" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{8B76FF89-3FB3-459A-A03B-E9C81DC8C03F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -6060,7 +6124,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RotateTurretInside" ID="{C05646DA-67CF-4815-933D-EE2F268AF4E8}" ShortID="815013758">
+						<RandomSequenceContainer Name="TurretRotatingInside_MG" ID="{C05646DA-67CF-4815-933D-EE2F268AF4E8}" ShortID="815013758">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -6094,7 +6158,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RotateTurretOutside" ID="{9E8355CA-E771-4B01-ADE4-DD7B2E937E66}" ShortID="68272947">
+						<RandomSequenceContainer Name="RotateTowerOutside" ID="{9E8355CA-E771-4B01-ADE4-DD7B2E937E66}" ShortID="68272947">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -6128,7 +6192,7 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RotateTowerOutside" ID="{A12410E7-9284-444B-B7B6-D6E61FA9F551}" ShortID="586120898">
+						<RandomSequenceContainer Name="TurretRotatingOutside_MG" ID="{A12410E7-9284-444B-B7B6-D6E61FA9F551}" ShortID="586120898">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -6192,6 +6256,66 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MachineGunRotate" ID="{D29C6426-6F9B-48B4-95C6-749C6244008A}" ShortID="322770529">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="New Sound SFX" ID="{C1C05326-E582-4E68-9144-102CD96F2E04}" ShortID="345274615">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{909D9215-3A99-42A1-9628-893A4D7F1FE8}" ShortID="595768283" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{909D9215-3A99-42A1-9628-893A4D7F1FE8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="MachineGunReload" ID="{274417C0-A88A-4535-A9E8-3F5D264BBA80}" ShortID="692423713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="New Sound SFX" ID="{DE1B7721-035E-4B8B-AB9F-87F11E6A6754}" ShortID="337207304">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{D617A5AB-BB40-4452-95EB-E83F3290E72C}" ShortID="331833357" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{D617A5AB-BB40-4452-95EB-E83F3290E72C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambience_MainMixer" ID="{A5366E2C-9852-4C4E-8368-09A2BE5AE972}" ShortID="1068188867">
@@ -6208,7 +6332,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="Ambience_SwitchContainer" ID="{7DC647B1-25D2-441A-A910-954F09A8D856}" ShortID="152217509">
+						<SwitchContainer Name="AmbientTowerChoice" ID="{7DC647B1-25D2-441A-A910-954F09A8D856}" ShortID="152217509">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
