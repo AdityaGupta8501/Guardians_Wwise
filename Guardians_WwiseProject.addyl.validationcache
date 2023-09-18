@@ -119,7 +119,7 @@
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Switches\Default Work Unit.wwu" DateLow="1694902364" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\States\Default Work Unit.wwu" DateLow="1694754398" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1694813038" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1695000956" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Queries\Factory Queries.wwu" DateLow="1688151692" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Queries\Default Work Unit.wwu" DateLow="1689389852" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1688151692" DateHigh="0"/>
@@ -131,10 +131,10 @@
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Music.wwu" DateLow="1694981864" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Guardians_WwiseProject.wproj" DateLow="1693548102" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Guardians_WwiseProject.addyl.wsettings" DateLow="1694983308" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Guardians_WwiseProject.addyl.wsettings" DateLow="1695065520" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1693347902" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Events\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Effects\Factory Effects.wwu" DateLow="1688151692" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Events\Default Work Unit.wwu" DateLow="1694986146" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Effects\Factory Effects.wwu" DateLow="1695062092" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Effects\Default Work Unit.wwu" DateLow="1693372412" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1689389850" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1688151692" DateHigh="0"/>
@@ -143,5 +143,5 @@
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1689389850" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1689389852" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Test_WorkUnit.wwu" DateLow="1693548190" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1695065518" DateHigh="0"/>
 </ValidationCache>

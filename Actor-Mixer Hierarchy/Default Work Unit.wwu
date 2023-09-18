@@ -632,7 +632,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{99D46A94-978D-445E-AAAD-55A881C6C8AF}" ShortID="13850376">
+								<Sound Name="Phoddo Jump_st_R" ID="{30168367-45C5-459D-B18E-1F3D6AF91D01}" ShortID="26548419">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -642,12 +642,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{58A7FFA5-F739-46FC-B44B-A287292CBA82}" ShortID="905568668" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Phoddo Jump_st_R" ID="{ADA7422F-DC1B-41D6-8163-E87854E7B4DF}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Phoddo Jump_st.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="882445986"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{58A7FFA5-F739-46FC-B44B-A287292CBA82}" Platform="Linked"/>
+										<ActiveSource Name="Phoddo Jump_st_R" ID="{ADA7422F-DC1B-41D6-8163-E87854E7B4DF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -662,7 +666,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{D926F95C-2395-4E8D-B866-9C258AE63BF0}" ShortID="649233397">
+								<Sound Name="Phoddo Stereo_16" ID="{0A4E0D5F-00D5-4E78-819A-4850C1E08FB3}" ShortID="211573403">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -672,12 +676,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{20B05968-B704-48A2-BE21-C086EA4AAD57}" ShortID="103083027" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Phoddo Stereo_16" ID="{F4D3BA57-BABD-4DCE-919F-F6E1237EE4AF}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Phoddo Stereo_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965529284"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{20B05968-B704-48A2-BE21-C086EA4AAD57}" Platform="Linked"/>
+										<ActiveSource Name="Phoddo Stereo_16" ID="{F4D3BA57-BABD-4DCE-919F-F6E1237EE4AF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -748,7 +756,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{B7CB5996-E1B2-415A-9D9B-3705B5541CFC}" ShortID="270971210">
+								<Sound Name="Tanky_Move_st_01" ID="{D363FA2C-ABC6-4541-A00C-C1C5BB665423}" ShortID="1049451363">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -758,12 +766,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{D8C07858-36C1-4001-BD89-C98FBFAF9C41}" ShortID="1048565639" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Tanky_Move_st_01" ID="{EEEBBB01-A23B-4FFB-960E-9F075732EFF3}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Tanky_Move_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888462878"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{D8C07858-36C1-4001-BD89-C98FBFAF9C41}" Platform="Linked"/>
+										<ActiveSource Name="Tanky_Move_st_01" ID="{EEEBBB01-A23B-4FFB-960E-9F075732EFF3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -778,7 +790,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{EEC8BD4C-2C24-4433-A7AD-9E04D4817323}" ShortID="215544778">
+								<Sound Name="Phoddo Stereo_16" ID="{EDDFAC2A-4BB5-4D8C-8A76-EE982862185B}" ShortID="287313352">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -788,12 +800,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{C1B0188A-B0FB-441E-9F2E-F20A5B201CE0}" ShortID="14401822" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Phoddo Stereo_16" ID="{9D09E8DF-5AE4-4471-B1D7-6A0DFFF24CF4}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Phoddo Stereo_16.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965529284"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{C1B0188A-B0FB-441E-9F2E-F20A5B201CE0}" Platform="Linked"/>
+										<ActiveSource Name="Phoddo Stereo_16" ID="{9D09E8DF-5AE4-4471-B1D7-6A0DFFF24CF4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -6063,6 +6079,26 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="New Sound SFX" ID="{9DC742ED-D1CF-4534-A31B-28A2982FE338}" ShortID="277808929">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Silence" ID="{EAA04DC5-83DE-4633-9355-F23BAD69A21D}" ShortID="555549960" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Silence" ID="{EAA04DC5-83DE-4633-9355-F23BAD69A21D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="MachineGunGauntletReload" ID="{6456E0E1-6DA0-4688-8977-DE368C05F092}" ShortID="594602136">
 							<PropertyList>
@@ -6695,24 +6731,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{71E28928-0A74-4CC8-9B91-B9A5AEEAE99C}" ShortID="336934305">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{2D77091F-B9DA-4D7E-8288-F160BECB27EF}" ShortID="466498455" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{2D77091F-B9DA-4D7E-8288-F160BECB27EF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Bullet_Hitting_Horde_1" ID="{88840608-D8E0-4D22-9AAC-E5ACE53E33C6}" ShortID="202705580">
 									<ReferenceList>
 										<Reference Name="Conversion">
