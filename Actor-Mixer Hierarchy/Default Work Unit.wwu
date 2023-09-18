@@ -5643,6 +5643,20 @@
 										<MediaID ID="970726339"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Teleport_In_1" ID="{16190564-3EC0-4A95-8A2F-BFDAA1810F63}">
+									<Language>SFX</Language>
+									<AudioFile>Teleport_In_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="612210089"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Teleport_In_2" ID="{FD266859-2CA5-454D-BCD8-200EB2DC76A0}">
+									<Language>SFX</Language>
+									<AudioFile>Teleport_In_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="560217492"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="MGTeleportInside_st_01" ID="{0520861F-D4BC-48FE-9068-74771493973F}" Platform="Linked"/>
@@ -5919,6 +5933,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5929,7 +5948,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{DBFC1FBC-CF18-42D9-B33C-D6FDCFD923FF}" ShortID="472800341">
+								<Sound Name="Gauntlets_returned_st_01" ID="{EB814E23-ADCF-417E-BB9F-C7C01BDDC8E6}" ShortID="182867497">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -5939,12 +5958,60 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{776AF741-F401-4E6D-B3F9-C7ED488CBFA6}" ShortID="592421583" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Gauntlets_returned_st_01" ID="{0235CCAB-A14A-4D52-909C-762A7301D066}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Gauntlets_returned_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="129793504"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{776AF741-F401-4E6D-B3F9-C7ED488CBFA6}" Platform="Linked"/>
+										<ActiveSource Name="Gauntlets_returned_st_01" ID="{0235CCAB-A14A-4D52-909C-762A7301D066}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gauntlets_returned_st_02" ID="{F98BC1D2-DE51-490E-AB62-F203BAA12C92}" ShortID="130898213">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gauntlets_returned_st_02" ID="{6F438B47-C409-4A62-AC31-D047BDF91125}">
+											<Language>SFX</Language>
+											<AudioFile>Gauntlets_returned_st_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="274985505"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gauntlets_returned_st_02" ID="{6F438B47-C409-4A62-AC31-D047BDF91125}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gauntlets_returned_st_03" ID="{778D4011-C8CB-455C-AAB6-65D038154962}" ShortID="353506343">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gauntlets_returned_st_03" ID="{C9722A90-2F2F-4280-AF78-78F38404AF26}">
+											<Language>SFX</Language>
+											<AudioFile>Gauntlets_returned_st_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="905943380"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gauntlets_returned_st_03" ID="{C9722A90-2F2F-4280-AF78-78F38404AF26}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -5996,26 +6063,6 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 								</Reference>
 							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{EC18BC94-808A-48B1-829C-8E2229E5068B}" ShortID="303326185">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{8DF1ACCA-D3FD-43EB-936D-601413884F48}" ShortID="83670309" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-											<Language>SFX</Language>
-										</SourcePlugin>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{8DF1ACCA-D3FD-43EB-936D-601413884F48}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="MachineGunGauntletReload" ID="{6456E0E1-6DA0-4688-8977-DE368C05F092}" ShortID="594602136">
 							<PropertyList>
@@ -6023,7 +6070,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-7</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6309,7 +6356,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>6</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6551,7 +6598,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{B127D939-D03D-47D8-A055-7CFBF206749D}" ShortID="508909428">
+								<Sound Name="Tower_Start_Rotate_Int_st_01" ID="{0C3BB1C2-8165-4DC6-9C13-A4AA9C2AC27D}" ShortID="391791243">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6561,12 +6608,38 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{4DD6EB8D-60B2-4AE8-9610-683048BB0F98}" ShortID="260219560" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Tower_Start_Rotate_Int_st_01" ID="{DDAAC858-8454-4901-95B2-97E5F1F19699}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Tower_Start_Rotate_Int_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="645535910"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{4DD6EB8D-60B2-4AE8-9610-683048BB0F98}" Platform="Linked"/>
+										<ActiveSource Name="Tower_Start_Rotate_Int_st_01" ID="{DDAAC858-8454-4901-95B2-97E5F1F19699}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Tower_Start_Rotate_Int_st_02" ID="{73D2345B-8214-470D-88ED-480BB3AC18C9}" ShortID="593307761">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tower_Start_Rotate_Int_st_02" ID="{2CB208D8-AA43-4C2A-A7BC-75D259ECF817}">
+											<Language>SFX</Language>
+											<AudioFile>Tower_Start_Rotate_Int_st_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948179534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Tower_Start_Rotate_Int_st_02" ID="{2CB208D8-AA43-4C2A-A7BC-75D259ECF817}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -6606,6 +6679,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="HitSound_BulletsHittingHorde" ID="{3CE5BB18-4C17-42C5-9DC5-5DEAE6623A72}" ShortID="354438393">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6633,6 +6713,72 @@
 										<ActiveSource Name="Silence" ID="{2D77091F-B9DA-4D7E-8288-F160BECB27EF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Bullet_Hitting_Horde_1" ID="{88840608-D8E0-4D22-9AAC-E5ACE53E33C6}" ShortID="202705580">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bullet_Hitting_Horde_1" ID="{A39EC6CB-B26E-4A33-BE4B-48791ECA00CD}">
+											<Language>SFX</Language>
+											<AudioFile>Bullet_Hitting_Horde_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="613915100"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bullet_Hitting_Horde_1" ID="{A39EC6CB-B26E-4A33-BE4B-48791ECA00CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bullet_Hitting_Horde_2" ID="{70EB5497-063E-46C7-AE41-17B1DC6DB940}" ShortID="60734659">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bullet_Hitting_Horde_2" ID="{E6A05887-1736-4089-AD00-AD8FDE15C8C5}">
+											<Language>SFX</Language>
+											<AudioFile>Bullet_Hitting_Horde_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42294257"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bullet_Hitting_Horde_2" ID="{E6A05887-1736-4089-AD00-AD8FDE15C8C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bullet_Hitting_Ground_1" ID="{44D2EC5A-D528-419D-9974-F3E94181FE62}" ShortID="353178598">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bullet_Hitting_Ground_1" ID="{A8E8AD70-0E80-45DF-955B-96DB04020B96}">
+											<Language>SFX</Language>
+											<AudioFile>Bullet_Hitting_Ground_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="174144456"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bullet_Hitting_Ground_1" ID="{A8E8AD70-0E80-45DF-955B-96DB04020B96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="MachineGunRotate" ID="{D29C6426-6F9B-48B4-95C6-749C6244008A}" ShortID="322770529">
@@ -6645,7 +6791,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{C1C05326-E582-4E68-9144-102CD96F2E04}" ShortID="345274615">
+								<Sound Name="Tower_Start_Rotate_Int_st_01" ID="{23A4891F-CA1F-478A-A4D9-65989A44782A}" ShortID="783001525">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6655,12 +6801,38 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{909D9215-3A99-42A1-9628-893A4D7F1FE8}" ShortID="595768283" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Tower_Start_Rotate_Int_st_01" ID="{9D01FC27-79B8-49CF-824F-8FA1B108B620}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Tower_Start_Rotate_Int_st_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="645535910"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{909D9215-3A99-42A1-9628-893A4D7F1FE8}" Platform="Linked"/>
+										<ActiveSource Name="Tower_Start_Rotate_Int_st_01" ID="{9D01FC27-79B8-49CF-824F-8FA1B108B620}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Tower_Start_Rotate_Int_st_02" ID="{E229E44F-298C-4268-B4BC-CF06367FDD47}" ShortID="684287911">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Tower_Start_Rotate_Int_st_02" ID="{848D62AC-D68D-46FF-81BC-246A9DB1CB72}">
+											<Language>SFX</Language>
+											<AudioFile>Tower_Start_Rotate_Int_st_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948179534"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Tower_Start_Rotate_Int_st_02" ID="{848D62AC-D68D-46FF-81BC-246A9DB1CB72}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
