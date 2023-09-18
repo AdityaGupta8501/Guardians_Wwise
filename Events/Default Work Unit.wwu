@@ -1165,6 +1165,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SolarBatteryHittingFunnel" ID="{B895AF7E-A4CC-4C83-9D8E-0B9965356A09}">
+					<ChildrenList>
+						<Action Name="" ID="{439305CE-7DE3-4EC2-A211-0E17A9A0986D}" ShortID="849956041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SolarBatteryHittingFunnel" ID="{D5B9431B-CEB9-4D12-BB27-95DB71345AD9}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_G_World_Music" ID="{EEBE1AA9-42A5-4AB9-8CCB-FF6501B1558F}">
+					<ChildrenList>
+						<Action Name="" ID="{505097F1-4547-43BD-AD76-63AAA675EE57}" ShortID="807494687">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="G-World Music" ID="{A3FE124A-2D59-4843-A70B-699D82910D9D}" WorkUnitID="{84D24B04-0D44-40D0-BB1D-5AC849D844D9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

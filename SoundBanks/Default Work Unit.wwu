@@ -70,6 +70,7 @@
 						<ObjectRef Name="Play_ReleaseFreezeTankSteam" ID="{34FFEAFA-5680-4A1D-93AC-3629BD3C9E71}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FreezeChangeGears" ID="{F615A804-243D-4A31-BA4A-0B690CCF7F3D}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TurretRotatingInside_Freeze" ID="{321EB805-5E78-4A93-966E-2520B2F864A0}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_G_World_Music" ID="{EEBE1AA9-42A5-4AB9-8CCB-FF6501B1558F}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_OpenFreezeTankValve" ID="{711E30F1-DB9B-4ABD-BA87-830432209365}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FreezeTankFull" ID="{74098565-8212-4ACE-99A6-54114F933886}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SoundSpawn" ID="{E4983D49-6B05-4B2E-B3D0-BA17A4528D7A}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
@@ -82,6 +83,7 @@
 						<ObjectRef Name="Play_BatteryInterfaceUpgradeButtonPress" ID="{707CC274-5C31-4C2A-8A07-B20883FA65E8}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_GibiInterfaceActivate" ID="{481AF4B5-99EC-4C5E-8488-BF5B1834141C}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SolarWheelTurning" ID="{4EB86AAB-5374-4C6D-861A-191B465B6517}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SolarBatteryHittingFunnel" ID="{B895AF7E-A4CC-4C83-9D8E-0B9965356A09}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MGTowerTeleportInside" ID="{0B63CBC7-84AE-4C8D-B08B-8B8073BEBA67}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TurretRotatingOutside_Freeze" ID="{4D2C3497-79C2-4CEF-9084-4C7173D80D3E}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SolarBatteryPoppingUp" ID="{B3025559-8246-4CFD-AEA5-895B39E0B20B}" WorkUnitID="{E63146EF-50C4-4A36-B8FD-58761157E5B4}" Origin="Manual" Filter="7"/>

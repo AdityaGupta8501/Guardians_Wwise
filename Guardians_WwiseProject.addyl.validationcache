@@ -116,10 +116,10 @@
 	<ValidationCacheItem File="E:\GitHubxx\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1693595376" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1689389850" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Triggers\Default Work Unit.wwu" DateLow="1689389852" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Switches\Default Work Unit.wwu" DateLow="1694741978" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Switches\Default Work Unit.wwu" DateLow="1694902364" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\States\Default Work Unit.wwu" DateLow="1694754398" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1694813038" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1694841260" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Queries\Factory Queries.wwu" DateLow="1688151692" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Queries\Default Work Unit.wwu" DateLow="1689389852" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1688151692" DateHigh="0"/>
@@ -128,11 +128,12 @@
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1692480038" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Metadata\Default Work Unit.wwu" DateLow="1689389850" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1694813192" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1694742740" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Music.wwu" DateLow="1694981864" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Guardians_WwiseProject.wproj" DateLow="1693548102" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Guardians_WwiseProject.addyl.wsettings" DateLow="1694841300" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Guardians_WwiseProject.addyl.wsettings" DateLow="1694983308" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1693347902" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Events\Default Work Unit.wwu" DateLow="1694819586" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Events\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Effects\Factory Effects.wwu" DateLow="1688151692" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Effects\Default Work Unit.wwu" DateLow="1693372412" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1689389850" DateHigh="0"/>
@@ -142,5 +143,5 @@
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1689389850" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1689389852" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Test_WorkUnit.wwu" DateLow="1693548190" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1694818644" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1694981766" DateHigh="0"/>
 </ValidationCache>
