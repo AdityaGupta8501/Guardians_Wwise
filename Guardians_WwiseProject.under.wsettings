@@ -3,9 +3,14 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{82E7E9F6-7DE1-47AB-890E-75938CA6316C}">
 			<PropertyList>
+				<Property Name="Event Action List\{0B63CBC7-84AE-4C8D-B08B-8B8073BEBA67}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{1BA2EE45-0C6A-48F0-B941-5239C54E51DA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1E837A7B-B5A5-46EF-B05E-E134F4987A2D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{48062350-B90A-48CB-9059-51B76E130891}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{650F6278-2B4E-41AB-A031-2D66724EB1C4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8FC34E09-D7BE-4360-94C4-1F7246B887AB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A4F3EB39-E7BA-4094-BA2A-7499D3A86AFF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AE41DCBC-0ECE-4440-9169-970791A56B83}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B916B4D6-1B24-426F-9084-9BC684E95360}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C2F0971D-64CA-4D24-8898-C6CFD09934DD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E2BFAF12-2426-4194-B55A-E2146046AA7D}\x64_Expand States" Type="string" Value=""/>
@@ -30,7 +35,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="1hlr7VXmOkutWvkB4uDInL7NbWyavHlMlkjhIVEW4Ig="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="IPvyUA6AUU2xzlH/03qygCerfFr15sxHi2FBagFM7wQ="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="IPvyUA6AUU2xzlH/03qygA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -118,6 +123,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{34FD3083-68BA-4EEB-8BAD-7191DC8C0D64}277155357"/>
 				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{419E3B4C-A252-44CB-A204-4A96485C071C}"/>
 			</PropertyList>
 		</UserProjectSettings>

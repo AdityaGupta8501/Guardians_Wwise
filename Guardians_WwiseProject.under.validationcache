@@ -2,10 +2,10 @@
 <ValidationCache Version="1" SchemaVersion="110">
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Triggers\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Switches\Default Work Unit.wwu" DateLow="1692578355" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\States\Default Work Unit.wwu" DateLow="1692578355" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1692601139" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1692846137" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Switches\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\States\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Queries\Factory Queries.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Queries\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1689564153" DateHigh="0"/>
@@ -13,14 +13,14 @@
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Modulators\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1692568154" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Metadata\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1692578393" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Guardians_WwiseProject.wproj" DateLow="1689564153" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Guardians_WwiseProject.under.wsettings" DateLow="1692931578" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1692599101" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Events\Default Work Unit.wwu" DateLow="1692846136" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Guardians_WwiseProject.wproj" DateLow="1693883370" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Guardians_WwiseProject.under.wsettings" DateLow="1693883365" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1693373174" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Events\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Effects\Factory Effects.wwu" DateLow="1689564153" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Effects\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Effects\Default Work Unit.wwu" DateLow="1693373174" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
@@ -28,5 +28,5 @@
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Attenuations\Default Work Unit.wwu" DateLow="1689564153" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Test_WorkUnit.wwu" DateLow="1692846136" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1692601139" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\under\OneDrive\Documents\GitHub\Guardians_Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1695025477" DateHigh="0"/>
 </ValidationCache>
