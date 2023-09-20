@@ -11,13 +11,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="27"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1763,13 +1768,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="15"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-22</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1930,13 +1940,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="23"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2095,6 +2110,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="HordeMove_Tanky" ID="{DA948A06-62EE-4391-A880-BF5A59B03C57}" ShortID="1060411849">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -2776,13 +2798,21 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="25"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Verb_Scene" ID="{5B6D99D2-65C8-429D-B61C-A35B8D4F6EB6}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -2802,6 +2832,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -3456,7 +3491,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{83E3FA68-9900-48C5-86D6-80CCEBD6DE8F}" ShortID="576648644">
+								<Sound Name="Gibi_Interface_Alert_st_001" ID="{A9AE29A6-C7A7-4863-BE73-7B0306D12F90}" ShortID="873380174">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -3466,12 +3501,214 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{7F112620-9AF1-463C-80DB-4C342BC3948E}" ShortID="292728323" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Gibi_Interface_Alert_st_001" ID="{665116F8-C83F-4764-A614-FD978FDE2C28}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Gibi_Interface_Alert_st_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1025139286"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{7F112620-9AF1-463C-80DB-4C342BC3948E}" Platform="Linked"/>
+										<ActiveSource Name="Gibi_Interface_Alert_st_001" ID="{665116F8-C83F-4764-A614-FD978FDE2C28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_002" ID="{A02B9F18-34BB-46AD-AD06-41AB87C1B188}" ShortID="645025474">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_002" ID="{63172A28-D3A8-427D-9641-3A9FFB77B77F}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="247562585"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_002" ID="{63172A28-D3A8-427D-9641-3A9FFB77B77F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_003" ID="{CCB057CF-D258-40D0-8BA9-E3E102A4B70D}" ShortID="295785970">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_003" ID="{66E16160-C9A3-433A-8EE5-BE5F78418972}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="38954646"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_003" ID="{66E16160-C9A3-433A-8EE5-BE5F78418972}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_004" ID="{1EA6B244-58D5-41F2-A706-BFE11712A0B5}" ShortID="924648555">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_004" ID="{845FE489-4F87-4D0C-BDD2-DB1878435FF9}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="674533152"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_004" ID="{845FE489-4F87-4D0C-BDD2-DB1878435FF9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_005" ID="{F5705439-FC2A-4A27-8421-3C8855E43283}" ShortID="346657927">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_005" ID="{9769B337-0C52-4951-BE34-3B0CFB9A46FE}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="316065424"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_005" ID="{9769B337-0C52-4951-BE34-3B0CFB9A46FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_006" ID="{C9102A09-A13F-4AD9-B1CA-94C763379422}" ShortID="391995271">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_006" ID="{D4B2DCA9-A7A4-4424-9A9C-819D6E4211CA}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="959647151"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_006" ID="{D4B2DCA9-A7A4-4424-9A9C-819D6E4211CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_007" ID="{59E3DC51-A6AB-496A-852E-8AB341BF1EFA}" ShortID="264671135">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_007" ID="{EF70F4D4-4D9F-4556-AFE6-E67CD8476C1C}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5172953"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_007" ID="{EF70F4D4-4D9F-4556-AFE6-E67CD8476C1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_008" ID="{A69D8268-43CC-4F76-91D3-B3FD7824E7F7}" ShortID="732457179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_008" ID="{07E7A44C-4669-4C0A-BD63-3BE5747C9955}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="852005812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_008" ID="{07E7A44C-4669-4C0A-BD63-3BE5747C9955}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_009" ID="{D31C151B-EC13-4584-B612-01E4A8A98431}" ShortID="898666810">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_009" ID="{8043B808-063B-4B52-B534-43DF0AFC1B31}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162045951"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_009" ID="{8043B808-063B-4B52-B534-43DF0AFC1B31}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Gibi_Interface_Alert_st_010" ID="{52311698-B02B-4278-A121-654D3E293455}" ShortID="202159654">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gibi_Interface_Alert_st_010" ID="{0A3EE05C-C96D-4750-98E7-1F1A230D2416}">
+											<Language>SFX</Language>
+											<AudioFile>Gibi_Interface_Alert_st_010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="19267873"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Gibi_Interface_Alert_st_010" ID="{0A3EE05C-C96D-4750-98E7-1F1A230D2416}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -3482,13 +3719,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="13"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-22</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -3810,13 +4052,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="20"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -5185,6 +5432,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -5527,13 +5779,21 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="1"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Verb_Scene" ID="{5B6D99D2-65C8-429D-B61C-A35B8D4F6EB6}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -5541,6 +5801,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6273,7 +6538,22 @@
 						<BlendContainer Name="FreezeJuiceFlowing" ID="{C5580B5B-47A6-4B0B-9CEC-4229ACE5662A}" ShortID="725948996">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-28</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6440,8 +6720,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -6453,9 +6736,6 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="FreezeJuice_Flowing_st 03" ID="{51B37871-3C18-4D07-8AC4-BFD81E8F54FC}" ShortID="187378178">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6482,9 +6762,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FreezeJuice_Flowing_st 04" ID="{564A4BD8-14D9-45E1-AD23-83FA27AC4BBC}" ShortID="126518456">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6512,9 +6789,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FreezeJuice_Flowing_st 05" ID="{26FCACE6-A337-46D4-89FA-E28069A01582}" ShortID="302162477">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6542,9 +6816,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FreezeJuice_Flowing_st 06" ID="{145FEFBD-57E2-449B-839E-C0E81308C4DF}" ShortID="124512063">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6572,9 +6843,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FreezeJuice_Flowing_st 01" ID="{C366DFFA-7255-4292-A253-109155DF98C6}" ShortID="127336638">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6601,9 +6869,6 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FreezeJuice_Flowing_st 02" ID="{349C673C-5ED5-49CB-B74C-4987BD8F79D1}" ShortID="776959530">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6636,10 +6901,15 @@
 						<RandomSequenceContainer Name="MoveFreezeLever" ID="{70895DBD-CDE8-4166-8DAD-207A2D0C5B14}" ShortID="844841916">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -6854,6 +7124,24 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0BF3F3C0-6E17-43AF-AAA6-A29C78A9C356}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6914,6 +7202,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -6924,7 +7217,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{7E0C7F37-B623-4E89-9E08-20B8368C4A5D}" ShortID="571033626">
+								<Sound Name="Release_Freeze_Lever_01" ID="{3CB18F58-32AF-4414-ADA2-12A9960FFC5E}" ShortID="600348577">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -6934,12 +7227,82 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{76C8AC1A-1F7B-4371-B7ED-49B1577119A6}" ShortID="359184122" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="Release_Freeze_Lever_01" ID="{26F34915-C9B3-41A6-9D6B-3D728F26D8E6}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>Release_Freeze_Lever_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="463243527"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{76C8AC1A-1F7B-4371-B7ED-49B1577119A6}" Platform="Linked"/>
+										<ActiveSource Name="Release_Freeze_Lever_01" ID="{26F34915-C9B3-41A6-9D6B-3D728F26D8E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Release_Freeze_Lever_02" ID="{11043F49-94EF-45FE-AA82-97561B7885EA}" ShortID="203116350">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Release_Freeze_Lever_02" ID="{1E173B0B-9D87-4C8D-B203-3F5836838483}">
+											<Language>SFX</Language>
+											<AudioFile>Release_Freeze_Lever_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1060914897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Release_Freeze_Lever_02" ID="{1E173B0B-9D87-4C8D-B203-3F5836838483}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Release_Freeze_Lever_03" ID="{6354C25C-4CEE-4F30-913C-A66A7211BFCC}" ShortID="283461907">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Release_Freeze_Lever_03" ID="{10C74AC9-2EBD-46CF-B036-0710E4FB90AF}">
+											<Language>SFX</Language>
+											<AudioFile>Release_Freeze_Lever_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="599784763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Release_Freeze_Lever_03" ID="{10C74AC9-2EBD-46CF-B036-0710E4FB90AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Release_Freeze_Lever_04" ID="{60246DE6-577E-468E-B3B6-9F853D65FAD1}" ShortID="647853561">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Release_Freeze_Lever_04" ID="{258B0DEA-E547-4C64-9A11-40A8E581EFC7}">
+											<Language>SFX</Language>
+											<AudioFile>Release_Freeze_Lever_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="875643975"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Release_Freeze_Lever_04" ID="{258B0DEA-E547-4C64-9A11-40A8E581EFC7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -6982,6 +7345,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7458,6 +7826,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7468,7 +7841,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{66AB201E-924E-4896-950E-D7FC38B16256}" ShortID="659362311">
+								<Sound Name="ReleaseFreezeTankSteam_low_m_001" ID="{DF3807BF-E8E1-4E2A-A16B-A011AD2BEE7E}" ShortID="908409426">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -7478,12 +7851,434 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{E46E12C2-4B80-4983-BBC9-8713D94EA4E5}" ShortID="322948009" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_001" ID="{91AE7335-AE7B-4F75-887E-AE1AC8BF540D}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="97472851"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{E46E12C2-4B80-4983-BBC9-8713D94EA4E5}" Platform="Linked"/>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_001" ID="{91AE7335-AE7B-4F75-887E-AE1AC8BF540D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_002" ID="{ACE692DD-D919-4B32-9BF9-30B68333D310}" ShortID="614445049">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_002" ID="{CCBD62C9-C754-4F6A-9226-7159D8102F1C}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="830576038"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_002" ID="{CCBD62C9-C754-4F6A-9226-7159D8102F1C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_003" ID="{0119D98A-D775-4118-A774-E0F9D54A9013}" ShortID="383474392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_003" ID="{3AFCAE71-DCB3-46E2-A756-451D075720E2}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="219127727"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_003" ID="{3AFCAE71-DCB3-46E2-A756-451D075720E2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_004" ID="{858E468F-A65A-4FFD-8E83-2F99F762C75F}" ShortID="602424090">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_004" ID="{6883C910-B8D6-4A73-B8F0-BAF633E66D62}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="943493869"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_004" ID="{6883C910-B8D6-4A73-B8F0-BAF633E66D62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_005" ID="{B62A25C5-D79C-4365-83F0-6617E0315623}" ShortID="45339375">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_005" ID="{BE2A27D4-83CF-4E5A-9BEB-D9A28ECD3BFE}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="139155173"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_005" ID="{BE2A27D4-83CF-4E5A-9BEB-D9A28ECD3BFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_006" ID="{086F264B-3731-49AA-9927-027A835E172F}" ShortID="954422663">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_006" ID="{7648B9B9-C6D7-43D1-8560-0B9E0F6E7590}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="170901736"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_006" ID="{7648B9B9-C6D7-43D1-8560-0B9E0F6E7590}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_007" ID="{43421EF7-A176-4D95-A70F-5DB978FB8B1F}" ShortID="803225811">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_007" ID="{DBD1AA33-6AD1-4220-92E3-198BD4DE3712}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137747988"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_007" ID="{DBD1AA33-6AD1-4220-92E3-198BD4DE3712}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_008" ID="{6D51B7CB-61BA-45B5-A1F0-D55A921926C1}" ShortID="1026225663">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_008" ID="{8F991297-A3B8-4423-A625-DC50FF4D3F8C}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889920783"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_008" ID="{8F991297-A3B8-4423-A625-DC50FF4D3F8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_009" ID="{C9381D15-874C-45FF-9603-2222A040B92E}" ShortID="942168245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_009" ID="{B3541549-8B8E-4655-89E8-9035BE807B96}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="696947076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_009" ID="{B3541549-8B8E-4655-89E8-9035BE807B96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_low_m_010" ID="{4BAC8BE4-E469-4F9D-978D-A85CD625731C}" ShortID="55816424">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_low_m_010" ID="{3EC6C6C3-1880-46D9-865B-0835B415C29D}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_low_m_010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="412428596"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_low_m_010" ID="{3EC6C6C3-1880-46D9-865B-0835B415C29D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_001" ID="{E31F02C1-8DC3-4F7A-98E4-1AE13419A614}" ShortID="340396973">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_001" ID="{52366C02-F521-48D8-A426-0D837386F69E}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="205354891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_001" ID="{52366C02-F521-48D8-A426-0D837386F69E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_002" ID="{05516E4E-6DDF-4C65-836A-A862ECA8AECB}" ShortID="282912513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_002" ID="{5110AED1-00FD-4235-9C1C-10764493D7F5}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="253286881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_002" ID="{5110AED1-00FD-4235-9C1C-10764493D7F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_003" ID="{0CAFEED3-BA21-495C-9850-4A56CEE8EE59}" ShortID="520472469">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_003" ID="{D6F4F213-786E-4040-97C8-322BB1B82263}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686756512"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_003" ID="{D6F4F213-786E-4040-97C8-322BB1B82263}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_004" ID="{D4CA2CB2-4EBC-4268-885D-23212879FA5F}" ShortID="202218997">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_004" ID="{0E6BE219-AA82-4716-A13F-4021A4511A05}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="848515099"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_004" ID="{0E6BE219-AA82-4716-A13F-4021A4511A05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_005" ID="{B1C0EC7A-8BE3-4936-9507-9BF28AB34C3E}" ShortID="215402988">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_005" ID="{1FF69CE5-9198-41FA-95B4-DAD34DE3FA10}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="610228335"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_005" ID="{1FF69CE5-9198-41FA-95B4-DAD34DE3FA10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_006" ID="{723AEC89-F972-4334-83CE-B9F54BE5A056}" ShortID="392565972">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_006" ID="{4D21DBBC-F03E-404D-93A2-64A0D9DF0955}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="446918269"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_006" ID="{4D21DBBC-F03E-404D-93A2-64A0D9DF0955}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_007" ID="{7BB356C2-7EC3-4A20-B433-F8284F6652AC}" ShortID="559543173">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_007" ID="{73090D3C-AA6C-4649-A90D-E6244607E93B}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="480196952"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_007" ID="{73090D3C-AA6C-4649-A90D-E6244607E93B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_008" ID="{B0C56D03-F3CE-4CFD-87F2-65625FE95294}" ShortID="997759403">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_008" ID="{3BC00850-88EB-43EA-BF88-34C525FCBA3E}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="159276106"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_008" ID="{3BC00850-88EB-43EA-BF88-34C525FCBA3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_009" ID="{75F826E7-119E-49EE-B34A-9E6EA9061031}" ShortID="702218531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_009" ID="{F8421B7D-E6F1-439C-8314-70187C56ED23}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="945305194"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_009" ID="{F8421B7D-E6F1-439C-8314-70187C56ED23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ReleaseFreezeTankSteam_m_010" ID="{C86BDB96-92C1-47DA-B021-04394F2E0F69}" ShortID="268636200">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ReleaseFreezeTankSteam_m_010" ID="{817537FE-523E-4EFF-A179-9651BD405F9F}">
+											<Language>SFX</Language>
+											<AudioFile>ReleaseFreezeTankSteam_m_010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1057870070"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ReleaseFreezeTankSteam_m_010" ID="{817537FE-523E-4EFF-A179-9651BD405F9F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -7492,6 +8287,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7552,6 +8352,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7590,6 +8395,27 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-280</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2551CC81-55E1-42B5-8271-4FF7B395064B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+													<Property Name="Min" Type="Real64" Value="-80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7600,7 +8426,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{C3A21AD9-5843-4C42-ADA0-DD7E4407AD74}" ShortID="649811170">
+								<Sound Name="FreezeChangeGears_m_001" ID="{999C9EC8-AD7D-4F59-82F6-648185902CA6}" ShortID="222376371">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -7610,12 +8436,544 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{CFA2AD14-B257-461C-839E-B0F37FD2E83E}" ShortID="13764310" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="FreezeChangeGears_m_001" ID="{3B846CAB-9995-4ECB-8236-D34C9DCA7852}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>FreezeChangeGears_m_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="203745403"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{CFA2AD14-B257-461C-839E-B0F37FD2E83E}" Platform="Linked"/>
+										<ActiveSource Name="FreezeChangeGears_m_001" ID="{3B846CAB-9995-4ECB-8236-D34C9DCA7852}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_002" ID="{EB88BA3B-E8D8-4329-AF3F-80DD990CCE7C}" ShortID="719809638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_002" ID="{0F10CBE7-5BC9-41E0-A474-8CCBC0510C82}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="911863389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_002" ID="{0F10CBE7-5BC9-41E0-A474-8CCBC0510C82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_003" ID="{F984E17C-212E-41B5-812A-B6E9B908C5CE}" ShortID="794053646">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_003" ID="{5C203520-3E83-4CA2-B3D5-F16DF0A14838}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="33978411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_003" ID="{5C203520-3E83-4CA2-B3D5-F16DF0A14838}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_004" ID="{79E91E61-423A-47CB-9192-0F57E135A909}" ShortID="912033178">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_004" ID="{951E2BFF-CDF8-419E-A4DA-90E4F56EFAC7}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1045855596"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_004" ID="{951E2BFF-CDF8-419E-A4DA-90E4F56EFAC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_005" ID="{8DE7704C-9682-4706-A63D-A2471DA365E8}" ShortID="654615238">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_005" ID="{11566D01-BDDE-4D73-8B6B-D99C88E7D528}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351818255"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_005" ID="{11566D01-BDDE-4D73-8B6B-D99C88E7D528}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_006" ID="{CB7F561B-84B5-4751-BF43-D6B3AA815C25}" ShortID="155615325">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_006" ID="{C23D56B9-0271-48F6-8386-657F07E86B25}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128152000"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_006" ID="{C23D56B9-0271-48F6-8386-657F07E86B25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_007" ID="{437C28E5-08FB-4E94-BBB4-BC755E87761D}" ShortID="816946685">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_007" ID="{DF48F0AF-711E-4981-97BE-A8593CA06B44}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124181693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_007" ID="{DF48F0AF-711E-4981-97BE-A8593CA06B44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_008" ID="{0A7E8D4A-FA63-4A8D-B6E5-C7C34F67DF8A}" ShortID="397238320">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_008" ID="{BD35EC3E-90D3-44AB-A76A-0CA7C2AA6C4A}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125700608"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_008" ID="{BD35EC3E-90D3-44AB-A76A-0CA7C2AA6C4A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_009" ID="{3AA7EC2E-AC40-47CE-8D0E-F5FF519E4C81}" ShortID="961026331">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_009" ID="{A0BCE48B-86C4-4270-B4B2-0635C77070CE}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="69716140"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_009" ID="{A0BCE48B-86C4-4270-B4B2-0635C77070CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_010" ID="{ABAFF22B-4557-4E37-8065-33B988A5FA69}" ShortID="640784571">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_010" ID="{905FB50A-4BA0-49F1-869A-135851BE643F}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="888232251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_010" ID="{905FB50A-4BA0-49F1-869A-135851BE643F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_011" ID="{AE92D38B-537F-4268-B46B-089EAD397385}" ShortID="744868044">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_011" ID="{76A613DA-02A3-465A-9AFA-80275744D2D8}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="993719906"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_011" ID="{76A613DA-02A3-465A-9AFA-80275744D2D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_012" ID="{36D4B809-4221-42FD-979A-A3D2318DCA4B}" ShortID="1011601089">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_012" ID="{27A016DA-C6A9-4626-ABB4-583884984CD8}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="34014190"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_012" ID="{27A016DA-C6A9-4626-ABB4-583884984CD8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_013" ID="{E00F7516-22A7-4DE4-BCF6-7CB32A9E8DFF}" ShortID="973327891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_013" ID="{170FE30F-866D-4C30-8A1A-607038D0E08E}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_013.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470037015"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_013" ID="{170FE30F-866D-4C30-8A1A-607038D0E08E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_014" ID="{C168DE70-0F3B-44C9-A844-32F7E7D755CF}" ShortID="569132698">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_014" ID="{53C8FDD3-CBB6-4135-BEEA-22B2991BDA3E}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_014.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605290634"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_014" ID="{53C8FDD3-CBB6-4135-BEEA-22B2991BDA3E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_015" ID="{62683D95-5E4C-4AFD-B4F4-C55BDE6D278A}" ShortID="834160375">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_015" ID="{F0559025-2549-47B5-9E6D-8223FBF5C8FD}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_015.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="59872792"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_015" ID="{F0559025-2549-47B5-9E6D-8223FBF5C8FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_016" ID="{B0BA906A-1B6A-4423-A467-BF0F057EAB9D}" ShortID="417881290">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_016" ID="{4193C517-91B3-43BA-97A6-25E31E696E25}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_016.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="282717448"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_016" ID="{4193C517-91B3-43BA-97A6-25E31E696E25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_017" ID="{9F478CBA-46CA-46BF-9553-E66D08B0A55E}" ShortID="645947674">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_017" ID="{CC948244-B689-406E-AA0D-857D35C8241D}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_017.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="64949381"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_017" ID="{CC948244-B689-406E-AA0D-857D35C8241D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_018" ID="{DAA85B72-EF4A-40FA-B1E4-CC3A1041B403}" ShortID="985654348">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_018" ID="{81499458-D523-49C3-9258-61316194A5F1}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_018.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1023451788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_018" ID="{81499458-D523-49C3-9258-61316194A5F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_019" ID="{1F2B2567-0672-4927-B818-1696ED189186}" ShortID="652875078">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_019" ID="{D07F2813-8848-4F48-B078-DAA8DBF4D2C2}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_019.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="128074334"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_019" ID="{D07F2813-8848-4F48-B078-DAA8DBF4D2C2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_020" ID="{F302FFFC-8111-4083-98A7-AB1FD2636F69}" ShortID="479024402">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_020" ID="{ED249E66-4598-4015-A34A-299EB88227A8}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_020.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="794011990"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_020" ID="{ED249E66-4598-4015-A34A-299EB88227A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_021" ID="{F34BEAD3-320C-496F-8A7B-0A8902805E06}" ShortID="530196027">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_021" ID="{41174E9C-DECD-4924-A037-35D51BFB3DA7}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_021.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="624709049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_021" ID="{41174E9C-DECD-4924-A037-35D51BFB3DA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_022" ID="{E3961852-B66B-47C2-8A53-E0660376D9A8}" ShortID="277722174">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_022" ID="{5BC94353-219D-444B-B883-8C9AFF1C27AF}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_022.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="103439042"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_022" ID="{5BC94353-219D-444B-B883-8C9AFF1C27AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_023" ID="{9544CEA1-5095-483D-925C-986A1EDF6186}" ShortID="871505775">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_023" ID="{21ED3CD9-0238-45F0-ACFE-FD3B52EE2244}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_023.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="855278402"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_023" ID="{21ED3CD9-0238-45F0-ACFE-FD3B52EE2244}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_024" ID="{6A497C55-ADD8-49CB-A9FA-FD6525ACC1CF}" ShortID="682573439">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_024" ID="{86423169-A8DB-4385-B557-D5896709EB54}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_024.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="916099620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_024" ID="{86423169-A8DB-4385-B557-D5896709EB54}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeChangeGears_m_025" ID="{E8CD7E42-7781-4B35-B20A-701C3D021DBF}" ShortID="108154467">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeChangeGears_m_025" ID="{0552E451-9EFC-466D-B2A3-DD185C3DE870}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeChangeGears_m_025.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123375517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeChangeGears_m_025" ID="{0552E451-9EFC-466D-B2A3-DD185C3DE870}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -7624,6 +8982,22 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-480</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{97A7B626-7ACD-4DA3-A043-BD53A49D5BA6}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="202"/>
+													<Property Name="Min" Type="Real64" Value="-328"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -7689,6 +9063,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7771,6 +9150,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -7841,7 +9225,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="New Sound SFX" ID="{EBC49BA5-A763-4D4D-BE10-BD5DC21A6A3B}" ShortID="346768569">
+								<Sound Name="FreezeTankRecharge_st_001" ID="{1C6FA198-2B0C-440D-A84D-9B38C4FE76B8}" ShortID="433098751">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -7851,12 +9235,82 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<SourcePlugin Name="Silence" ID="{C6BC5178-0F57-448D-9B50-2B4287C2A2A5}" ShortID="237123316" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+										<AudioFileSource Name="FreezeTankRecharge_st_001" ID="{CA4614C8-E46A-4438-A164-B54A01962239}">
 											<Language>SFX</Language>
-										</SourcePlugin>
+											<AudioFile>FreezeTankRecharge_st_001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="554065434"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{C6BC5178-0F57-448D-9B50-2B4287C2A2A5}" Platform="Linked"/>
+										<ActiveSource Name="FreezeTankRecharge_st_001" ID="{CA4614C8-E46A-4438-A164-B54A01962239}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeTankRecharge_st_002" ID="{5F3D491E-DAF9-4000-B82A-9E243C854340}" ShortID="208286030">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeTankRecharge_st_002" ID="{053A4E69-2A46-4F89-A462-AE26DEEEA576}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeTankRecharge_st_002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="869746671"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeTankRecharge_st_002" ID="{053A4E69-2A46-4F89-A462-AE26DEEEA576}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeTankRecharge_st_003" ID="{F20580DD-3082-4556-91CB-6C57DFD0246F}" ShortID="1006025974">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeTankRecharge_st_003" ID="{CD84BDC9-F32A-4E66-807D-08B76002D9EC}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeTankRecharge_st_003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="231449526"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeTankRecharge_st_003" ID="{CD84BDC9-F32A-4E66-807D-08B76002D9EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FreezeTankRecharge_st_004" ID="{13E8D83B-C42B-4FA8-A875-BB6ACA4536FF}" ShortID="103244399">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FreezeTankRecharge_st_004" ID="{31C4B2D7-E913-4AD9-9FDF-F0BA0C0D8AC4}">
+											<Language>SFX</Language>
+											<AudioFile>FreezeTankRecharge_st_004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="962452248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FreezeTankRecharge_st_004" ID="{31C4B2D7-E913-4AD9-9FDF-F0BA0C0D8AC4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -7864,7 +9318,17 @@
 						<RandomSequenceContainer Name="TurretRotatingOutside_Freeze" ID="{C47B072F-9601-46C4-AC8C-C4FC46181BF5}" ShortID="272429915">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>41</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-580</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-14</Value>
@@ -7932,13 +9396,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="4"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -7946,6 +9415,27 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-280</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B198BD06-51A9-4A61-B4A7-DFBC294286FD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="51"/>
+													<Property Name="Min" Type="Real64" Value="-101"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -8050,6 +9540,11 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -8112,7 +9607,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-6</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -8157,7 +9652,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -8891,7 +10386,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9091,7 +10586,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9329,7 +10824,17 @@
 						<RandomSequenceContainer Name="RotateTowerOutside" ID="{9E8355CA-E771-4B01-ADE4-DD7B2E937E66}" ShortID="68272947">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>65</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -9402,7 +10907,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>4</Value>
+										<Value>9</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9657,6 +11162,19 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="HitSound_BulletsHittingHorde" ID="{3CE5BB18-4C17-42C5-9DC5-5DEAE6623A72}" ShortID="354438393">
 							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7657CE0C-B787-4BD1-A7CD-F962EA81441E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="227"/>
+													<Property Name="Min" Type="Real64" Value="-177"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-8</Value>
@@ -9741,6 +11259,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="MachineGunRotate" ID="{D29C6426-6F9B-48B4-95C6-749C6244008A}" ShortID="322770529">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
@@ -10085,13 +11610,18 @@
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="17"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Stereo Master" ID="{0D41EAD4-B7CF-4A4F-B8A3-026D555A607A}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+							<ObjectRef Name="BG Master" ID="{DE71661C-6D60-4F6C-9598-16384FCC9D5C}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -10116,70 +11646,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="BG_Bed_MGTower" ID="{53F69F5F-E8EB-4FAA-8C8F-31E946F19AC1}" ShortID="185949604">
+								<Sound Name="BG_Bed_AllTowers" ID="{6A477632-0A64-4F46-A3B7-FA6778A8C2F6}" ShortID="507363887">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="17"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>1</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BG_MachineGunTower_Bed_St_Lp_02" ID="{2AB7414E-B0AE-4CF1-8C42-96C1FFAA007B}">
-											<Language>SFX</Language>
-											<AudioFile>BG_MachineGunTower_Bed_St_Lp_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="815904066"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="BG_MachineGunTower_Bed_St_Lp_02" ID="{2AB7414E-B0AE-4CF1-8C42-96C1FFAA007B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BG_Bed_SolarTower" ID="{A2A25523-B8EA-4042-AECF-3B8AB0EA0D64}" ShortID="1001116750">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="17"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BG_SolorTower_Bed_St_Lp_01" ID="{A1783A53-1741-48DB-827C-609078D47417}">
-											<Language>SFX</Language>
-											<AudioFile>BG_SolorTower_Bed_St_Lp_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="453590168"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="BG_SolorTower_Bed_St_Lp_01" ID="{A1783A53-1741-48DB-827C-609078D47417}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="BG_Bed_AllTowers" ID="{6A477632-0A64-4F46-A3B7-FA6778A8C2F6}" ShortID="507363887">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="17"/>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -10207,6 +11683,11 @@
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
 										<Property Name="Color" Type="int16" Value="17"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -10234,7 +11715,7 @@
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-3</Value>
+														<Value>-7</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -10869,6 +12350,11 @@
 										<Sound Name="BG_Bed_FreezeTower" ID="{9D94BC9D-3F5B-4798-83E9-4C49CBB5B356}" ShortID="507468319">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -10893,6 +12379,36 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="BG_FreezeTower_Bed_St_Lp" ID="{55D18F17-D95E-4BBC-8EC6-AF4E65CB06CE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_Freeze_Tower_Dripping_Water" ID="{A71ABEF5-074A-4893-A42E-6E4AC3B19FDC}" ShortID="883302841">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_Freeze_Tower_Dripping_Water" ID="{A6A57F3C-87D5-4BC9-9E27-6D0270E86B53}">
+													<Language>SFX</Language>
+													<AudioFile>BG_Freeze_Tower_Dripping_Water.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="94407484"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_Freeze_Tower_Dripping_Water" ID="{A6A57F3C-87D5-4BC9-9E27-6D0270E86B53}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -10920,27 +12436,635 @@
 										<ActiveSource Name="Silence" ID="{702B2579-C572-4182-92CA-AF5E4F11E593}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<BlendContainer Name="BG_SolarTower" ID="{77B52F0D-2008-43C3-ADAD-462ADCBB5369}" ShortID="237262240">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BG_Bed_SolarTower" ID="{A2A25523-B8EA-4042-AECF-3B8AB0EA0D64}" ShortID="1001116750">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="17"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>180</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-20</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="BG Master" ID="{DE71661C-6D60-4F6C-9598-16384FCC9D5C}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_SolorTower_Bed_St_Lp_01" ID="{A1783A53-1741-48DB-827C-609078D47417}">
+													<Language>SFX</Language>
+													<AudioFile>BG_SolorTower_Bed_St_Lp_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="453590168"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_SolorTower_Bed_St_Lp_01" ID="{A1783A53-1741-48DB-827C-609078D47417}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Emitter_MetalClanks_Sequence" ID="{6764A2AD-6798-4996-8178-63DC4BC8EB34}" ShortID="673721730">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>18</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>47</Value>
+													</ValueList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="BG_Emitters_Zaps" ID="{E209249F-A90F-4CCA-BD77-480C5313B2A3}" ShortID="880827854">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>21</Value>
+															</ValueList>
+														</Property>
+														<Property Name="InitialDelay" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{F3802EE9-7703-4473-8E2B-6C5FFD079374}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="4"/>
+																			<Property Name="Min" Type="Real64" Value="-4"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_000" ID="{891E5441-0167-4C05-80E3-049468CDCE6E}" ShortID="232632844">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_000" ID="{0FDAE349-A804-4670-B72C-428AF4BBF8AB}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_000.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="549522469"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_000" ID="{0FDAE349-A804-4670-B72C-428AF4BBF8AB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_001" ID="{A884355A-118F-495F-872B-890048024DFE}" ShortID="678959769">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_001" ID="{87B78FBE-2A4D-4826-862E-90EAD7D3B9FC}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="87074722"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_001" ID="{87B78FBE-2A4D-4826-862E-90EAD7D3B9FC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_002" ID="{FEE292CC-C426-4297-B6CE-81CF99D30463}" ShortID="757711566">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_002" ID="{9CFDAA0A-8AD9-428C-BDB1-1E8E5A334660}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="180315064"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_002" ID="{9CFDAA0A-8AD9-428C-BDB1-1E8E5A334660}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_003" ID="{D3E0E0A0-C010-4BB8-A579-214C3A48D31F}" ShortID="950230125">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_003" ID="{20079A8D-940D-4891-BE78-9A35D748546C}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="167940119"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_003" ID="{20079A8D-940D-4891-BE78-9A35D748546C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_004" ID="{37FE131E-8776-4FDD-8E87-E46EF5E24318}" ShortID="452147915">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_004" ID="{FE59F466-9941-46A1-83F6-BEB63001CDFB}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_004.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="155233404"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_004" ID="{FE59F466-9941-46A1-83F6-BEB63001CDFB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_005" ID="{2527E012-9330-4345-A50F-FFBE8D0BAEC7}" ShortID="409642994">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_005" ID="{8FDEB1D2-3B76-4A85-B77B-47F144354CCA}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_005.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="23121260"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_005" ID="{8FDEB1D2-3B76-4A85-B77B-47F144354CCA}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_006" ID="{581C8E3D-4F2C-4248-B453-226FEA1924CA}" ShortID="241289260">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_006" ID="{0A293DB0-73A8-4C3F-9C6B-4E734E6AAD34}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_006.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="471231475"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_006" ID="{0A293DB0-73A8-4C3F-9C6B-4E734E6AAD34}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_007" ID="{A7937D7B-7055-470D-B82E-196C65B81002}" ShortID="1013258780">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_007" ID="{78524FCF-14E4-4EA9-BC4C-16BF5F622184}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_007.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="548380734"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_007" ID="{78524FCF-14E4-4EA9-BC4C-16BF5F622184}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_008" ID="{B3DC35FD-ED2E-4014-AC37-EA094669356A}" ShortID="146268659">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_008" ID="{C736D59C-6F23-4904-9556-240D607CAD24}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_008.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="997836735"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_008" ID="{C736D59C-6F23-4904-9556-240D607CAD24}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_009" ID="{A69BA87B-0C56-4B70-9DEC-D6E381073207}" ShortID="93691853">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_009" ID="{46237E6F-D5C7-42F1-B5F6-8FC16FFB5A0D}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_009.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="440996783"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_009" ID="{46237E6F-D5C7-42F1-B5F6-8FC16FFB5A0D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_010" ID="{447AA873-0711-4E8F-92A4-8105D0F37E97}" ShortID="1051263494">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_010" ID="{85FC2104-C130-4B16-91F0-EBD2093E67F2}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_010.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="412190815"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_010" ID="{85FC2104-C130-4B16-91F0-EBD2093E67F2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_011" ID="{6973365B-890B-4AF6-81A2-73877FA74063}" ShortID="856896287">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_011" ID="{F5E2A9AB-ACD8-448C-AF41-2B9B86B80BDC}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_011.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="955604731"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_011" ID="{F5E2A9AB-ACD8-448C-AF41-2B9B86B80BDC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_012" ID="{76A1BE3B-5171-4AA4-90AE-DE8272CC825E}" ShortID="908149285">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_012" ID="{B0BA1099-B397-47BC-AD77-6CC505AE8565}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_012.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="897462897"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_012" ID="{B0BA1099-B397-47BC-AD77-6CC505AE8565}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_013" ID="{85EEC737-C119-42BF-BE58-D2561DD850B0}" ShortID="519251674">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_013" ID="{9B1F251D-7FE9-4571-8164-CFEF2B727A62}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_013.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="216846128"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_013" ID="{9B1F251D-7FE9-4571-8164-CFEF2B727A62}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_014" ID="{BB14E893-0E56-4989-8A0A-28BC13CEC59B}" ShortID="641276419">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_014" ID="{9ECBA443-7836-43AE-940A-6FB55752151F}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_014.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="435356858"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_014" ID="{9ECBA443-7836-43AE-940A-6FB55752151F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_015" ID="{4B23B1CB-67C5-4D74-9783-E670FFDA8C9F}" ShortID="968349557">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_015" ID="{6C587147-EDBA-44AC-952C-9C282EDAFA82}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_015.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="163011854"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_015" ID="{6C587147-EDBA-44AC-952C-9C282EDAFA82}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="BG_Emitter_Machine_Zap_Solar_Tower_016" ID="{F39B9F7B-C81B-4071-A66A-A92727C4A51D}" ShortID="135836679">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="BG_Emitter_Machine_Zap_Solar_Tower_016" ID="{A1316279-1F46-4C2E-B810-9B7F4DDAB376}">
+																	<Language>SFX</Language>
+																	<AudioFile>BG_Emitter_Machine_Zap_Solar_Tower_016.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="600212134"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="BG_Emitter_Machine_Zap_Solar_Tower_016" ID="{A1316279-1F46-4C2E-B810-9B7F4DDAB376}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="Silence" ID="{5EBF9A31-A517-4D96-BFD1-FE6325A4CCB7}" ShortID="637523957">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Silence" ID="{ADE47772-0855-43BA-8241-C34B8279C0D4}" ShortID="692855660" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+															<PropertyList>
+																<Property Name="Length" Type="Real32" Value="5"/>
+																<Property Name="LengthMax" Type="Real32" Value="1"/>
+															</PropertyList>
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence" ID="{ADE47772-0855-43BA-8241-C34B8279C0D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="BG_Emitters_Zaps" ID="{E209249F-A90F-4CCA-BD77-480C5313B2A3}"/>
+												<ItemRef Name="Silence" ID="{5EBF9A31-A517-4D96-BFD1-FE6325A4CCB7}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="BG_MG_Tower_sum" ID="{8336EE6A-A960-48B7-ABE3-28AF83A118A3}" ShortID="1044414756">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="BG_Bed_MGTower" ID="{53F69F5F-E8EB-4FAA-8C8F-31E946F19AC1}" ShortID="185949604">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="17"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-20</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="BG Master" ID="{DE71661C-6D60-4F6C-9598-16384FCC9D5C}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_MachineGunTower_Bed_St_Lp_02" ID="{2AB7414E-B0AE-4CF1-8C42-96C1FFAA007B}">
+													<Language>SFX</Language>
+													<AudioFile>BG_MachineGunTower_Bed_St_Lp_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="815904066"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_MachineGunTower_Bed_St_Lp_02" ID="{2AB7414E-B0AE-4CF1-8C42-96C1FFAA007B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="BG_MG_Tower_Machines_Move" ID="{9BFF1CDC-519D-40E5-8DC4-07F6920A84DE}" ShortID="412383767">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>64</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{C4ECAE02-9D73-49E7-ACBF-282E8EB274D5}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BD37DBEE-0E8F-45FA-AB7E-5CD51BC9BF02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BG_MG_Tower_Machines_Move" ID="{F8651862-B797-4818-BBD3-8C64A30B3389}">
+													<Language>SFX</Language>
+													<AudioFile>BG_MG_Tower_Machines_Move.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="570597640"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="BG_MG_Tower_Machines_Move" ID="{F8651862-B797-4818-BBD3-8C64A30B3389}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="BG_Bed_FreezeTower" ID="{AF00F515-9AC1-4162-844A-679F5C1B068D}"/>
-										<PropertyList>
-											<Property Name="ContinuePlay" Type="bool" Value="True"/>
-											<Property Name="FadeInTime" Type="Real64">
-												<ValueList>
-													<Value>0.5</Value>
-												</ValueList>
-											</Property>
-											<Property Name="FadeOutTime" Type="Real64">
-												<ValueList>
-													<Value>0.5</Value>
-												</ValueList>
-											</Property>
-										</PropertyList>
+										<ItemRef Name="BG_SolarTower" ID="{77B52F0D-2008-43C3-ADAD-462ADCBB5369}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="BG_Bed_SolarTower" ID="{A2A25523-B8EA-4042-AECF-3B8AB0EA0D64}"/>
+										<ItemRef Name="BG_Bed_FreezeTower" ID="{AF00F515-9AC1-4162-844A-679F5C1B068D}"/>
 										<PropertyList>
 											<Property Name="ContinuePlay" Type="bool" Value="True"/>
 											<Property Name="FadeInTime" Type="Real64">
@@ -10988,20 +13112,7 @@
 										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="BG_Bed_MGTower" ID="{53F69F5F-E8EB-4FAA-8C8F-31E946F19AC1}"/>
-										<PropertyList>
-											<Property Name="ContinuePlay" Type="bool" Value="True"/>
-											<Property Name="FadeInTime" Type="Real64">
-												<ValueList>
-													<Value>0.5</Value>
-												</ValueList>
-											</Property>
-											<Property Name="FadeOutTime" Type="Real64">
-												<ValueList>
-													<Value>0.5</Value>
-												</ValueList>
-											</Property>
-										</PropertyList>
+										<ItemRef Name="BG_MG_Tower_sum" ID="{8336EE6A-A960-48B7-ABE3-28AF83A118A3}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -11020,7 +13131,7 @@
 									<Grouping>
 										<SwitchRef Name="MGTower_AmbienceSwitch" ID="{96F2A6C8-F10C-4099-9495-9E12BB457114}"/>
 										<ItemList>
-											<ItemRef Name="BG_Bed_MGTower" ID="{53F69F5F-E8EB-4FAA-8C8F-31E946F19AC1}"/>
+											<ItemRef Name="BG_MG_Tower_sum" ID="{8336EE6A-A960-48B7-ABE3-28AF83A118A3}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -11032,7 +13143,7 @@
 									<Grouping>
 										<SwitchRef Name="SolarTower_AmbienceSwitch" ID="{BFB11DFE-2D1A-48D2-AC9C-D5D6A3E306F8}"/>
 										<ItemList>
-											<ItemRef Name="BG_Bed_SolarTower" ID="{A2A25523-B8EA-4042-AECF-3B8AB0EA0D64}"/>
+											<ItemRef Name="BG_SolarTower" ID="{77B52F0D-2008-43C3-ADAD-462ADCBB5369}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -11059,7 +13170,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

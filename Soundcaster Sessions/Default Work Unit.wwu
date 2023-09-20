@@ -41,11 +41,13 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_WheelSpinSpeed_Freeze" ID="{CA92CC65-DCFE-4AA5-9529-9CE075496B83}"/>
-							<Value>1</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="SolarTower_AmbienceSwitch" ID="{BFB11DFE-2D1A-48D2-AC9C-D5D6A3E306F8}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="BG_Test_Soundcaster" ID="{4133FDB9-71E2-4FCA-B4A9-88F0FDB91E8E}">
 					<RTPCValueList ShowAll="true">
