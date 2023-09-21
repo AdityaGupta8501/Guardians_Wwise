@@ -20,11 +20,29 @@
 						<Bus Name="Stereo Master" ID="{0D41EAD4-B7CF-4A4F-B8A3-026D555A607A}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="23"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="BG Master" ID="{DE71661C-6D60-4F6C-9598-16384FCC9D5C}"/>
-								<Bus Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}"/>
+								<Bus Name="SFX Master" ID="{97BA293B-1F1A-4E62-914F-82EE939A5B84}">
+									<PropertyList>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>35</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
 								<AuxBus Name="Verb_Scene" ID="{5B6D99D2-65C8-429D-B61C-A35B8D4F6EB6}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
